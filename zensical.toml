@@ -7,8 +7,7 @@ site_description = "Assorted notes about modifying GTS."
 
 site_author = "Hexanode"
 
-#TODO:Fill this
-#site_url = "https://www.example.com/"
+site_url = "https://hexanode0x0.github.io/gts-black-book"
 
 copyright = """
 Copyright &copy; 2026 Hexanode
