@@ -53,12 +53,33 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424043173428199597)
 
-??? success "GTS Legacy Lite"
-    GTS Legacy Lite is fully supported.
+??? success "GTS - Darenii's Spells"
+    While the author is absent, GTS - Darenii's Spells should work fine for the foreseeable future due to how it's constructed.
     
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/p1eq2i)
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/h1b3nk)
     
-    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424043173428199597)
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "Daughter of Coldharbour, SDA in GTS."
+    Daughter of Coldharbor is supported, but it can replace the GTS - FDE patch, which is very bad practice.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/cskwke)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
+
+??? success "Honor In Death for GTS"
+    Honor In Death is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/cskwke)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1486194390161424495)
+
+??? success "GTS - Brave Little Toaster Edition"
+    Brave Little Toaster Edition is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/myqt2f)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
 
 ??? success "Just 3BA for GTS (NSFW)"
     Just 3BA for GTS is fully supported with GTS v108.
@@ -67,19 +88,61 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
+## Out of Date Addons
+Addons listed here are supported, but have not yet been updated to support the newest GTS version.
+
+??? question "GTS Black - Power Fantasy GTS"
+    GTS Black currently only supports GTS v104. It's in the process of being updated.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/giui1z)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424858532846637210)
+
 ## Unsupported Addons
 Addons listed here may or may not work. Their curator offers no support for any potential issues and does not guarantee that the addon works on the newest GTS version.
 
+??? warning "GTS - Unofficial Armory"
+    GTS - Unoffcial Armory is currently unsupported due to the curator being absent.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/77lkfs)
+
+??? warning "GTS - Unofficial Visuals"
+    GTS - Unoffcial Armory is currently unsupported due to the curator being absent.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/nhv91p)
+
+??? warning "GTS - Unofficial Followers"
+    GTS - Unofficial Followers is currently unsupported due to the curator being absent.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/c51zyc)
+
+??? warning "GTS - Unofficial Quests"
+    GTS - Unofficial Quests is currently unsupported due to the curator being absent.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/lv0g2o)
+
 ## Deprecated Addons
-These addons are abandoned, and should not be used with newer GTS versions.
+These addons are abandoned, have some severe issues, and should not be used with newer GTS versions.
 
 ??? failure "GTS Fluffworks"
     
-    This addon has been abandoned and superseded by GTS CE.
+    This addon has been abandoned and is superseded by GTS CE.
 
     [:lucide-file-text: Collection Page (**Unlisted**)](https://www.nexusmods.com/games/skyrimspecialedition/collections/xqwm5b)
 
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? failure "GTS - Unofficial Spells"
+    
+    This addon has issues with SkyPatcher and has been superseded by GTS - Darenii's Spells.
+
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/9puzyn)
+
+??? failure "GTS Character Creation Add-On"
+    
+    This addon has issues been abandoned and superseded by Beauty Salon for GTS.
+
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/o0uiqd)
 
 ??? failure "GTS - 3BA Dat Body (NSFW)" 
     
@@ -97,9 +160,17 @@ These addons are abandoned, and should not be used with newer GTS versions.
 
     [:fontawesome-brands-discord: Discord Thread (NSFW Discussions)](https://discord.com/channels/902984082181484615/1224423423737073704)
 
+??? failure "GTS - Varric NPC Replacers (NSFW)"
+
+    This addons is abandoned and relies on Dat Body which is deprecated.
+
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/qywbyv)
+
+    [:fontawesome-brands-discord: Discord Thread (NSFW Discussions)](https://discord.com/channels/902984082181484615/1224423423737073704)
+
 ??? failure "Dat Body - Additions (NSFW)"
 
-    Relies on Dat Body which is deprecated.
+    This addons is abandoned and relies on Dat Body which is deprecated.
 
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/bpttqt)
 

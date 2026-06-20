@@ -87,13 +87,3 @@ You'll generally want to submit all your changes, by clicking the `Stage All` bu
 At the bottom, write a short commit message. Commits are changes you're generally happy with and want to keep, though you can always revert them later. Think of it as your 'done for the day' button. The message should be short and simple. Something like "Expanded Contributing Page" is fine.
 
 Once you're ready to commit, click the `Commit` button near the bottom. Afterwards a `Push` button will appear. This will push your changes to the remote repository, aka, to GitHub. When you click it and go to your fork of the book on GitHub, you'll see a "Compare and Pull Request" button, which will allow you to send your changes to the main book.
-
-
----
-
-1. [Install Git](https://git-scm.com/install/)
-1. [Install Python](https://www.python.org/downloads/)
-1. Clone the gts-black-book repo on GitHub
-1. Use `git clone` to bring your cloned version of the repo on GitHub down to your computer
-1. Go into the repo and run `python -m venv .venv` to create a virtual environment for Python
-2.
