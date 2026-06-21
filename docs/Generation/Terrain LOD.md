@@ -30,28 +30,28 @@ Temporarily remove any and all content from the AE Upgrade. Only Fishing, Rare C
 !!! tip
     The file names for the creations that should stay are:
     
-    - ccbgssse001-Fish.esm
-    - ccbgssse037-curios.esl
-    - ccbgssse025-advdsgs.esm
-    - ccqdrsse001-survivalmode.esl
+    - [x] ccbgssse001-Fish.esm
+    - [x] ccbgssse037-curios.esl
+    - [x] ccbgssse025-advdsgs.esm
+    - [x] ccqdrsse001-survivalmode.esl
 
 All GTS AE content should also be disabled. You can easily find it by searching "Anniversary Edition Upgrade".
 
 ## xLODGen Settings
 The following settings should be used for terrain LOD generation for GTS. Unless you have a reason to do so, you should replicate these exactly.
 
-* Objects LOD: **false**
-* Trees LOD: **false**
-* Terrain LOD: **true**
-* Occlusion: **false**
+- [ ] Objects LOD
+- [ ] Trees LOD
+- [x] Terrain LOD
+- [ ] Occlusion
 ---
-* Height Maps: **true**
-* Bake normal-maps: **true**
-* Bake specular: **false**
-* Vertex Color Intensity: **1.00**
-* Default size Diffuse: **16**
-* Normal: **16**
-* Seasons: **Default, WIN**
+- [x] Height Maps
+- [x] Bake normal-maps
+- [ ] Bake specular
+- [x] Vertex Color Intensity: ==&nbsp;1.00&nbsp;==
+- [x] Default size Diffuse: ==&nbsp;16&nbsp;==
+- [x] Normal: ==&nbsp;16&nbsp;==
+- [x] Seasons: ==&nbsp;Default, WIN&nbsp;==
 
 Be sure to set the settings for all LOD distances.
 
@@ -59,99 +59,99 @@ Be sure to set the settings for all LOD distances.
 ???+ abstract "LOD 4 Settings"
     **Meshes:**
     
-    - Quality: **4**
-    - Max Vertices: **32767**
-    - Optimize Unseen: **false**
-    - Protect Borders: **true**
-    - Hide Quads: **false**
+    - [x] Quality: ==&nbsp;4&nbsp;==
+    - [x] Max Vertices: ==&nbsp;32767&nbsp;==
+    - [ ] Optimize Unseen
+    - [x] Protect Borders
+    - [ ] Hide Quads
 
     **Diffuse:**
 
-    - Size: **512**
-    - Format: **DXT1**
-    - MipMap: **true**
-    - Brightness: **0**
-    - Contrast: **0**
-    - Gamma: **1.15**
+    - [x] Size: ==&nbsp;512&nbsp;==
+    - [x] Format: ==&nbsp;DXT1&nbsp;==
+    - [x] MipMap
+    - [x] Brightness: ==&nbsp;0&nbsp;==
+    - [x] Contrast: ==&nbsp;0&nbsp;==
+    - [x] Gamma: ==&nbsp;1.15&nbsp;==
   
     **Normal:**
     
-    - Size: **512**
-    - Format: **DXT1**
-    - MipMap: **false**
-    - Raise steepness: **false**
+    - [x] Size: ==&nbsp;512&nbsp;==
+    - [x] Format: ==&nbsp;DXT1&nbsp;==
+    - [ ] MipMap
+    - [ ] Raise steepness
 
 ### LOD 8 Settings
 ???+ abstract "LOD 8 Settings"
     **Meshes:**
     
-    - Quality: **8**
-    - Max Vertices: **32767**
-    - Optimize Unseen: **550**
+    - [x] Quality: ==&nbsp;8&nbsp;==
+    - [x] Max Vertices: ==&nbsp;32767&nbsp;==
+    - [x] Optimize Unseen: ==&nbsp;550&nbsp;==
     
     **Diffuse:**
     
-    - Size: **256**
-    - Format: **DXT1**
-    - MipMap: **false**
-    - Brightness: **0**
-    - Contrast: **0**
-    - Gamma: **1.15**
+    - [x] Size: ==&nbsp;256&nbsp;==
+    - [x] Format: ==&nbsp;DXT1&nbsp;==
+    - [ ] MipMap
+    - [x] Brightness: ==&nbsp;0&nbsp;==
+    - [x] Contrast: ==&nbsp;0&nbsp;==
+    - [x] Gamma: ==&nbsp;1.15&nbsp;==
     
     **Normal:**
     
-    - Size: **256**
-    - Format: **DXT1**
-    - MipMap: **false**
-    - Raise steepness: **false**
+    - [x] Size: ==&nbsp;256&nbsp;==
+    - [x] Format: ==&nbsp;DXT1&nbsp;==
+    - [ ] MipMap
+    - [ ] Raise steepness
 
 ### LOD 16 Settings
 ???+ abstract "LOD 16 Settings"
       **Meshes:**
       
-      - Quality: **8**
-      - Max Vertices: **32767**
-      - Optimize Unseen: **550**
+      - [x] Quality: ==&nbsp;8&nbsp;==
+      - [x] Max Vertices: ==&nbsp;32767&nbsp;==
+      - [x] Optimize Unseen: ==&nbsp;550&nbsp;==
     
       **Diffuse:**
       
-      - Size: **256**
-      - Format: **DXT1**
-      - MipMap: **false**
-      - Brightness: **0**
-      - Contrast: **0**
-      - Gamma: **1.15**
+      - [x] Size: ==&nbsp;256&nbsp;==
+      - [x] Format: ==&nbsp;DXT1&nbsp;==
+      - [ ] MipMap
+      - [x] Brightness: ==&nbsp;0&nbsp;==
+      - [x] Contrast: ==&nbsp;0&nbsp;==
+      - [x] Gamma: ==&nbsp;1.15&nbsp;==
     
       **Normal:**
       
-      - Size: **256**
-      - Format: **DXT1**
-      - MipMap: **false**
-      - Raise steepness: **false**
+      - [x] Size: ==&nbsp;256&nbsp;==
+      - [x] Format: ==&nbsp;DXT1&nbsp;==
+      - [ ] MipMap
+      - [ ] Raise steepness
     
 ### LOD 32 Settings
 ???+ abstract "LOD 32 Settings"
     **Meshes:**
     
-    - Quality: **4**
-    - Max Vertices: **32767**
-    - Optimize Unseen: **550**
+    - [x] Quality: ==&nbsp;4&nbsp;==
+    - [x] Max Vertices: ==&nbsp;32767&nbsp;==
+    - [x] Optimize Unseen: ==&nbsp;550&nbsp;==
   
     **Diffuse:**
     
-    - Size: **256**
-    - Format: **DXT1**
-    - MipMap: **false**
-    - Brightness: **0**
-    - Contrast: **0**
-    - Gamma: **1.15**
+    - [x] Size: ==&nbsp;256&nbsp;==
+    - [x] Format: ==&nbsp;DXT1&nbsp;==
+    - [ ] MipMap
+    - [x] rightness: ==&nbsp;0&nbsp;==
+    - [x] Contrast: ==&nbsp;0&nbsp;==
+    - [x] Gamma: ==&nbsp;1.15&nbsp;==
   
     **Normal:**
     
-    - Size: **256**
-    - Format: **DXT1**
-    - MipMap: **false**
-    - Raise steepness: **false**
+    - [x] Size: ==&nbsp;256&nbsp;==
+    - [x] Format: ==&nbsp;DXT1&nbsp;==
+    - [ ] MipMap
+    - [ ] Raise steepness
 
 ## After Generation
 

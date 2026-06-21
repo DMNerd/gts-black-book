@@ -20,10 +20,10 @@ Temporarily remove any and all content from the AE Upgrade. Only Fishing, Rare C
 !!! tip
     The file names for the creations that should stay are:
     
-    - ccbgssse001-Fish.esm
-    - ccbgssse037-curios.esl
-    - ccbgssse025-advdsgs.esm
-    - ccqdrsse001-survivalmode.esl
+    - [x] ccbgssse001-Fish.esm
+    - [x] ccbgssse037-curios.esl
+    - [x] ccbgssse025-advdsgs.esm
+    - [x] ccqdrsse001-survivalmode.esl
 
 Disable GTS' DynDOLOD and Texgen outputs.
 
@@ -39,36 +39,32 @@ Run Texgen with Vortex.
 The output path should preferably be set to a directory that's directly on a drive, to avoid permission issues. Example: `C:\Texgen_output\`. Be sure to actually create the directory, and make sure it's empty.
 
 ### Texgen Settings
-Stitched Object LOD Textues: True
+- [x] Stitched Object LOD Textues
+  - Base Size: ==&nbsp;256&nbsp;==
 
-  - Base Size: 256
+- [x] Rendered Object LOD Textures
+  - Base Size: ==&nbsp;256&nbsp;==
 
----
-Rendered Object LOD Textures: True
+- [x] Tree/Grass LOD Billboards
 
-  - Base Size: 256
-
----
-Tree/Grass LOD Billboards: True
-
-  - Untis per pixel: 11.0
-  - Texture size Min: 32
-  - Max: 1024
-  - Grass: True
-    - Direct: 100
-    - Ambient 80
-  - HD Grass: False
-  - Tree: True
-    - Direct: 90
-    - Ambient: 65
-  - HD Tree: True
-    - Direct: 90
-    - Ambient: 65
-    - Smoothness: 30
-  - Rendered: True
-    - Direct: 100
-    - Ambient: 55
-    - Smoothenss: 0
+  - Untis per pixel: ==&nbsp;11.0&nbsp;==
+  - Texture size Min: ==&nbsp;32&nbsp;==
+  - Max: ==&nbsp;1024&nbsp;==
+  - [x] Grass
+    - Direct: ==&nbsp;100&nbsp;==
+    - Ambient ==&nbsp;80&nbsp;==
+  - [ ] HD Grass
+  - [x] Tree
+    - Direct: ==&nbsp;90&nbsp;==
+    - Ambient: ==&nbsp;65&nbsp;==
+  - [x] HD Tree
+    - Direct: ==&nbsp;90&nbsp;==
+    - Ambient: ==&nbsp;65&nbsp;==
+    - Smoothness: ==&nbsp;30&nbsp;==
+  - [x] Rendered
+    - Direct: ==&nbsp;100&nbsp;==
+    - Ambient: ==&nbsp;55&nbsp;==
+    - Smoothenss: ==&nbsp;0&nbsp;==
 ---
 - Diffuse alpha: BC3 (DXT5)
 - Diffuse: BC1 (DXT1)
@@ -99,77 +95,77 @@ Make sure all worldspaces are selected, with the exception of the following:
 ### Mesh and Reference Rules
 The only changes from default are to the tree rules. Set it to the following:
 
-- LOD Level 4: Billboard1
-- LOD Level 8: Billboard4
-- LOD Level 16: Billboard1
-- LOD Level 32: Billboard6
-- Flags: VWD, TREE
-- Grid: NearLOD
-- Reference: Unchanged
+- LOD Level 4: ==&nbsp;Billboard1&nbsp;==
+- LOD Level 8: ==&nbsp;Billboard4&nbsp;==
+- LOD Level 16: ==&nbsp;Billboard1&nbsp;==
+- LOD Level 32: ==&nbsp;Billboard6&nbsp;==
+- Flags: ==&nbsp;VWD, TREE&nbsp;==
+- Grid: ==&nbsp;NearLOD&nbsp;==
+- Reference: ==&nbsp;Unchanged&nbsp;==
 
 ### Options
 Set the following settings in the options section.
 
 #### Object LOD
 
-  - Object LOD: True
-  - Level 32: False
-  - Max tile size LOD: 1024
-  - Max tile size full: 256
+  - [x] Object LOD
+  - [ ] Level 32
+  - [x] Max tile size LOD: ==&nbsp;1024&nbsp;==
+  - [x] Max tile size full: ==&nbsp;256&nbsp;==
 
 #### Tree LOD
 
-  - Tree LOD: False
-  - Ultra: True
-  - Large: False
-  - Billboard brightness: 0
-  - Max tile size billboard: 1024
+  - [ ] Tree LOD
+  - [x] Ultra
+  - [ ] Large
+  - [x] Billboard brightness: ==&nbsp;0&nbsp;==
+  - [x] Max tile size billboard: ==&nbsp;1024&nbsp;==
 
 #### Dynamic LOD
 
-  - Dynamic LOD: True
-  - NearGridToLoad: 11
-  - FarGridToLoad: 21
+  - [x] Dynamic LOD
+  - [x] NearGridToLoad: ==&nbsp;11&nbsp;==
+  - [x] FarGridToLoad: ==&nbsp;21&nbsp;==
 
 #### Occlusion Data
 
-  - Occlusion data: True
-  - Quality: 3
-  - Plugin: True
+  - [x] Occlusion data
+  - [x] Quality: ==&nbsp;3&nbsp;==
+  - [x] Plugin
 
 #### Terrain Underside
 
-  - Terrain underside: True
-  - Quality: 8
-  - Height: 500
+  - [x] Terrain underside
+  - [x] Quality: ==&nbsp;8&nbsp;==
+  - [x] Height: ==&nbsp;500&nbsp;==
 
 #### Grass LOD
 
-  - Grass LOD: True
-  - Density: 60%
-  - Mode: 1
+  - [x] Grass LOD
+  - [x] Density: ==&nbsp;60%&nbsp;==
+  - [x] Mode: ==&nbsp;1&nbsp;==
 
 #### Lights
 
-  - Glow windows: True
-  - High: True
-  - Fake lights selected world: False
-  - Fake lights child world: True
+  - [x] Glow windows
+  - [x] High
+  - [ ] Fake lights selected world
+  - [x] Fake lights child world
 
 #### Seasons
 
-  - Seasons: True
-    - Default, WIN
-  - Snow: False
+  - [x] Seasons
+    - [x] ==&nbsp;Default, WIN&nbsp;==
+  - [ ] Snow
 
 #### References
 
-  - Prefer base record LOD assignments over rules: False
-  - Upgrade NearGrid large references to FarGrid: True
-  - Large reference bugs workaround: Forced True
-  - Downgrade FarGrid references to NearGrid: False
-  - Parent > child: True
-  - Child > parent: Low
+  - [ ] Prefer base record LOD assignments over rules
+  - [x] Upgrade NearGrid large references to FarGrid
+  - [x] Large reference bugs workaround
+  - [ ] Downgrade FarGrid references to NearGrid
+  - [x] Parent > child
+  - [x] Child > parent: ==&nbsp;Low&nbsp;==
 
 ### DynDOLOD Output
 Create a mod from the DynDOLOD output and install it.

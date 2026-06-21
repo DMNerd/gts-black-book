@@ -75,10 +75,10 @@ Temporarily remove any and all content from the AE Upgrade. Only Fishing, Rare C
 !!! tip
     The file names for the creations that should stay are:
     
-    - ccbgssse001-Fish.esm
-    - ccbgssse037-curios.esl
-    - ccbgssse025-advdsgs.esm
-    - ccqdrsse001-survivalmode.esl
+    - [x] ccbgssse001-Fish.esm
+    - [x] ccbgssse037-curios.esl
+    - [x] ccbgssse025-advdsgs.esm
+    - [x] ccqdrsse001-survivalmode.esl
 
 All GTS AE content should also be disabled. You can easily find it by searching "Anniversary Edition Upgrade".
 
