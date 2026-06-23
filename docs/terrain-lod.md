@@ -8,12 +8,16 @@ tags:
     - "Visual"
 ---
 # Terrain LOD
-Terrain LOD is generated with [xLODGen - Terrain](https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-132-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/). When you move away from terrain and it disappears or does not match the terrain that was there before, that's a terrain LOD issue.
+Terrain LOD generation ensures that the terrain shape and texture remain consistent when the player is far away. If far away terrain does not match close up terrain, there are terrain seams in the distance, or terrain textures change with distance, then terrain LOD must be regenerted. 
+
+Terrain LOD is generated with [xLODGen - Terrain](https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-132-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/).
 
 !!! danger
     Install xLODGen to a dedicated directory, and do not mix it with xEdit.
 
-You'll also need [SSE Terrain Tamriel Extend](https://www.nexusmods.com/skyrimspecialedition/mods/54680), but only for generating terrain LOD. It should be disabled after.
+    xEdit comes packaged with it's own, older LOD generator, which should not be used.
+
+[SSE Terrain Tamriel Extend](https://www.nexusmods.com/skyrimspecialedition/mods/54680) is also needed, but only for generating terrain LOD. It should be disabled after.
 
 You can run xLODGen from Vortex just fine, but be sure to set the following arguments: `-sse` and `-o:"{output path}"`. You should, of course, replace '{output path}' with the path to wherever you want the output to be generated.
 

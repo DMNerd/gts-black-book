@@ -1,5 +1,5 @@
 ---
-icon: "lucide/toolbox"
+icon: "lucide/circle-fading-plus"
 tags:
     - "Tools"
     - "Generated"
@@ -7,9 +7,9 @@ tags:
 # Generation
 There are quite a few modding tools that generate things for the game. The following can be generated:
 
-- [Grass Cache](./Grass Cache)
-- [Terrain LOD](./Terrain LOD)
-- [Object LOD](./Object LOD)
+- [Grass Cache](grass-cache/#grass-cache){ data-preview }
+- [Terrain LOD](terrain-lod/#terrain-lod){ data-preview }
+- [Object LOD](object-lod/#object-lod){ data-preview }
 
 They all should be generated in the order they are listed in, but only if you're generating from scratch.
 

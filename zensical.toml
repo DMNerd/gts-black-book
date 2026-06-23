@@ -19,6 +19,21 @@ copyright = """
 Copyright &copy; 2026 Hexanode
 """
 
+nav = [
+    {"GTS Addons" = [
+        {"GTS Addons" = "gts-addons.md"},
+        {"Creating An Addon" = "creating-an-addon.md"}
+    ]},
+    {"Generation" = [
+        {"Generation" = "generation.md"},
+        {"Grass Cache" = "grass-cache.md"},
+        {"Terrain LOD" = "terrain-lod.md"},
+        {"Object LOD" = "object-lod.md"}
+    ]},
+    {"Contributing" = "contributing.md"}
+]
+
+
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
@@ -296,7 +311,8 @@ pygments_lang_class = true
 [project.markdown_extensions.pymdownx.magiclink]
 [project.markdown_extensions.pymdownx.mark]
 [project.markdown_extensions.pymdownx.smartsymbols]
-#[project.markdown_extensions.pymdownx.snippets]
+[project.markdown_extensions.pymdownx.snippets]
+auto_append = ["include/abbreviations.md"]
 [project.markdown_extensions.pymdownx.superfences]
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }

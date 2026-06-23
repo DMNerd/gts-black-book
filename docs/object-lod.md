@@ -8,11 +8,13 @@ tags:
     - "Visual"
 ---
 # Object LOD
-Object LOD is generated with [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/68518). When you get far away from an object and it disappears or changes shape, that's an LOD issue.
+Object LOD generation ensures that objects, trees, and others look the same up close as they do when far away. If the objects shift in shape, disappear, or suddenly pop in, then object LOD needs to be regenerated.
 
-This page assumes you're more or less familiar with DynDOLOD. If you're not, you can read [it's documentation](https://dyndolod.info).
+Object LOD is generated with [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/68518).
 
-Before generating LODs, you should make sure your [grass cache](./Grass Cache.md) and [terrain LOD](./Terrain LOD.md) are in order.
+Before generating object LODs, you should make sure your [grass cache](grass-cache.md){ data-preview } and [terrain LOD](terrain-lod.md){ data-preview } are in order.
+
+If you're not familiar with DynDOLDO, you can read [it's documentation](https://dyndolod.info).
 
 ## Before Generation
 Temporarily remove any and all content from the AE Upgrade. Only Fishing, Rare Curios, Survival Mode, and Saints & Seducers are to stay.
