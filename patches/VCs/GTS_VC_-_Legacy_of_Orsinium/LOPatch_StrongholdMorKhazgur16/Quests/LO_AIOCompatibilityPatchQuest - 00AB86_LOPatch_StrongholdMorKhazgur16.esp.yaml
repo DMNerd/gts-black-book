@@ -1,0 +1,130 @@
+FormKey: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+EditorID: LO_AIOCompatibilityPatchQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: AP_QF_LO_AIOCompatibilityPatc_0900AB86
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcArcher01
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcArcher02
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcFarmer
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcGuard01
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcGuard02
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcGuard03
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcGuardFemale01
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcGuardFemale02
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcMage
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcMerchant
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrcMiner
+      Object: 00AB86:LOPatch_StrongholdMorKhazgur16.esp
+      Alias: 11
+  FileName: AP_QF_LO_AIOCompatibilityPatc_0900AB86
+  Fragments:
+  - Unknown2: 1
+    ScriptName: AP_QF_LO_AIOCompatibilityPatc_0900AB86
+    FragmentName: Fragment_0
+Flags:
+- RunOnce
+Event: CLOC
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 12
+Aliases:
+- Name: OrcMerchant
+  Flags:
+  - Optional
+  ForcedReference: 000B53:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: OrcArcher01
+  Flags:
+  - Optional
+  ForcedReference: 000B66:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: OrcArcher02
+  Flags:
+  - Optional
+  ForcedReference: 000B68:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: OrcGuard01
+  Flags:
+  - Optional
+  ForcedReference: 000B5A:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: OrcGuard02
+  Flags:
+  - Optional
+  ForcedReference: 000B5C:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: OrcGuard03
+  Flags:
+  - Optional
+  ForcedReference: 000B60:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: OrcMage
+  Flags:
+  - Optional
+  ForcedReference: 000B58:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: OrcGuardFemale01
+  Flags:
+  - Optional
+  ForcedReference: 000B5E:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: OrcGuardFemale02
+  Flags:
+  - Optional
+  ForcedReference: 000B62:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: OrcMiner
+  Flags:
+  - Optional
+  ForcedReference: 000B64:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: OrcFarmer
+  Flags:
+  - Optional
+  ForcedReference: 000B6A:Strongholds - Mor Khazgur.esp
+  VoiceTypes: Null

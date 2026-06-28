@@ -1,0 +1,199 @@
+FormKey: 002F9A:life of crime.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LOCKoron
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - Unique
+  - Protected
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1
+  CalcMinLevel: 10
+  CalcMaxLevel: 150
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  HealthOffset: 200
+Factions:
+- Faction: 002F9E:life of crime.esp
+  Fluff: 0x000000
+Voice: 002FA0:life of crime.esp
+Race: 013746:Skyrim.esm
+Items:
+- Item:
+    Item: 000BB3:Dawnguard.esm
+    Count: 23
+- Item:
+    Item: 002F99:life of crime.esp
+    Count: 1
+- Item:
+    Item: 0CCDCC:life of crime.esp
+    Count: 1
+- Item:
+    Item: 0C0406:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 1046D3:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsFriendsAndAllies
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 013181:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Koron Crowborn
+ShortName:
+  TargetLanguage: English
+  Value: Koron
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 33
+  - Key: TwoHanded
+    Value: 25
+  - Key: Archery
+    Value: 34
+  - Key: Block
+    Value: 33
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 40
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 22
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 20
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 340
+  Magicka: 50
+  Stamina: 95
+  GearedUpWeapons: 1
+HeadParts:
+- 02425C:Skyrim.esm
+- 051080:Skyrim.esm
+- 099D60:Skyrim.esm
+- 09F0A1:Skyrim.esm
+- 0D2EC2:Skyrim.esm
+HairColor: 0A0436:Skyrim.esm
+CombatStyle: 03BE1D:Skyrim.esm
+NAM5: 255
+Height: 1.05
+Weight: 70
+SoundLevel: Normal
+DefaultOutfit: 0F871A:Skyrim.esm
+HeadTexture: 07325B:Skyrim.esm
+TextureLighting: '#00C6B0A8'
+FaceMorph:
+  NoseUpVsDown: 0.32000005
+  JawUpVsDown: 0.44000006
+  JawNarrowVsWide: 0.64
+  JawForwardVsBack: 0.41999996
+  EyesUpVsDown: 0.6
+  EyesInVsOut: 0.6
+  BrowsUpVsDown: -1
+  BrowsInVsOut: -0.38
+  BrowsForwardVsBack: 0.64
+  LipsUpVsDown: -0.18
+  LipsInVsOut: 0.39999998
+  ChinNarrowVsWide: 0.32000005
+  ChinUpVsDown: 0.62
+  ChinUnderbiteVsOverbite: 0.82000005
+  EyesForwardVsBack: 0.36
+FaceParts:
+  Nose: 5
+  Eyes: 9
+  Mouth: 14
+TintLayers:
+- Index: 1
+  Color: '#00C6B0A8'
+  InterpolationValue: 1
+  Preset: 75
+- Index: 3
+  Color: '#00000000'
+  InterpolationValue: 0.34
+  Preset: 99
+- Index: 7
+  Color: '#00500901'
+  InterpolationValue: 0.72
+  Preset: 118
+- Index: 9
+  Color: '#00500901'
+  InterpolationValue: 0.5
+  Preset: 130
+- Index: 12
+  Color: '#00500901'
+  InterpolationValue: 0.5
+  Preset: 144
+- Index: 17
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: -1
+MajorFlags:
+- 0x40000

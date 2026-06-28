@@ -1,0 +1,22 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - A Tale of Blood and Snow.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: dv01vampireclanwar.esm
+    FileSize: 0
+  - Master: Scion.esp
+    FileSize: 0
+  - Master: OldBlood.esp
+    FileSize: 0

@@ -1,0 +1,30 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC  - Bards College Expansion - Inigo.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: BSHeartland.esm
+    FileSize: 0
+  - Master: BPUFXelzazFollower.esp
+    FileSize: 0
+  - Master: KW-Kaidan.esp
+    FileSize: 0
+  - Master: Inigo.esp
+    FileSize: 0
+  - Master: Inigo Official Patch SE.esp
+    FileSize: 0
+  - Master: NewArmoury.esp
+    FileSize: 0
+  - Master: HighPolyInigo.esp
+    FileSize: 0
+  - Master: GTS Patches - Followers.esp
+    FileSize: 0

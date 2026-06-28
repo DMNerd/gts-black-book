@@ -1,0 +1,129 @@
+FormKey: 0CA210:Skyrim.esm
+EditorID: Favor017
+VirtualMachineAdapter:
+  Scripts:
+  - Name: FavorChangeLocationQuestScript
+    Properties:
+    - MutagenObjectType: ScriptBoolProperty
+      Name: bDisplayObjective
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorQuestGiverFaction
+      Object: 0CA213:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameDaysPassed
+      Object: 000039:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pFavorLocation
+      Object: 0CA210:Skyrim.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pFavorTimeLeft
+      Object: 05CDC8:Skyrim.esm
+  - Name: QF_Favor017_000CA210
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Location
+      Object: 0CA210:Skyrim.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QuestGiver
+      Object: 0CA210:Skyrim.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Favor017QuestGiverFaction
+      Object: 0CA213:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorCompletedFaction
+      Object: 071860:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorCost
+      Object: 035218:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorReward
+      Object: 035217:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold
+      Object: 00000F:Skyrim.esm
+  FileName: QF_Favor017_000CA210
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_Favor017_000CA210
+    FragmentName: Fragment_6
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_Favor017_000CA210
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_Favor017_000CA210
+    FragmentName: Fragment_3
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_Favor017_000CA210
+    FragmentName: Fragment_5
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0CA210:Skyrim.esm
+      Alias: 17
+    Scripts:
+    - Name: favornpcdeathscript
+Name:
+  TargetLanguage: English
+  Value: Fight! Fight!
+Priority: 100
+QuestFormVersion: 65
+Type: Misc
+Event: CLOC
+Filter: Favor\
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInCurrentLocConditionData
+    Location: 01F802:Skyrim.esm
+  ComparisonValue: 1
+Stages:
+- Flags:
+  - StartUpStage
+  Unknown: 14
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Unknown: 101
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags: []
+NextAliasID: 30
+Aliases:
+- ID: 28
+  Type: Location
+  Name: Location
+  Flags: []
+  FindMatchingRefFromEvent:
+    FromEvent: CLOC
+    EventData: NewLocation
+- ID: 17
+  Name: Questgiver
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocAliasConditionData
+      LocationAliasIndex: 28
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 0CA213:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null

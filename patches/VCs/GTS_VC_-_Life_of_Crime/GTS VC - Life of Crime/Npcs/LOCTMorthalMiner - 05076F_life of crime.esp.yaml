@@ -1,0 +1,169 @@
+FormKey: 05076F:life of crime.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LOCTMorthalMiner
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 3
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 02816D:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02817E:Skyrim.esm
+  Fluff: 0x000000
+Race: 013747:Skyrim.esm
+Items:
+- Item:
+    Item: 0E3C16:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 1046D2:Skyrim.esm
+    Count: 1
+AIData:
+  Confidence: Brave
+  EnergyLevel: 50
+  Responsibility: NoCrime
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01326B:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Stonehills Miner
+ShortName:
+  TargetLanguage: English
+  Value: Miner
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 5
+  - Key: TwoHanded
+    Value: 5
+  - Key: Archery
+    Value: 5
+  - Key: Block
+    Value: 5
+  - Key: Smithing
+    Value: 5
+  - Key: HeavyArmor
+    Value: 5
+  - Key: LightArmor
+    Value: 5
+  - Key: Pickpocket
+    Value: 5
+  - Key: Lockpicking
+    Value: 5
+  - Key: Sneak
+    Value: 5
+  - Key: Alchemy
+    Value: 5
+  - Key: Speech
+    Value: 5
+  - Key: Alteration
+    Value: 5
+  - Key: Conjuration
+    Value: 5
+  - Key: Destruction
+    Value: 5
+  - Key: Illusion
+    Value: 5
+  - Key: Restoration
+    Value: 5
+  - Key: Enchanting
+    Value: 5
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 1
+  Stamina: 52176
+  GearedUpWeapons: 1
+HeadParts:
+- 05E815:Skyrim.esm
+- 0D2EB0:Skyrim.esm
+- 10761B:Skyrim.esm
+HairColor: 0A0436:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 09CCA1:Skyrim.esm
+CrimeFaction: 02816D:Skyrim.esm
+HeadTexture: 0D0730:Skyrim.esm
+TextureLighting: '#0059715C'
+FaceMorph:
+  JawUpVsDown: -0.39999998
+  JawNarrowVsWide: 0.39999998
+  JawForwardVsBack: -0.84000003
+  CheeksForwardVsBack: 0.39999998
+  EyesUpVsDown: 0.39999998
+  EyesInVsOut: 0.39999998
+  BrowsUpVsDown: 0.39999998
+  BrowsInVsOut: 0.39999998
+  BrowsForwardVsBack: -0.39999998
+  LipsUpVsDown: -0.39999998
+  LipsInVsOut: 0.39999998
+  ChinNarrowVsWide: 0.39999998
+  ChinUpVsDown: -0.39999998
+  ChinUnderbiteVsOverbite: -0.39999998
+  EyesForwardVsBack: -0.39999998
+FaceParts:
+  Nose: 28
+  Eyes: 24
+  Mouth: 29
+TintLayers:
+- Index: 3
+  Color: '#00000000'
+  InterpolationValue: 1
+  Preset: 76
+- Index: 25
+  Color: '#00000000'
+  InterpolationValue: 0.42
+  Preset: 475
+- Index: 50
+  Color: '#00000000'
+  InterpolationValue: 0.42
+  Preset: 480
+MajorFlags:
+- 0x40000

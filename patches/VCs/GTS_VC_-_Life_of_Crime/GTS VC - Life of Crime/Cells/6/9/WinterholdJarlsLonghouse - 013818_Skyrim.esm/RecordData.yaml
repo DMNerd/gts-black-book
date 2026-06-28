@@ -1,0 +1,67 @@
+FormKey: 013818:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: WinterholdJarlsLonghouse
+Version2: 13
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Jarl's Longhouse
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00211E29'
+    DirectionalXMinus: '#001A1E26'
+    DirectionalYPlus: '#001E1F28'
+    DirectionalYMinus: '#001E1C28'
+    DirectionalZPlus: '#000E0E12'
+    DirectionalZMinus: '#002D2D3D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 01EB7D:Skyrim.esm
+Owner: 90000C:Update.esm
+SkyAndWeatherFromRegion: 10FDC6:Skyrim.esm
+AcousticSpace: 0C5D0A:Skyrim.esm
+Music: 06D542:Skyrim.esm
+ImageSpace: 059B60:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 0F6631:Skyrim.esm
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 0C2A05:Skyrim.esm
+  LocationReference: 01EB7D:Skyrim.esm
+  Placement:
+    Position: 5168.696, 767.1681, 287.6656
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0F6689:Skyrim.esm
+  Base: 0C2A05:Skyrim.esm
+  LocationRefTypes:
+  - 06BF0B:life of crime.esp
+  LocationReference: 01EB7D:Skyrim.esm
+  Placement:
+    Position: 5168.696, 767.1681, 287.6656
+    Rotation: 0, -0, 3.1415927
+MajorFlags:
+- 0x40000

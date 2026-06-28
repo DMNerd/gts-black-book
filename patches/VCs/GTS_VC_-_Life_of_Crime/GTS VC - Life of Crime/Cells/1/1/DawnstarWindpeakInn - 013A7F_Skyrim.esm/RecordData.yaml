@@ -1,0 +1,74 @@
+FormKey: 013A7F:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DawnstarWindpeakInn
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Windpeak Inn
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00211E29'
+    DirectionalXMinus: '#001A1E26'
+    DirectionalYPlus: '#001E1F28'
+    DirectionalYMinus: '#001E1C28'
+    DirectionalZPlus: '#000E0E12'
+    DirectionalZMinus: '#002D2D3D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 020065:Skyrim.esm
+Owner: 09DA2C:Skyrim.esm
+SkyAndWeatherFromRegion: 0C5852:Skyrim.esm
+AcousticSpace: 0C5D0A:Skyrim.esm
+Music: 0622AB:Skyrim.esm
+ImageSpace: 059B60:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedNpc
+  FormKey: 04186D:life of crime.esp
+  MajorRecordFlagsRaw: 3072
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  Base: 035257:life of crime.esp
+  LevelModifier: Easy
+  LocationReference: 020065:Skyrim.esm
+  LocationRefTypes:
+  - 06BF0A:life of crime.esp
+  Placement:
+    Position: 736.17975, 851.8246, 3.8146973E-06
+    Rotation: 0, -0, 1.2217305
+  MajorFlags:
+  - Persistent
+  - InitiallyDisabled
+- MutagenObjectType: PlacedObject
+  FormKey: 041878:life of crime.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 04186E:life of crime.esp
+  LocationReference: 020065:Skyrim.esm
+  Placement:
+    Position: 523.122, 772.40295, -173.37279
+    Rotation: 0, 0, 1.5707964
+MajorFlags:
+- 0x40000

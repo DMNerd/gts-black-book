@@ -1,0 +1,179 @@
+FormKey: 00A6E5:life of crime.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LOC02Thug
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -41, -25, 0
+  Second: 41, 72, 86
+Configuration:
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  TemplateFlags:
+  - Stats
+  - Factions
+  - SpellList
+  - AIData
+  - DefPackList
+  - AttackData
+Factions:
+- Faction: 00A6E4:life of crime.esp
+  Fluff: 0x000000
+Voice: 002FA8:life of crime.esp
+Template: 00A6E3:life of crime.esp
+Race: 013744:Skyrim.esm
+Items:
+- Item:
+    Item: 03DEDA:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10E0DD:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10E0DD:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10E0DD:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10E0DD:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10E0DD:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10E0DD:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsFriendsAndAllies
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 017008:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Adamio Hawkblood
+ShortName:
+  TargetLanguage: English
+  Value: Adamio
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 5
+  - Key: TwoHanded
+    Value: 5
+  - Key: Archery
+    Value: 5
+  - Key: Block
+    Value: 5
+  - Key: Smithing
+    Value: 5
+  - Key: HeavyArmor
+    Value: 5
+  - Key: LightArmor
+    Value: 5
+  - Key: Pickpocket
+    Value: 5
+  - Key: Lockpicking
+    Value: 5
+  - Key: Sneak
+    Value: 5
+  - Key: Alchemy
+    Value: 5
+  - Key: Speech
+    Value: 5
+  - Key: Alteration
+    Value: 5
+  - Key: Conjuration
+    Value: 5
+  - Key: Destruction
+    Value: 5
+  - Key: Illusion
+    Value: 5
+  - Key: Restoration
+    Value: 5
+  - Key: Enchanting
+    Value: 5
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Magicka: 20036
+  Stamina: 19777
+  GearedUpWeapons: 1
+HeadParts:
+- 017508:Skyrim.esm
+- 0DFB30:Skyrim.esm
+HairColor: 0F7565:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 0A95F8:Skyrim.esm
+HeadTexture: 051646:Skyrim.esm
+TextureLighting: '#00B79C91'
+FaceMorph:
+  NoseLongVsShort: -0.5
+  JawNarrowVsWide: -0.53999996
+  EyesUpVsDown: 0.55999994
+  EyesInVsOut: -0.62
+  BrowsUpVsDown: -0.78
+  BrowsInVsOut: -0.45999998
+  LipsUpVsDown: -0.24000001
+  ChinUpVsDown: -0.22000003
+  EyesForwardVsBack: -0.39999998
+FaceParts:
+  Nose: 18
+  Eyes: 18
+  Mouth: 2
+TintLayers:
+- Index: 1
+  Color: '#00B79C91'
+  InterpolationValue: 1
+  Preset: 62
+- Index: 24
+  Color: '#00563112'
+  InterpolationValue: 1
+  Preset: 477
+MajorFlags:
+- 0x40000

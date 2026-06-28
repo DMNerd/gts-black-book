@@ -1,0 +1,36 @@
+FormKey: 0F6FBE:life of crime.esp
+EditorID: LOCArmorGauntlets
+ObjectBounds:
+  First: -12, -8, -6
+  Second: 16, 10, 15
+Name:
+  TargetLanguage: English
+  Value: Crowborn Gauntlets
+WorldModel:
+  Male:
+    Model:
+      File: Life of Crime\armor\gauntletssteelgo.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Hands
+  ArmorType: HeavyArmor
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 02C179:Skyrim.esm
+- 06BBD2:Skyrim.esm
+- 06BBE7:Skyrim.esm
+- 06C0EF:Skyrim.esm
+- 08F959:Skyrim.esm
+- 002ED9:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 0F6FC2:life of crime.esp
+- 1172E0:life of crime.esp
+- 1172E1:life of crime.esp
+Value: 125
+Weight: 6
+ArmorRating: 14

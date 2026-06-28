@@ -1,0 +1,57 @@
+FormKey: 044048:life of crime.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: LOCOperativeDS09
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCInfluence
+      Object: 014609:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCSkill
+      Object: 044033:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkillToIncrease
+      Object: 04404F:life of crime.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: LOCOperativeDS09
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: LOCOperativeDS09
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - InvisibleContinue
+Topic: 04403E:life of crime.esp
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 044040:life of crime.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You like to fiddle with locks, huh? Each to their own.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 044033:life of crime.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 032AAC:life of crime.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 014609:life of crime.esp
+  ComparisonValue: 3000

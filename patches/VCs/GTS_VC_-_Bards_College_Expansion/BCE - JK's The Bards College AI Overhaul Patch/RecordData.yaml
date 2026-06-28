@@ -1,0 +1,18 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: BCE - JK's The Bards College AI Overhaul Patch.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: kinggathcreations_bard.esm
+    FileSize: 0
+  - Master: RFM.esm
+    FileSize: 0
+  - Master: AI Overhaul.esp
+    FileSize: 0

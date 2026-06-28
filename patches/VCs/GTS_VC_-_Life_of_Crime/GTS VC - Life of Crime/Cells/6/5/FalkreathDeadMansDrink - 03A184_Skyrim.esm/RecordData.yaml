@@ -1,0 +1,152 @@
+FormKey: 03A184:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: FalkreathDeadMansDrink
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Dead Man's Drink
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00211E29'
+    DirectionalXMinus: '#001A1E26'
+    DirectionalYPlus: '#001E1F28'
+    DirectionalYMinus: '#001E1C28'
+    DirectionalZPlus: '#000E0E12'
+    DirectionalZMinus: '#002D2D3D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 05CA26:Skyrim.esm
+Owner: 0C1396:Skyrim.esm
+LockList: 0C139D:Skyrim.esm
+SkyAndWeatherFromRegion: 10474D:Skyrim.esm
+AcousticSpace: 0C5D0A:Skyrim.esm
+Music: 0622AB:Skyrim.esm
+ImageSpace: 059B60:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedNpc
+  FormKey: 041879:life of crime.esp
+  MajorRecordFlagsRaw: 3072
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  Base: 035257:life of crime.esp
+  LevelModifier: Easy
+  LocationReference: 05CA26:Skyrim.esm
+  LocationRefTypes:
+  - 06BF0A:life of crime.esp
+  Placement:
+    Position: 2073.8484, -615.6802, 0.4862976
+  MajorFlags:
+  - Persistent
+  - InitiallyDisabled
+- MutagenObjectType: PlacedObject
+  FormKey: 048FEC:life of crime.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  LocationReference: 05CA26:Skyrim.esm
+  Placement:
+    Position: 2223.1118, 9.169554, 0.4862976
+- MutagenObjectType: PlacedObject
+  FormKey: 048FED:life of crime.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  LocationReference: 05CA26:Skyrim.esm
+  Placement:
+    Position: 2222.5537, 123.9079, 0.5329819
+    Rotation: 0, -0, 3.1415927
+- MutagenObjectType: PlacedNpc
+  FormKey: 048FEE:life of crime.esp
+  MajorRecordFlagsRaw: 3072
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  Base: 048FEA:life of crime.esp
+  LocationReference: 05CA26:Skyrim.esm
+  Placement:
+    Position: 2213.139, 159.56146, 0.4862976
+    Rotation: 0, -0, 3.1415927
+  MajorFlags:
+  - Persistent
+  - InitiallyDisabled
+- MutagenObjectType: PlacedNpc
+  FormKey: 048FEF:life of crime.esp
+  MajorRecordFlagsRaw: 3072
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  Base: 048FEB:life of crime.esp
+  LocationReference: 05CA26:Skyrim.esm
+  Placement:
+    Position: 2218.703, -29.085766, 0.4862976
+  MajorFlags:
+  - Persistent
+  - InitiallyDisabled
+- MutagenObjectType: PlacedObject
+  FormKey: 048FFC:life of crime.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  LocationReference: 05CA26:Skyrim.esm
+  Placement:
+    Position: 2222.7073, 66.41044, 0.5329819
+    Rotation: 0, -0, 3.1415927
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 04187A:life of crime.esp
+  Base: 04186F:life of crime.esp
+  LocationReference: 05CA26:Skyrim.esm
+  Placement:
+    Position: 2074.8418, -611.5376, -82.31847
+- MutagenObjectType: PlacedObject
+  FormKey: 048FF2:life of crime.esp
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: defaultsetStageTrigSCRIPT
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 02DB0C:life of crime.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 50
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 60
+  Base: 000F55:Skyrim.esm
+  Primitive:
+    Bounds: 158.93652, 171.65344, 160.35052
+    Color: '#00CC4C33'
+    Unknown: 0.15
+    Type: Box
+  LocationReference: 05CA26:Skyrim.esm
+  Placement:
+    Position: 2507.6672, -40.382835, 85.06528
+    Rotation: 0, -0, 1.7484555E-07
+MajorFlags:
+- 0x40000

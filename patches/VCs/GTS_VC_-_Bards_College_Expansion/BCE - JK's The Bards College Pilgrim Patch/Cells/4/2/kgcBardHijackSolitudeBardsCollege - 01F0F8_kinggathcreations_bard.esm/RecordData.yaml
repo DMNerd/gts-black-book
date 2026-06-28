@@ -1,0 +1,95 @@
+FormKey: 01F0F8:kinggathcreations_bard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: kgcBardHijackSolitudeBardsCollege
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Bards College
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00575751'
+  DirectionalColor: '#00A8C1BD'
+  FogNearColor: '#003F5E81'
+  FogFar: 5000
+  FogClipDistance: 5200
+  FogPower: 0.9
+  AmbientColors:
+    DirectionalXPlus: '#004F4431'
+    DirectionalXMinus: '#0040442C'
+    DirectionalYPlus: '#0048472F'
+    DirectionalYMinus: '#0048402F'
+    DirectionalZPlus: '#00222015'
+    DirectionalZMinus: '#006D6748'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00325F65'
+  FogMax: 0.8
+  LightFadeBegin: 5000
+  LightFadeEnd: 6000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogFar
+LightingTemplate: 06256A:Skyrim.esm
+WaterHeight: 0
+Location: 020082:Skyrim.esm
+Owner: 0C13C7:Skyrim.esm
+LockList: 0248C0:kinggathcreations_bard.esm
+AcousticSpace: 0E3261:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0E461F:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000AFB:JK's The Bards College.esp
+  Base: 0C4BE3:Skyrim.esm
+  Scale: 0.25
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -1519.9983, -269.7853, 351.40958
+    Rotation: 1.1065571, 1.5707964, 5.8119464
+- MutagenObjectType: PlacedObject
+  FormKey: 000AFC:JK's The Bards College.esp
+  Base: 0C4BE3:Skyrim.esm
+  Scale: 0.25
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -1585.6348, -267.5226, 351.40958
+    Rotation: -1.2437223, -1.5704509, 2.8099802
+- MutagenObjectType: PlacedObject
+  FormKey: 000AFD:JK's The Bards College.esp
+  Base: 0C6CB5:Skyrim.esm
+  Scale: 0.3
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -1556.1157, -269.69702, 334.8671
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 000AFE:JK's The Bards College.esp
+  Base: 0C4BE5:Skyrim.esm
+  Scale: 0.25
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -1520.4822, -269.7853, 367.47083
+    Rotation: 1.0260884, 1.5707964, 2.6005406
+- MutagenObjectType: PlacedObject
+  FormKey: 000B13:JK's The Bards College.esp
+  Base: 000B14:JK's The Bards College.esp
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -1550.1945, -267.76068, 368.6
+    Rotation: 0.019128188, 0.01116806, 6.2657323
+- MutagenObjectType: PlacedObject
+  FormKey: 17C652:Pilgrim.esp
+  Base: 2A73FC:Pilgrim.esp
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -1549.6417, -224.22496, 295.5397
+    Rotation: 0, 0, 5.497787
+MajorFlags:
+- 0x40000

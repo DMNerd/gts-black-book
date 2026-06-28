@@ -1,0 +1,65 @@
+FormKey: 01F0F8:kinggathcreations_bard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: kgcBardHijackSolitudeBardsCollege
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Bards College
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00575751'
+  DirectionalColor: '#00A8C1BD'
+  FogNearColor: '#003F5E81'
+  FogFar: 5000
+  FogClipDistance: 5200
+  FogPower: 0.9
+  AmbientColors:
+    DirectionalXPlus: '#004F4431'
+    DirectionalXMinus: '#0040442C'
+    DirectionalYPlus: '#0048472F'
+    DirectionalYMinus: '#0048402F'
+    DirectionalZPlus: '#00222015'
+    DirectionalZMinus: '#006D6748'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00325F65'
+  FogMax: 0.8
+  LightFadeBegin: 5000
+  LightFadeEnd: 6000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogFar
+LightingTemplate: 06256A:Skyrim.esm
+WaterHeight: 0
+Location: 020082:Skyrim.esm
+Owner: 0C13C7:Skyrim.esm
+LockList: 0248C0:kinggathcreations_bard.esm
+AcousticSpace: 0E3261:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0E461F:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 0C856B:Skyrim.esm
+  Base: 0ED04B:Skyrim.esm
+  RagdollData: 0x0001EA000000B0BC0090C03D008089BE9E56C4BF4E1608BB5F2748C0004B8E00002836400000913B00C0033DC263433A019C153AA199CC3F
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -2075.6104, 200.83867, 318.92926
+    Rotation: 2.8964577, 4.948792, 4.956735
+- MutagenObjectType: PlacedObject
+  FormKey: 0C85E4:Skyrim.esm
+  Base: 0EA5B0:Skyrim.esm
+  RagdollData: 0x00210000000080B8000000B80000000099EDEDBFE1CDE8BCB4BB35C000FEFA32C01439400000E0390000BB3BA2C20E3A000461B83FE8CB3F
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -389.02106, 400.9362, 318.41837
+    Rotation: -0.4746145, -1.0538568, 5.2317715
+MajorFlags:
+- 0x40000

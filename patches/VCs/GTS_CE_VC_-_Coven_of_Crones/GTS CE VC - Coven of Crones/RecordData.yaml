@@ -1,0 +1,24 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS CE VC - Coven of Crones.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: cronemod.esm
+    FileSize: 0
+  - Master: 3DNPC.esp
+    FileSize: 0
+  - Master: EnhancedLightsandFX.esp
+    FileSize: 0
+  - Master: Double Life - Anises Cabin Overhaul.esp
+    FileSize: 0
+  - Master: LCO_AniseCabin.esp
+    FileSize: 0
+  - Master: GTS - ELFX Patch.esp
+    FileSize: 0

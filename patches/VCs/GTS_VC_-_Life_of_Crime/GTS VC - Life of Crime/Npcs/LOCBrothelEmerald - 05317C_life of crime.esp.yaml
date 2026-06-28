@@ -1,0 +1,171 @@
+FormKey: 05317C:life of crime.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LOCBrothelEmerald
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Female
+  - Essential
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 05312A:life of crime.esp
+  Fluff: 0x000000
+Voice: 05317B:life of crime.esp
+Race: 013746:Skyrim.esm
+Items:
+- Item:
+    Item: 00000F:Skyrim.esm
+    Count: 56
+- Item:
+    Item: 034C5D:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0800E4:Skyrim.esm
+    Count: 2
+AIData:
+  EnergyLevel: 10
+  Responsibility: NoCrime
+Packages:
+- 053189:life of crime.esp
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01326B:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Emerald
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 5
+  - Key: TwoHanded
+    Value: 5
+  - Key: Archery
+    Value: 5
+  - Key: Block
+    Value: 5
+  - Key: Smithing
+    Value: 5
+  - Key: HeavyArmor
+    Value: 5
+  - Key: LightArmor
+    Value: 5
+  - Key: Pickpocket
+    Value: 5
+  - Key: Lockpicking
+    Value: 5
+  - Key: Sneak
+    Value: 5
+  - Key: Alchemy
+    Value: 5
+  - Key: Speech
+    Value: 5
+  - Key: Alteration
+    Value: 5
+  - Key: Conjuration
+    Value: 5
+  - Key: Destruction
+    Value: 5
+  - Key: Illusion
+    Value: 5
+  - Key: Restoration
+    Value: 5
+  - Key: Enchanting
+    Value: 5
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Magicka: 20036
+  Stamina: 19777
+  GearedUpWeapons: 1
+HeadParts:
+- 0E4DA2:Skyrim.esm
+- 0EAA71:Skyrim.esm
+HairColor: 0F7565:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 10
+SoundLevel: Normal
+DefaultOutfit: 0F966E:Skyrim.esm
+TextureLighting: '#00DDDDDD'
+FaceMorph:
+  NoseLongVsShort: -0.53999996
+  JawNarrowVsWide: -0.38
+  CheeksUpVsDown: 0.39999998
+  CheeksForwardVsBack: -0.82
+  EyesUpVsDown: 0.26
+  BrowsUpVsDown: 0.39999998
+  BrowsInVsOut: -0.45999998
+  BrowsForwardVsBack: -0.42000002
+  LipsUpVsDown: 0.13999999
+  ChinUpVsDown: -0.39999998
+FaceParts:
+  Nose: 17
+  Eyes: 12
+  Mouth: 17
+TintLayers:
+- Index: 26
+  Color: '#00500901'
+  InterpolationValue: 0.83
+  Preset: 614
+- Index: 27
+  Color: '#00500901'
+  InterpolationValue: 0.83
+  Preset: 624
+- Index: 28
+  Color: '#00500901'
+  InterpolationValue: 0.83
+  Preset: 634
+- Index: 31
+  Color: '#00500901'
+  InterpolationValue: 0.78
+  Preset: 658
+- Index: 36
+  Color: '#00000000'
+  InterpolationValue: 1
+  Preset: 1124
+MajorFlags:
+- 0x40000

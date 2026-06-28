@@ -30,6 +30,12 @@ nav = [
         {"Terrain LOD" = "terrain-lod.md"},
         {"Object LOD" = "object-lod.md"}
     ]},
+    {"Patches & Mods" = [
+        {"Patches & Mods" = "patches-mods.md"},
+        {"Custom Races" = "race-patches.md"},
+        {"Verified Creations" = "verified-creations.md"},
+        {"Miscellaneous" = "misc-patches.md"}
+    ]},
     {"Contributing" = "contributing.md"}
 ]
 
@@ -269,6 +275,8 @@ tools = "lucide/toolbox"
 procedural = "lucide/cpu"
 visual = "lucide/spotlight"
 landscape = "lucide/mountain-snow"
+patch = "lucide/file-diff"
+character = "lucide/user-star"
 
 [project.extra.tags]
 "Addon Collections" = "addon"
@@ -277,6 +285,8 @@ Generated = "procedural"
 Visual = "visual"
 LOD = "landscape"
 Landscape = "landscape"
+Patches = "patch"
+Characters = "character"
 
 # ----------------------------------------------------------------------------
 # In this section you can configure the Markdown extensions that are used when

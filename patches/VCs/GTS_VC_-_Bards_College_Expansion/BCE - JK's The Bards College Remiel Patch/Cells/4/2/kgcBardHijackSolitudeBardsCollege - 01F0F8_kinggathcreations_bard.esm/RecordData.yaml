@@ -1,0 +1,70 @@
+FormKey: 01F0F8:kinggathcreations_bard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: kgcBardHijackSolitudeBardsCollege
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Bards College
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00575751'
+  DirectionalColor: '#00A8C1BD'
+  FogNearColor: '#003F5E81'
+  FogFar: 5000
+  FogClipDistance: 5200
+  FogPower: 0.9
+  AmbientColors:
+    DirectionalXPlus: '#004F4431'
+    DirectionalXMinus: '#0040442C'
+    DirectionalYPlus: '#0048472F'
+    DirectionalYMinus: '#0048402F'
+    DirectionalZPlus: '#00222015'
+    DirectionalZMinus: '#006D6748'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00325F65'
+  FogMax: 0.8
+  LightFadeBegin: 5000
+  LightFadeEnd: 6000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogFar
+LightingTemplate: 06256A:Skyrim.esm
+WaterHeight: 0
+Location: 020082:Skyrim.esm
+Owner: 0C13C7:Skyrim.esm
+LockList: 0248C0:kinggathcreations_bard.esm
+AcousticSpace: 0E3261:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0E461F:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 633374:HLIORemi.esp
+  MajorRecordFlagsRaw: 1073744896
+  EditorID: HLIOTonalMagicBookBC
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  - 0x40000000
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: HLIOTonalBookReadScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: HLIOADQuest
+        Object: 62E259:HLIORemi.esp
+  Base: 62E271:HLIORemi.esp
+  RagdollData: 0x000000000000000000000000000000003001C9BF90E229B97FFE48C00000000000D8154000000CB900008038B49FBD3548BC2338A6FDC93F
+  Owner: 000007:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: 78.461586, 410.12033, 318.49326
+MajorFlags:
+- 0x40000

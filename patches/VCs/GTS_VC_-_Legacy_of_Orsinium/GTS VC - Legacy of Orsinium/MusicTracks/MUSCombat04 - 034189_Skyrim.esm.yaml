@@ -1,0 +1,78 @@
+FormKey: 034189:Skyrim.esm
+EditorID: MUSCombat04
+Type: SingleTrack
+TrackFilename: \Data\Music\Combat\MUS_Combat_04.wav
+FinaleFilename: \Data\Music\Combat\MUS_Combat_04_Finale.wav
+CuePoints:
+- 3.5
+- 12.204
+- 18.01
+- 23.811
+- 29.613
+- 35.418
+- 41.221
+- 47.038
+- 52.888
+- 58.662
+- 64.29
+- 70
+- 75.6
+- 81.25
+- 86.87
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInCellConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Cell: 06E9CC:legacyorsinium.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 014C29:legacyorsinium.esm
+  ComparisonValue: 40
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInWorldspaceConditionData
+    WorldspaceOrList: 085C50:legacyorsinium.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetCombatTargetHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 11FF0B:Undeath.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetCombatTargetHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 035D59:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInCurrentLocConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Location: 0A5165:Skyrim Extended Cut - Saints and Seducers.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInWorldspaceConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    WorldspaceOrList: C2BFF8:Skyrim Extended Cut - Saints and Seducers.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInCellConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Cell: 038CD9:Skyrim Extended Cut - Saints and Seducers.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInCurrentLocConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Location: 6036AD:BSAssets.esm

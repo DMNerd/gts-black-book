@@ -1,0 +1,73 @@
+---
+icon: "lucide/badge-check"
+tags:
+    - "Patches"
+---
+# Verified Creations
+Verified Creations are Bethesda's paid mods system. Any discussion about them occurs on this channel in the [VC Discussions](https://discord.com/channels/902984082181484615/1342411360591679549) channel on the GTS Discord.
+
+Support for these is rather sparse, but some patches are available.
+
+## Dragonslayer
+Dragonslayer is made by JaySerpa, and is compatible OOTB with GTS.
+
+## A Tale Of Blood And Snow
+A Tale of Blood and Snow requires a patch for GTS. Mostly Scion.
+
+Make sure it loads after GTS Patches - Scion.esp.
+
+[:lucide-package: GTS VC - A Tale of Blood and Snow](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations/tag/Verified_Creations)
+
+## Bards College Expansion
+BCE requires quite a lot of patches due to how it works, most of those are available on Kinggath's forums. A special GTS patch is also provided.
+
+The FOMOD from the forum will auto-select all the needed patches.
+
+[:lucide-file-text: Bards College Expansion - Unofficial Patches](https://forum.kinggathcreations.com/resources/bards-college-expansion-unofficial-patches.5/)
+
+[:lucide-package: GTS VC - Bards College Expansion](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations/tag/Verified_Creations)
+
+## East Empire Expansion
+EEE requires a few patches from Kinggath's forum, and a GTS patch.
+
+[:lucide-file-text: East Empire Expansion - Unofficial Patches](https://forum.kinggathcreations.com/resources/east-empire-expansion-unofficial-patches.2/)
+
+[:lucide-package: GTS VC - East Empire Expansion](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+
+## Legacy Of Orsinium
+Requires a general Simonrim patch and a special GTS patch.
+
+[:lucide-file-text: Legacy Of Orsinium Simonrim Patch](https://creations.bethesda.net/en/skyrim/details/7df5cf6c-49ef-454b-a538-d90f054f8f4f/Legacy_Of_Orsinium_Simonrim_Patch)
+
+[:lucide-package: GTS VC - Legacy of Orsinium](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+
+## Life Of Crime
+A general GTS patch is available, as well as a distribution file to hair.
+
+Vanilla Hair Remake SMP Wig Distribution is only needed for NPC hair. Do not select any option if the FOMOD.
+
+[:lucide-file-text: Vanilla Hair Remake SMP Wig Distribution](https://www.nexusmods.com/skyrimspecialedition/mods/134457)
+
+[:lucide-package: GTS VC - Life of Crime](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+
+## Coven Of Crones
+Patches for some ELFX inconsistencies. A patch is provided for both GTS and GTS CE.
+
+[:lucide-package: GTS VC - Coven of Crones](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+
+[:lucide-package: GTS CE VC - Coven of Crones](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+
+!!! danger
+    Avoid using these patches alongside the GTS - True Light addon or anything else that disables ELFX.
+
+    You may encounter crashes otherwise.
+
+## Listener Initiates
+Listener Initiates appears to only a Fabulous Followers Override mod.
+
+[:lucide-file-text: Listeners initiates - Tragedian's Fabulous Followers SSE Override](https://www.nexusmods.com/skyrimspecialedition/mods/130465)
+
+## Truth In Legends
+Requires a the Fixes and Tweaks mod.
+
+[:lucide-file-text: Truth in Legends - Fixes and Tweaks](https://creations.bethesda.net/en/skyrim/details/02f74e04-b020-4010-94b1-a76e92bd19af/Truth_in_Legends___Fixes_and_Tweaks)

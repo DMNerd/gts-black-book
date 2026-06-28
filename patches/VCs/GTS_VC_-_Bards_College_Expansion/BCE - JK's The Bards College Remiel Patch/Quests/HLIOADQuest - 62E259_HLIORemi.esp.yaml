@@ -1,0 +1,208 @@
+FormKey: 62E259:HLIORemi.esp
+EditorID: HLIOADQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: HLIO_QF_HLIOADQuest_0562E259
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BCBook
+      Object: 62E259:HLIORemi.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MCBook
+      Object: 62E259:HLIORemi.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Remi
+      Object: 62E259:HLIORemi.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_scrap
+      Object: 62E259:HLIORemi.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HLIOADQuest
+      Object: 62E259:HLIORemi.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HLIOADSpell
+      Object: 5B9AA8:HLIORemi.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HLIOHitScrapGlobal
+      Object: 65BBBA:HLIORemi.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HLIORemi
+      Object: 033226:HLIORemi.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HLIOTonalMagicBook
+      Object: 62E271:HLIORemi.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HLIOTonalMagicBookBC
+      Object: 633374:HLIORemi.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HLIOTonalMagicBookMC
+      Object: 633375:HLIORemi.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HLIOTuningFork
+      Object: 5C3CB3:HLIORemi.esp
+  FileName: HLIO_QF_HLIOADQuest_0562E259
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: HLIO_QF_HLIOADQuest_0562E259
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: HLIO_QF_HLIOADQuest_0562E259
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: HLIO_QF_HLIOADQuest_0562E259
+    FragmentName: Fragment_2
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: HLIO_QF_HLIOADQuest_0562E259
+    FragmentName: Fragment_3
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: HLIO_QF_HLIOADQuest_0562E259
+    FragmentName: Fragment_4
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: HLIO_QF_HLIOADQuest_0562E259
+    FragmentName: Fragment_6
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: HLIO_QF_HLIOADQuest_0562E259
+    FragmentName: Fragment_7
+Name:
+  TargetLanguage: English
+  Value: Attuned Assassination
+Flags:
+- StartGameEnabled
+- AllowRepeatedStages
+- 0x10
+- RunOnce
+Priority: 50
+Type: SideQuest
+Stages:
+- Flags:
+  - StartUpStage
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Remi has been thinking of a new project, and it has something to do with Tonal Magic. She's not sure where to begin, but she thinks if we can find a book with more information, she might be able to get an idea of what to do. We're heading to the Bard's College to see if they have anything to help.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Remi has been thinking of a new project, and it has something to do with Tonal Magic. She's not sure where to begin, but she thinks if we can find a book with more information, she might be able to get an idea of what to do. We're heading to the College of Winterhold to see if they have anything to help.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Remi has been thinking of a new project, and it has something to do with Tonal Magic. She's not sure where to begin, but she thinks if we can find a book with more information, she might be able to get an idea of what to do. I've found a book that seem promising. I should probably show it to Remi.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Remi has been thinking of a new project, and it has something to do with Tonal Magic. She's not sure where to begin, but she thinks if we can find a book with more information, she might be able to get an idea of what to do. She thinks the book I found her might be what she needs. I just need to wait for her to finish reading it.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Remi has been thinking of a new project, and it has something to do with Tonal Magic. She's not sure where to begin, but she thinks if we can find a book with more information, she might be able to get an idea of what to do. It's been some time since I gave her the book I found; surely she's finished reading it by now?
+- Index: 70
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Remi researched and developed a "Tuning Fork" to do some sort of Tonal Magic and shut down automaton. So long as she's able to get close to them without being noticed, she should be able to take out automaton before they become a problem for us.
+Objectives:
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Remi to the Bard's College.
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Remi to the College of Winterhold.
+  Targets:
+  - {}
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Give the book to Remi.
+  Targets:
+  - AliasID: 2
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for Remi to read the book.
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Check in with Remi.
+  Targets:
+  - AliasID: 2
+NextAliasID: 4
+Aliases:
+- Name: MCBook
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 633375:HLIORemi.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: BCBook
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 633374:HLIORemi.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Remi
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 033226:HLIORemi.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Scrap
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 502E51:HLIORemi.esp
+  VoiceTypes: Null

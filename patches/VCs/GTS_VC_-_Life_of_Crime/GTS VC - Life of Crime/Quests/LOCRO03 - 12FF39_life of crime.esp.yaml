@@ -1,0 +1,461 @@
+FormKey: 12FF39:life of crime.esp
+EditorID: LOCRO03
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_LOCRO03_0312FF39
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Container
+      Object: 12FF39:life of crime.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CurrentOperative
+      Object: 12FF39:life of crime.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EnemySpawn
+      Object: 12FF39:life of crime.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FleeingLocation
+      Object: 12FF39:life of crime.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FleeingMarker
+      Object: 12FF39:life of crime.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hawkblood01
+      Object: 12FF39:life of crime.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hawkblood02
+      Object: 12FF39:life of crime.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Item
+      Object: 12FF39:life of crime.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LocationPool
+      Object: 12FF39:life of crime.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Snitch
+      Object: 12FF39:life of crime.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCInfluence
+      Object: 014609:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCOperativeSkillsIncreaseInfluence
+      Object: 044035:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCRO01BuyerFaction
+      Object: 12AFEA:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCRO03
+      Object: 12FF39:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCROKillCount
+      Object: 128848:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCROMain
+      Object: 126084:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 000DB1:Skyrim.esm
+  FileName: QF_LOCRO03_0312FF39
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_LOCRO03_0312FF39
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_LOCRO03_0312FF39
+    FragmentName: Fragment_8
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_LOCRO03_0312FF39
+    FragmentName: Fragment_14
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_LOCRO03_0312FF39
+    FragmentName: Fragment_5
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_LOCRO03_0312FF39
+    FragmentName: Fragment_2
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_LOCRO03_0312FF39
+    FragmentName: Fragment_12
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: QF_LOCRO03_0312FF39
+    FragmentName: Fragment_10
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 12FF39:life of crime.esp
+      Alias: 3
+    Scripts:
+    - Name: LOCRO03IDS01
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ContainerDrop
+        Object: 12FF39:life of crime.esp
+        Alias: 2
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Item
+        Object: 12FF39:life of crime.esp
+        Alias: 3
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LOCRO03
+        Object: 12FF39:life of crime.esp
+  - Property:
+      Name: ''
+      Object: 12FF39:life of crime.esp
+      Alias: 5
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 90
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 1
+    - Name: LOCRO03SFS01
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LOCRO03
+        Object: 12FF39:life of crime.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypeCastle
+        Object: 01CD57:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Snitch
+        Object: 12FF39:life of crime.esp
+        Alias: 5
+  - Property:
+      Name: ''
+      Object: 12FF39:life of crime.esp
+      Alias: 8
+    Scripts:
+    - Name: LOCRO03KillCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LOCRO03
+        Object: 12FF39:life of crime.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LOCROKillCount
+        Object: 128848:life of crime.esp
+  - Property:
+      Name: ''
+      Object: 12FF39:life of crime.esp
+      Alias: 9
+    Scripts:
+    - Name: LOCRO03KillCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LOCRO03
+        Object: 12FF39:life of crime.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LOCROKillCount
+        Object: 128848:life of crime.esp
+Name:
+  TargetLanguage: English
+  Value: The Drop
+Priority: 40
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Drop item
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Kill snitch
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Return to operative
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Finish
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+- Index: 210
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver the <Alias=Item> to the <Alias=Container>
+  Targets:
+  - AliasID: 2
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: A Snitch saw the drop! Kill them before they can speak to the Jarl!
+  Targets:
+  - AliasID: 5
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: The Hawkbloods know about the drop! Kill them all!
+  Targets:
+  - AliasID: 8
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to the Operative
+  Targets:
+  - {}
+NextAliasID: 10
+Aliases:
+- Name: CurrentOperative
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      Faction: 032AAC:life of crime.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInSameCellConditionData
+      Target: 000014:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Type: Location
+  Name: LocationPool
+  Flags: []
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSameEditorLocAsRefAliasConditionData
+      Keyword: 016771:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 01BDF1:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 071061:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0FC1A3:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 01CD5A:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 01CB85:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 01CD57:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 01CB86:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 01CD56:Skyrim.esm
+    ComparisonValue: 1
+- ID: 2
+  Name: Container
+  Flags:
+  - QuestObject
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: DoesNotExistConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 09AF19:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 03AC21:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0D89C6:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0774C8:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: Item
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  - StoresText
+  CreateReferenceToObject:
+    Object: 0735DD:life of crime.esp
+    Create: In
+    Level: 4
+  VoiceTypes: Null
+- ID: 4
+  Name: EnemySpawn
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 1
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: Snitch
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 12FF3F:life of crime.esp
+    AliasID: 4
+  Factions:
+  - 12AFEA:life of crime.esp
+  PackageData:
+  - 12FF40:life of crime.esp
+  VoiceTypes: Null
+- ID: 6
+  Type: Location
+  Name: FleeingLocation
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSameEditorLocAsRefAliasConditionData
+      Keyword: 016771:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 01CD57:Skyrim.esm
+    ComparisonValue: 1
+- ID: 7
+  Name: FleeingMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 6
+    RefType: 0208C7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Hawkblood01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 00A6E3:life of crime.esp
+    AliasID: 4
+  PackageData:
+  - 128849:life of crime.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Hawkblood02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 00A6E3:life of crime.esp
+    AliasID: 4
+  PackageData:
+  - 128849:life of crime.esp
+  VoiceTypes: Null

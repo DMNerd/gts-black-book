@@ -1,0 +1,108 @@
+FormKey: 00003C:Skyrim.esm
+EditorID: Tamriel
+Name:
+  TargetLanguage: English
+  Value: Skyrim
+Climate: 000812:Skyrim.esm
+Water: 000018:Skyrim.esm
+LodWater: 000018:Skyrim.esm
+LodWaterHeight: -14000
+LandDefaults:
+  DefaultLandHeight: -27000
+  DefaultWaterHeight: -14000
+MapData:
+  NorthwestCellCoords: -30, 15
+  SoutheastCellCoords: 40, -40
+  CameraMinHeight: 50000
+  CameraMaxHeight: 80000
+  CameraInitialPitch: 50
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+ObjectBoundsMin: -57, -43
+ObjectBoundsMax: 62, 51
+Music: 01BA72:Skyrim.esm
+HdLodDiffuseTexture: data\textures\landscape\mountains\mountainslab02.dds
+HdLodNormalTexture: data\textures\landscape\mountains\mountainslab02_n.dds
+TopCell:
+  FormKey: 000D74:Skyrim.esm
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: 1795588096
+  OcclusionData: 0x03000000000000000000000000000000000000000000000000000000000000000000000000000000000080010000000000000001880000000000000000000000040000C102370020AEFFAF01D83B0009FC3FF60B0C100000000000000000000004000041010300000000000000000000000000000000000000000000000000001E73F9FFFE3F001BACBFFEFBFA030000FCEB6F0000F09FF9EDFF7F0000101C00FE63C70024F055F02E3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  WaterHeight: -2.1474836E+09
+  Regions:
+  - 041449:Skyrim.esm
+  - 08EED7:Skyrim.esm
+  - 0C5858:Skyrim.esm
+  - 0C5859:Skyrim.esm
+  - 0CAD0A:Skyrim.esm
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 01C0B9:life of crime.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 04203A:Skyrim.esm
+    TeleportDestination:
+      Door: 01965A:life of crime.esp
+      Position: 258.6063, 130.11188, 0
+      Rotation: 0, -0, -3.0999923
+    Lock:
+      Level: 255
+      Unused: 0x000000
+      Unused2: 0x0000000000000000000000
+    NavigationDoorLink:
+      NavMesh: 049000:Skyrim.esm
+      TeleportMarkerTriangle: 197
+    Placement:
+      Position: -50889.805, -44914.19, 51
+      Rotation: 0, -0, 4.88319
+  - MutagenObjectType: PlacedNpc
+    FormKey: 0AF26A:life of crime.esp
+    MajorRecordFlagsRaw: 3072
+    SkyrimMajorRecordFlags:
+    - 0x400
+    - InitiallyDisabled
+    Base: 002F9D:life of crime.esp
+    LevelModifier: Easy
+    LinkedReferences:
+    - Reference: 0DAFA7:Skyrim.esm
+    LocationReference: 018A51:Skyrim.esm
+    Placement:
+      Position: 112520.62, 100913.77, -8817.6
+      Rotation: 0, -0, 1.134464
+    MajorFlags:
+    - Persistent
+    - InitiallyDisabled
+  - MutagenObjectType: PlacedObject
+    FormKey: 12609D:life of crime.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000034:Skyrim.esm
+    LocationRefTypes:
+    - 126087:life of crime.esp
+    LocationReference: 018A51:Skyrim.esm
+    Placement:
+      Position: 112431.6, 100894.586, -8825.755
+      Rotation: 0, 0, 1.134464
+  - MutagenObjectType: PlacedObject
+    FormKey: 0DAFA7:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 052FF5:Skyrim.esm
+    LocationReference: 018A51:Skyrim.esm
+    Placement:
+      Position: 112709.766, 101018.65, -8734.988
+      Rotation: 0, -0, 4.276057
+  MajorFlags:
+  - Persistent
+  - 0x40000
+SubCellsUnknown: 1

@@ -1,0 +1,19 @@
+FormKey: 0200C9:Skyrim.esm
+EditorID: FalkreathJarlsLonghouseLocation
+LocationRefTypeReferencesAdded:
+- LocationRefType: 06BF0B:life of crime.esp
+  Ref: 0F4881:Skyrim.esm
+  Location: 013A79:Skyrim.esm
+  Grid: 32767, 32767
+Name:
+  TargetLanguage: English
+  Value: Jarl's Longhouse
+Keywords:
+- 0130DC:Skyrim.esm
+- 01CD57:Skyrim.esm
+- 0205ED:Skyrim.esm
+- 0504F9:Skyrim.esm
+- 0C6726:Skyrim.esm
+ParentLocation: 018A49:Skyrim.esm
+WorldLocationMarkerRef: 0200C8:Skyrim.esm
+WorldLocationRadius: 0

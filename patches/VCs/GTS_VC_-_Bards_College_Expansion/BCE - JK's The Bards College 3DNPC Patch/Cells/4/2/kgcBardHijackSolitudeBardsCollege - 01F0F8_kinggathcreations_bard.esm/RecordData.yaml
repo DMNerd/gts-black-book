@@ -1,0 +1,121 @@
+FormKey: 01F0F8:kinggathcreations_bard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: kgcBardHijackSolitudeBardsCollege
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Bards College
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00575751'
+  DirectionalColor: '#00A8C1BD'
+  FogNearColor: '#003F5E81'
+  FogFar: 5000
+  FogClipDistance: 5200
+  FogPower: 0.9
+  AmbientColors:
+    DirectionalXPlus: '#004F4431'
+    DirectionalXMinus: '#0040442C'
+    DirectionalYPlus: '#0048472F'
+    DirectionalYMinus: '#0048402F'
+    DirectionalZPlus: '#00222015'
+    DirectionalZMinus: '#006D6748'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00325F65'
+  FogMax: 0.8
+  LightFadeBegin: 5000
+  LightFadeEnd: 6000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogFar
+LightingTemplate: 06256A:Skyrim.esm
+WaterHeight: 0
+Location: 020082:Skyrim.esm
+Owner: 0C13C7:Skyrim.esm
+LockList: 0248C0:kinggathcreations_bard.esm
+AcousticSpace: 0E3261:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0E461F:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 16E8BE:3DNPC.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -463.99234, 50.92533, 288
+    Rotation: 0, 0, 0.5500021
+- MutagenObjectType: PlacedObject
+  FormKey: 21263E:3DNPC.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -7.799055, 326.42606, 280.7009
+    Rotation: 0, 0, 4.1831913
+- MutagenObjectType: PlacedObject
+  FormKey: 289C3F:3DNPC.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 07872B:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -1763.4602, 280.37466, 578.3956
+    Rotation: 0, 0, 5.3831873
+- MutagenObjectType: PlacedNpc
+  FormKey: 2EC56E:3DNPC.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 27FC9A:3DNPC.esp
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -320.95618, -231.04062, 288
+    Rotation: 0, 0, 3.9831922
+  MajorFlags:
+  - Persistent
+- MutagenObjectType: PlacedObject
+  FormKey: 01F342:kinggathcreations_bard.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 0C2A02:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -2016, 427.25787, 576
+    Rotation: 0, 0, 3.1415925
+- MutagenObjectType: PlacedObject
+  FormKey: 01F6F0:kinggathcreations_bard.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 0C2A02:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -1732, 425.47617, 576
+    Rotation: 0, 0, 3.1415925
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 22C9CF:3DNPC.esp
+  Base: 229797:3DNPC.esp
+  LocationReference: 020082:Skyrim.esm
+  EnableParent:
+    Reference: 1FCEF7:3DNPC.esp
+    Unknown: 0x000000
+  Placement:
+    Position: -193.5743, -2.604296, 288
+MajorFlags:
+- 0x40000

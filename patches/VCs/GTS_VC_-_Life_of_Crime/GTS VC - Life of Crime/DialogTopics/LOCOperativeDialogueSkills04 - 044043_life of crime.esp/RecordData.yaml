@@ -1,0 +1,8 @@
+FormKey: 044043:life of crime.esp
+EditorID: LOCOperativeDialogueSkills04
+Name:
+  TargetLanguage: English
+  Value: Security. (Improve Security by 25%) (3000 Influence)
+Branch: 044038:life of crime.esp
+Quest: 035258:life of crime.esp
+SubtypeName: CUST

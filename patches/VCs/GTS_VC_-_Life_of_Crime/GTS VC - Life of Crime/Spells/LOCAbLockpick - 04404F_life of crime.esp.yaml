@@ -1,0 +1,16 @@
+FormKey: 04404F:life of crime.esp
+EditorID: LOCAbLockpick
+Name:
+  TargetLanguage: English
+  Value: Influential Security
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Security is <25>% easier.
+BaseCost: 344
+Type: Ability
+Effects:
+- BaseEffect: 07A0FC:Skyrim.esm
+  Data:
+    Magnitude: 25

@@ -1,0 +1,33 @@
+FormKey: 03418E:Skyrim.esm
+EditorID: MUSCombat
+Flags:
+- CycleTracks
+- DucksCurrentTrack
+Data:
+  Priority: 2
+  DuckingDecibel: 100
+FadeDuration: 9
+Tracks:
+- 034186:Skyrim.esm
+- 034187:Skyrim.esm
+- 034188:Skyrim.esm
+- 03418A:Skyrim.esm
+- 034189:Skyrim.esm
+- 03418B:Skyrim.esm
+- 10486A:Skyrim.esm
+- 01740F:Skyrim.esm
+- 6036AE:BSAssets.esm
+- 6036AF:BSAssets.esm
+- 6036B0:BSAssets.esm
+- 6036B1:BSAssets.esm
+- 6036BE:BSAssets.esm
+- 6036B2:BSAssets.esm
+- 6036B3:BSAssets.esm
+- 6036BF:BSAssets.esm
+- 6036B4:BSAssets.esm
+- 6036C0:BSAssets.esm
+- 12637A:legacyorsinium.esm
+- 0CDAB2:Skyrim Extended Cut - Saints and Seducers.esp
+- 0CDAB3:Skyrim Extended Cut - Saints and Seducers.esp
+- 0CDAB4:Skyrim Extended Cut - Saints and Seducers.esp
+- 0CDAB1:Skyrim Extended Cut - Saints and Seducers.esp

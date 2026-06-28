@@ -1,0 +1,27 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: LOPatch_StrongholdMorKhazgur16.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Author: DEFAULT
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: ccbgssse001-fish.esm
+    FileSize: 0
+  - Master: _ResourcePack.esl
+    FileSize: 0
+  - Master: LegacyOrsinium.esm
+    FileSize: 0
+  - Master: Strongholds - Mor Khazgur.esp
+    FileSize: 0
+  INTV: 1

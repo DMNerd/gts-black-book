@@ -1,0 +1,12 @@
+FormKey: 1169B4:legacyorsinium.esm
+EditorID: LO_MUSOrcTownType
+Flags:
+- PlaysOneSelection
+- AbruptTransition
+- DucksCurrentTrack
+Data:
+  Priority: 4
+  DuckingDecibel: 100
+FadeDuration: 6
+Tracks:
+- 1169B3:legacyorsinium.esm

@@ -12,6 +12,8 @@ How they function, how easy they are to install, or their content can vary vastl
 Since GTS itself is an active project, any addons may need to be updated to support newer versions, especially in wake of any large updates.
 This page is used to keep track of what collections are currently up-to-date and supported.
 
+If an addon is not listed here, that means it's status is unknown. If you wish for an addon to be added to this list, see [Contributing](contributing/#contributing){ data-preview } or leave a message in the [Black Book thread](https://discord.com/channels/902984082181484615/1520726956419710978) on the GTS Discord.
+
 
 !!! warning "NSFW"
 
@@ -162,7 +164,7 @@ These addons are abandoned and have some severe issues, and should not be used w
 
 ??? failure "GTS - Varric NPC Replacers (NSFW)"
 
-    This addons is abandoned and relies on Dat Body which is deprecated.
+    This addon is abandoned and relies on Dat Body which is deprecated.
 
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/qywbyv)
 
@@ -170,7 +172,7 @@ These addons are abandoned and have some severe issues, and should not be used w
 
 ??? failure "Dat Body - Additions (NSFW)"
 
-    This addons is abandoned and relies on Dat Body which is deprecated.
+    This addon is abandoned and relies on Dat Body which is deprecated.
 
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/bpttqt)
 

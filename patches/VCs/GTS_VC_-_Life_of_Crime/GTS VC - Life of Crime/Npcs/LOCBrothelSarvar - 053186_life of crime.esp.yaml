@@ -1,0 +1,158 @@
+FormKey: 053186:life of crime.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LOCBrothelSarvar
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Essential
+  - AutoCalcStats
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 6
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 05312A:life of crime.esp
+  Fluff: 0x000000
+Voice: 002FA2:life of crime.esp
+Race: 013746:Skyrim.esm
+Items:
+- Item:
+    Item: 00000F:Skyrim.esm
+    Count: 124
+- Item:
+    Item: 034C5E:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0800E4:Skyrim.esm
+    Count: 3
+AIData:
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Responsibility: NoCrime
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01326B:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Sarvar
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 24
+  - Key: TwoHanded
+    Value: 25
+  - Key: Archery
+    Value: 19
+  - Key: Block
+    Value: 20
+  - Key: Smithing
+    Value: 26
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 24
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 19
+  - Key: Alchemy
+    Value: 22
+  - Key: Speech
+    Value: 24
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 22
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 91
+  Magicka: 67
+  Stamina: 67
+  GearedUpWeapons: 1
+HeadParts:
+- 01750B:Skyrim.esm
+- 051412:Skyrim.esm
+- 0C716E:Skyrim.esm
+HairColor: 0A042D:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 60
+SoundLevel: Normal
+DefaultOutfit: 053187:life of crime.esp
+TextureLighting: '#00C6B0A8'
+FaceMorph:
+  NoseLongVsShort: -0.27999997
+  NoseUpVsDown: 0.26
+  JawNarrowVsWide: -0.82
+  CheeksUpVsDown: 0.62
+  CheeksForwardVsBack: -0.39999998
+  EyesInVsOut: -0.32
+  ChinNarrowVsWide: -0.24000001
+  ChinUpVsDown: -0.16000003
+FaceParts:
+  Nose: 18
+  Eyes: 13
+  Mouth: 11
+TintLayers:
+- Index: 1
+  Color: '#00C6B0A8'
+  InterpolationValue: 1
+  Preset: 75
+- Index: 19
+  Color: '#00000000'
+  InterpolationValue: 0.58
+  Preset: 583
+MajorFlags:
+- 0x40000

@@ -1,0 +1,16 @@
+FormKey: 00AB87:LOPatch_StrongholdMorKhazgur16.esp
+EditorID: LO_AIOCompatibility
+Parent: 01320E:Skyrim.esm
+PreviousSibling: 00FD4D:LegacyOrsinium.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 0C7D8C:LegacyOrsinium.esm
+  ComparisonValue: 1
+QuestFlags:
+- NumQuestsToRun
+MaxConcurrentQuests: 0
+MaxNumQuestsToRun: 1
+Quests:
+- Quest: 00AB86:LOPatch_StrongholdMorKhazgur16.esp

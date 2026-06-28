@@ -1,0 +1,37 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - Legacy of Orsinium.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: DEFAULT
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: 3DNPC.esp
+    FileSize: 0
+  - Master: Skyrim Extended Cut - Saints and Seducers.esp
+    FileSize: 0
+  - Master: BSAssets.esm
+    FileSize: 0
+  - Master: legacyorsinium.esm
+    FileSize: 0
+  - Master: Undeath.esp
+    FileSize: 0
+  - Master: Adamant.esp
+    FileSize: 0
+  - Master: Bandit War.esp
+    FileSize: 0
+  - Master: Strongholds - Mor Khazgur.esp
+    FileSize: 0
+  - Master: H2HBooksandTrainers.esp
+    FileSize: 0
+  - Master: HandtoHand.esp
+    FileSize: 0
+  - Master: Bandit War - Simonrim.esp
+    FileSize: 0
+  INTV: 1

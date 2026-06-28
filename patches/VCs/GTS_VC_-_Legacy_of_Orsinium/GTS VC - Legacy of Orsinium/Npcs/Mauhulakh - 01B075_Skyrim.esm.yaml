@@ -1,0 +1,356 @@
+FormKey: 01B075:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: Mauhulakh
+SkyrimMajorRecordFlags:
+- Compressed
+VirtualMachineAdapter:
+  Scripts:
+  - Name: WIDeadBodyCleanupScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeathContainer
+      Object: 0172B6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WI
+      Object: 035D64:Skyrim.esm
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - Unique
+  StaminaOffset: 50
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 15
+  CalcMinLevel: 1
+  CalcMaxLevel: 30
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 000807:H2HBooksandTrainers.esp
+  Fluff: 0x000000
+- Faction: 024029:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 028713:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02C006:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 05159B:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0CA213:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0E3A49:Skyrim.esm
+  Fluff: 0x000000
+Voice: 038C6A:legacyorsinium.esm
+Race: 013747:Skyrim.esm
+ActorEffect:
+- 0A47AB:Bandit War.esp
+Perks:
+- Perk: 058F6D:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 058F6E:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 058F6F:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 07935E:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0A725C:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0BCD2A:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0BCD2B:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0CF788:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 105F33:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 000809:HandtoHand.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 000933:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 000934:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 000935:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 000936:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 000937:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 000938:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 000939:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 00093A:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 00093B:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 00093C:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 00093D:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 00093E:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 00093F:Bandit War - Simonrim.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0D52CF:Adamant.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0F89DB:Adamant.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 937E48:Adamant.esp
+  Rank: 1
+  Fluff: 0x000000
+Items:
+- Item:
+    Item: 1046D3:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Average
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Mood: Sad
+  Assistance: HelpsFriendsAndAllies
+Packages:
+- 005514:legacyorsinium.esm
+- 0C78D5:Skyrim.esm
+- 0CCFDD:legacyorsinium.esm
+- 0C78D3:Skyrim.esm
+- 01B210:Skyrim.esm
+- 031730:Skyrim.esm
+Class: 000805:H2HBooksandTrainers.esp
+Name:
+  TargetLanguage: English
+  Value: Chief Mauhulakh
+ShortName:
+  TargetLanguage: English
+  Value: Mauhulakh
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 36
+  - Key: TwoHanded
+    Value: 44
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 36
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 49
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 47
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 20
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 167
+  Magicka: 50
+  Stamina: 193
+  GearedUpWeapons: 1
+HeadParts:
+- 04022A:Skyrim.esm
+- 051080:Skyrim.esm
+- 05E7D3:Skyrim.esm
+- 0D2EBE:Skyrim.esm
+- 0E4E2B:Skyrim.esm
+HairColor: 0A0437:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 20
+SoundLevel: Normal
+DefaultOutfit: 00080C:H2HBooksandTrainers.esp
+CrimeFaction: 028713:Skyrim.esm
+HeadTexture: 0D072F:Skyrim.esm
+TextureLighting: '#00292F24'
+FaceMorph:
+  NoseLongVsShort: 0.1
+  NoseUpVsDown: 0.7
+  JawUpVsDown: -1
+  JawNarrowVsWide: -1
+  JawForwardVsBack: -1
+  CheeksUpVsDown: -1
+  CheeksForwardVsBack: 1
+  EyesUpVsDown: 1
+  EyesInVsOut: -0.28
+  BrowsUpVsDown: -0.5
+  BrowsInVsOut: -0.1
+  BrowsForwardVsBack: 1
+  LipsUpVsDown: -0.1
+  ChinNarrowVsWide: -1
+  ChinUpVsDown: 1
+  ChinUnderbiteVsOverbite: 0.1
+  EyesForwardVsBack: -0.64
+  Unknown: 3.4028235E+38
+FaceParts:
+  Nose: 23
+  Unknown: 4294967295
+  Eyes: 32
+  Mouth: 27
+TintLayers:
+- Index: 1
+  Color: '#00292F24'
+  InterpolationValue: 1
+  Preset: 66
+- Index: 2
+  Color: '#00212B52'
+  InterpolationValue: 0.83
+  Preset: 70
+- Index: 4
+  Color: '#00000000'
+  InterpolationValue: 1
+  Preset: 471
+- Index: 5
+  Color: '#000F0440'
+  InterpolationValue: 0.33
+  Preset: 80
+- Index: 8
+  Color: '#00253626'
+  InterpolationValue: 1
+  Preset: 94
+- Index: 14
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 113
+- Index: 15
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 137
+- Index: 16
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 161
+- Index: 17
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 185
+- Index: 18
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 209
+- Index: 19
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 233
+- Index: 20
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 257
+- Index: 21
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 305
+- Index: 23
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 281
+- Index: 24
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 329
+- Index: 25
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 475
+- Index: 50
+  Color: '#00563112'
+  InterpolationValue: 1
+  Preset: 481
+- Index: 52
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 353
+- Index: 53
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 377
+- Index: 54
+  Color: '#00FDFDFD'
+  InterpolationValue: 0.7
+  Preset: 401
+- Index: 55
+  Color: '#00FDFDFD'
+  InterpolationValue: 0
+  Preset: 425
+MajorFlags:
+- 0x40000

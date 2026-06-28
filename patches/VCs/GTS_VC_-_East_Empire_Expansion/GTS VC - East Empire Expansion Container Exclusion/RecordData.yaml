@@ -1,0 +1,18 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - East Empire Expansion Container Exclusion.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: CaranthirTowerReborn.esp
+    FileSize: 0
+  - Master: Container Weight Restrictions.esp
+    FileSize: 0
+  - Master: kinggathcreations_eastempirecompany.esp
+    FileSize: 0

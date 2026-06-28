@@ -15,3 +15,15 @@
 *[FOMOD]: A mod installer format originally created for Fallout, hence the name.
 
 *[MCM]: Mod Configuration Menu
+
+*[COTR]: Charmers Of The Reach
+
+*[LORN]: Lost Races Of Nirn
+
+*[AIO]: All In One
+
+*[RCS]: Race Compatibility SKSE
+
+*[OOTB]: Out-of-the-box
+
+*[GTS CE]: GTS Community Edition

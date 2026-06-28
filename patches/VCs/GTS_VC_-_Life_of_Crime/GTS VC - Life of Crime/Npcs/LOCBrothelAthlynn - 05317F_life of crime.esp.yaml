@@ -1,0 +1,178 @@
+FormKey: 05317F:life of crime.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LOCBrothelAthlynn
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Female
+  - Essential
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 002F9E:life of crime.esp
+  Fluff: 0x000000
+- Faction: 055951:life of crime.esp
+  Fluff: 0x000000
+Voice: 002FA5:life of crime.esp
+Race: 013742:Skyrim.esm
+Items:
+- Item:
+    Item: 00000F:Skyrim.esm
+    Count: 23
+- Item:
+    Item: 03133B:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 034C5D:Skyrim.esm
+    Count: 3
+AIData:
+  EnergyLevel: 50
+  Responsibility: NoCrime
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01326B:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Athlynn
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 5
+  - Key: TwoHanded
+    Value: 5
+  - Key: Archery
+    Value: 5
+  - Key: Block
+    Value: 5
+  - Key: Smithing
+    Value: 5
+  - Key: HeavyArmor
+    Value: 5
+  - Key: LightArmor
+    Value: 5
+  - Key: Pickpocket
+    Value: 5
+  - Key: Lockpicking
+    Value: 5
+  - Key: Sneak
+    Value: 5
+  - Key: Alchemy
+    Value: 5
+  - Key: Speech
+    Value: 5
+  - Key: Alteration
+    Value: 5
+  - Key: Conjuration
+    Value: 5
+  - Key: Destruction
+    Value: 5
+  - Key: Illusion
+    Value: 5
+  - Key: Restoration
+    Value: 5
+  - Key: Enchanting
+    Value: 5
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Magicka: 20036
+  Stamina: 19777
+  GearedUpWeapons: 1
+HeadParts:
+- 05392B:Skyrim.esm
+- 0E4DA4:Skyrim.esm
+- 0EC3C8:Skyrim.esm
+HairColor: 0A0438:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 10
+SoundLevel: Normal
+DefaultOutfit: 0958AA:Skyrim.esm
+TextureLighting: '#00799FB3'
+FaceMorph:
+  NoseLongVsShort: -0.53999996
+  JawUpVsDown: -0.42000002
+  JawNarrowVsWide: -0.38
+  CheeksUpVsDown: 0.39999998
+  CheeksForwardVsBack: -0.82
+  EyesUpVsDown: 0.22000003
+  EyesInVsOut: -0.38
+  BrowsUpVsDown: 0.36
+  BrowsInVsOut: -0.45999998
+  BrowsForwardVsBack: -0.42000002
+  LipsUpVsDown: -0.16000003
+  ChinUpVsDown: -0.92
+FaceParts:
+  Nose: 5
+  Eyes: 17
+  Mouth: 5
+TintLayers:
+- Index: 24
+  Color: '#00799FB3'
+  InterpolationValue: 1
+  Preset: 541
+- Index: 25
+  Color: '#00070C3D'
+  InterpolationValue: 0.71
+  Preset: 551
+- Index: 26
+  Color: '#00070C3D'
+  InterpolationValue: 0.71
+  Preset: 561
+- Index: 27
+  Color: '#00212B52'
+  InterpolationValue: 0.83
+  Preset: 568
+- Index: 30
+  Color: '#00070C3D'
+  InterpolationValue: 0.56
+  Preset: 582
+- Index: 35
+  Color: '#00000000'
+  InterpolationValue: 1
+  Preset: 1022
+MajorFlags:
+- 0x40000

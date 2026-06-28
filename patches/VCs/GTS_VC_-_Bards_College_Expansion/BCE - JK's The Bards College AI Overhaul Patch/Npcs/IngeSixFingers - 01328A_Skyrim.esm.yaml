@@ -1,0 +1,183 @@
+FormKey: 01328A:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: IngeSixFingers
+SkyrimMajorRecordFlags:
+- Compressed
+VirtualMachineAdapter:
+  Scripts:
+  - Name: WIDeadBodyCleanupScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeathContainer
+      Object: 08634D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WI
+      Object: 035D64:Skyrim.esm
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Female
+  - AutoCalcStats
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 4
+  CalcMaxLevel: 100
+  SpeedMultiplier: 100
+Factions:
+- Faction: 02817C:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 029DB0:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 053514:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0C13C7:Skyrim.esm
+  Fluff: 0x000000
+Voice: 013AE2:Skyrim.esm
+Race: 067CD8:Skyrim.esm
+SpectatorOverridePackageList: 18E45F:AI Overhaul.esp
+CombatOverridePackageList: 193565:AI Overhaul.esp
+Items:
+- Item:
+    Item: 0C13C9:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 1046D3:Skyrim.esm
+    Count: 1
+AIData:
+  Confidence: Cautious
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsFriendsAndAllies
+  Unused: 64
+Packages:
+- 0D6A04:Skyrim.esm
+- 0D6A11:Skyrim.esm
+- 0D6A5D:Skyrim.esm
+- 0A95C1:Skyrim.esm
+- 0248B9:kinggathcreations_bard.esm
+- 0C2A56:Skyrim.esm
+- 01B217:Skyrim.esm
+Class: 01325D:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Inge Six Fingers
+ShortName:
+  TargetLanguage: English
+  Value: Inge
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 17
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 17
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 19
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 23
+  - Key: Alteration
+    Value: 19
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 19
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 73
+  Magicka: 63
+  Stamina: 59
+  GearedUpWeapons: 1
+HeadParts:
+- 040224:Skyrim.esm
+- 0E4D88:Skyrim.esm
+- 0EAA74:Skyrim.esm
+- 0EC1B2:Skyrim.esm
+HairColor: 0A0437:Skyrim.esm
+NAM5: 255
+Height: 1
+SoundLevel: Normal
+DefaultOutfit: 0DAB78:Skyrim.esm
+SleepingOutfit: 01697D:Skyrim.esm
+CrimeFaction: 029DB0:Skyrim.esm
+TextureLighting: '#00DDDDDD'
+FaceMorph:
+  NoseLongVsShort: 0.1
+  NoseUpVsDown: 0.4
+  JawUpVsDown: 0.1
+  JawNarrowVsWide: -0.2
+  JawForwardVsBack: 0.5
+  CheeksUpVsDown: 0.8
+  CheeksForwardVsBack: 0.3
+  EyesUpVsDown: 0.4
+  EyesInVsOut: 0.4
+  BrowsUpVsDown: -0.6
+  BrowsInVsOut: -1
+  BrowsForwardVsBack: -0.9
+  LipsUpVsDown: 0.1
+  LipsInVsOut: 1
+  ChinNarrowVsWide: 0.2
+  ChinUpVsDown: 0.5
+  EyesForwardVsBack: -0.6
+  Unknown: 3.4028235E+38
+MajorFlags:
+- 0x40000

@@ -1,0 +1,41 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - Life of Crime.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: DEFAULT
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: SRC_ERS.esp
+    FileSize: 0
+  - Master: COTN - Falkreath.esp
+    FileSize: 0
+  - Master: COTN - Dawnstar.esp
+    FileSize: 0
+  - Master: COTN - Morthal.esp
+    FileSize: 0
+  - Master: Gourmet.esp
+    FileSize: 0
+  - Master: Skyrim On Skooma.esp
+    FileSize: 0
+  - Master: life of crime.esp
+    FileSize: 0
+  - Master: Vanilla hair remake SMP.esp
+    FileSize: 0
+  - Master: Dynamic NPC Hairstyles.esp
+    FileSize: 0
+  - Master: Taberu Animations - Gourmet Patch.esp
+    FileSize: 0
+  - Master: HammerHair.esp
+    FileSize: 0
+  - Master: The Great City of Winterhold v4.esp
+    FileSize: 0
+  INTV: 1

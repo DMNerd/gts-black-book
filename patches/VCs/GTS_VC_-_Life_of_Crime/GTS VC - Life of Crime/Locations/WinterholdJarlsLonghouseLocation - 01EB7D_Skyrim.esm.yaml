@@ -1,0 +1,57 @@
+FormKey: 01EB7D:Skyrim.esm
+EditorID: WinterholdJarlsLonghouseLocation
+LocationRefTypeReferencesAdded:
+- LocationRefType: 0130F7:Skyrim.esm
+  Ref: 01C1B5:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+- LocationRefType: 0130F7:Skyrim.esm
+  Ref: 01C1B6:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+- LocationRefType: 01BDF1:Skyrim.esm
+  Ref: 01EB80:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+- LocationRefType: 0205F0:Skyrim.esm
+  Ref: 05937C:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+- LocationRefType: 041FA8:Skyrim.esm
+  Ref: 0593C8:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+- LocationRefType: 041FA8:Skyrim.esm
+  Ref: 0593CB:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+- LocationRefType: 03F491:Skyrim.esm
+  Ref: 0940D6:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+- LocationRefType: 0C4A9A:Skyrim.esm
+  Ref: 0C4AA6:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+- LocationRefType: 0C4A84:Skyrim.esm
+  Ref: 0C4AC1:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+- LocationRefType: 06BF0B:life of crime.esp
+  Ref: 0F6689:Skyrim.esm
+  Location: 013818:Skyrim.esm
+  Grid: 32767, 32767
+InitiallyDisabledReferencesAdded:
+- 0940D6:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Jarl's Longhouse
+Keywords:
+- 0130DC:Skyrim.esm
+- 01CB85:Skyrim.esm
+- 0205ED:Skyrim.esm
+- 0C6726:Skyrim.esm
+- 01CD57:Skyrim.esm
+ParentLocation: 018A51:Skyrim.esm
+WorldLocationMarkerRef: 01EB80:Skyrim.esm
+WorldLocationRadius: 0

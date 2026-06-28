@@ -1,0 +1,97 @@
+FormKey: 01F0F8:kinggathcreations_bard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: kgcBardHijackSolitudeBardsCollege
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Bards College
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00575751'
+  DirectionalColor: '#00A8C1BD'
+  FogNearColor: '#003F5E81'
+  FogFar: 5000
+  FogClipDistance: 5200
+  FogPower: 0.9
+  AmbientColors:
+    DirectionalXPlus: '#004F4431'
+    DirectionalXMinus: '#0040442C'
+    DirectionalYPlus: '#0048472F'
+    DirectionalYMinus: '#0048402F'
+    DirectionalZPlus: '#00222015'
+    DirectionalZMinus: '#006D6748'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00325F65'
+  FogMax: 0.8
+  LightFadeBegin: 5000
+  LightFadeEnd: 6000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogFar
+LightingTemplate: 06256A:Skyrim.esm
+WaterHeight: 0
+Location: 020082:Skyrim.esm
+Owner: 0C13C7:Skyrim.esm
+LockList: 0248C0:kinggathcreations_bard.esm
+AcousticSpace: 0E3261:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0E461F:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 165BA0:AI Overhaul.esp
+  Base: 064106:Skyrim.esm
+  Owner: 0E77CB:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -407.05765, 232.44083, -1.5E-05
+    Rotation: 0, 0, 5.183188
+- MutagenObjectType: PlacedObject
+  FormKey: 165BA1:AI Overhaul.esp
+  Base: 064106:Skyrim.esm
+  Owner: 0E77CB:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -55.416782, 259.77972, -1.5E-05
+    Rotation: 0, 0, 3.8831882
+- MutagenObjectType: PlacedObject
+  FormKey: 165BA2:AI Overhaul.esp
+  Base: 0A2BBF:Skyrim.esm
+  Owner: 0E77CB:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: 101.7215, 275.23795, 0
+    Rotation: 0, 0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 165BA3:AI Overhaul.esp
+  Base: 052FF5:Skyrim.esm
+  Owner: 0E77CB:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: 32.552856, 97.98007, 0
+    Rotation: 0, 0, 1.600001
+- MutagenObjectType: PlacedObject
+  FormKey: 165BA4:AI Overhaul.esp
+  Base: 064106:Skyrim.esm
+  Owner: 0E77CB:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -397.63123, -152.30783, 0
+    Rotation: 0, 0, 5.2581882
+- MutagenObjectType: PlacedObject
+  FormKey: 165BA5:AI Overhaul.esp
+  Base: 0012D0:AI Overhaul.esp
+  Owner: 0E77CB:Skyrim.esm
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: 68.88305, -46.163357, 0
+    Rotation: 0, 0, 4.7831883
+MajorFlags:
+- 0x40000

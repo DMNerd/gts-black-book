@@ -1,0 +1,224 @@
+FormKey: 01329F:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: PanteaAteia
+SkyrimMajorRecordFlags:
+- Compressed
+VirtualMachineAdapter:
+  Scripts:
+  - Name: WIDeadBodyCleanupScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeathContainer
+      Object: 08634C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WI
+      Object: 035D64:Skyrim.esm
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Female
+  - AutoCalcStats
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 4
+  CalcMaxLevel: 100
+  SpeedMultiplier: 100
+Factions:
+- Faction: 02817C:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 029DB0:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 053514:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0C13C7:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0CF8F9:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 10A195:Skyrim.esm
+  Fluff: 0x000000
+Voice: 013ADD:Skyrim.esm
+Race: 013744:Skyrim.esm
+SpectatorOverridePackageList: 18E45F:AI Overhaul.esp
+CombatOverridePackageList: 193564:AI Overhaul.esp
+Items:
+- Item:
+    Item: 030F26:RFM.esm
+    Count: 1
+- Item:
+    Item: 0C13C9:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0DABA7:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 1046D3:Skyrim.esm
+    Count: 1
+AIData:
+  Confidence: Cautious
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsAllies
+  Unused: 96
+Packages:
+- 0B3B1B:Skyrim.esm
+- 0A95C0:Skyrim.esm
+- 022102:kinggathcreations_bard.esm
+- 0C4214:Skyrim.esm
+- 0B2411:Skyrim.esm
+- 095883:Skyrim.esm
+- 0A95C1:Skyrim.esm
+- 0248B9:kinggathcreations_bard.esm
+- 0C2A57:Skyrim.esm
+- 034BDF:Skyrim.esm
+- 021017:kinggathcreations_bard.esm
+Class: 01325D:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Pantea Ateia
+ShortName:
+  TargetLanguage: English
+  Value: Pantea
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 22
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 17
+  - Key: Block
+    Value: 20
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 20
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 19
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 23
+  - Key: Alteration
+    Value: 19
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 20
+  - Key: Illusion
+    Value: 19
+  - Key: Restoration
+    Value: 25
+  - Key: Enchanting
+    Value: 20
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 73
+  Magicka: 63
+  Stamina: 59
+  GearedUpWeapons: 1
+HeadParts:
+- 040225:Skyrim.esm
+- 0E4D9F:Skyrim.esm
+- 0EAA70:Skyrim.esm
+- 0EC1B2:Skyrim.esm
+HairColor: 0A042F:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 09D5E0:Skyrim.esm
+SleepingOutfit: 01697D:Skyrim.esm
+CrimeFaction: 029DB0:Skyrim.esm
+TextureLighting: '#00AC9F97'
+FaceMorph:
+  NoseLongVsShort: -0.3
+  NoseUpVsDown: -0.8
+  JawUpVsDown: -0.2
+  JawNarrowVsWide: -0.4
+  CheeksUpVsDown: -0.4
+  CheeksForwardVsBack: -0.2
+  EyesUpVsDown: 0.6
+  BrowsUpVsDown: 0.4
+  BrowsInVsOut: 0.7
+  LipsUpVsDown: -0.1
+  ChinNarrowVsWide: -0.6
+  ChinUpVsDown: 1
+  ChinUnderbiteVsOverbite: 0.62
+  Unknown: 3.4028235E+38
+FaceParts:
+  Nose: 11
+  Unknown: 4294967295
+  Eyes: 2
+  Mouth: 9
+TintLayers:
+- Index: 13
+  Color: '#00AC9F97'
+  InterpolationValue: 1
+  Preset: 493
+- Index: 26
+  Color: '#00212B52'
+  InterpolationValue: 0.19
+  Preset: 504
+- Index: 27
+  Color: '#00500901'
+  InterpolationValue: 0.76
+  Preset: 513
+- Index: 33
+  Color: '#000F0440'
+  InterpolationValue: 0.41
+  Preset: 937
+- Index: 34
+  Color: '#000F0440'
+  InterpolationValue: 0.35
+  Preset: 548
+- Index: 35
+  Color: '#00430401'
+  InterpolationValue: 0.42
+  Preset: 522
+MajorFlags:
+- 0x40000

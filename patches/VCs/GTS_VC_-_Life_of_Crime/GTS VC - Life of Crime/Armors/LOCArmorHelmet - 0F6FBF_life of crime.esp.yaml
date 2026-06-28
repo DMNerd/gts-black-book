@@ -1,0 +1,38 @@
+FormKey: 0F6FBF:life of crime.esp
+EditorID: LOCArmorHelmet
+ObjectBounds:
+  First: -10, -10, 0
+  Second: 10, 10, 18
+Name:
+  TargetLanguage: English
+  Value: Crowborn Helmet
+WorldModel:
+  Male:
+    Model:
+      File: Life of Crime\armor\helmetlightgo.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Hair
+  - LongHair
+  - Circlet
+  - Ears
+  ArmorType: HeavyArmor
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBD2:Skyrim.esm
+- 06BBE7:Skyrim.esm
+- 06C0EE:Skyrim.esm
+- 08F959:Skyrim.esm
+- 002ED9:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 0F6FC3:life of crime.esp
+- 0F6FC4:life of crime.esp
+- 0F6FC6:life of crime.esp
+Value: 300
+Weight: 6
+ArmorRating: 19

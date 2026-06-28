@@ -1,0 +1,35 @@
+FormKey: 000899:Vanilla hair remake SMP.esp
+EditorID: _JG_HairRedguard05AA
+BodyTemplate:
+  FirstPersonFlags:
+  - Hair
+  - LongHair
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Priority:
+  Male: 10
+  Female: 10
+WeightSliderEnabled:
+  Male: True
+  Female: False
+WorldModel:
+  Male:
+    File: actors\character\character assets\hair\wigs\maleredguardhair05_1.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: Clothes\FarmClothes01\hatf.nif
+    Data: 0x020000000000000000000000
+AdditionalRaces:
+- 013741:Skyrim.esm
+- 013744:Skyrim.esm
+- 013746:Skyrim.esm
+- 013748:Skyrim.esm
+- 067CD8:Skyrim.esm
+- 088794:Skyrim.esm
+- 08883C:Skyrim.esm
+- 088844:Skyrim.esm
+- 088846:Skyrim.esm
+- 097A3D:Skyrim.esm
+- 0A82BA:Skyrim.esm
+- 10760A:Skyrim.esm

@@ -1,0 +1,206 @@
+FormKey: 0B90E5:life of crime.esp
+EditorID: LOCR11
+VirtualMachineAdapter:
+  Scripts:
+  - Name: LOCRadiantMainScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCRadiantActive
+      Object: 05F903:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCRMain
+      Object: 05F8FE:life of crime.esp
+  - Name: QF_LOCR11_030B90E5
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boss
+      Object: 0B90E5:life of crime.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dungeon
+      Object: 0B90E5:life of crime.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 0B90E5:life of crime.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QuestGiver
+      Object: 0B90E5:life of crime.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Target
+      Object: 0B90E5:life of crime.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCR11
+      Object: 0B90E5:life of crime.esp
+  FileName: QF_LOCR11_030B90E5
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_LOCR11_030B90E5
+    FragmentName: Fragment_0
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_LOCR11_030B90E5
+    FragmentName: Fragment_2
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_LOCR11_030B90E5
+    FragmentName: Fragment_3
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_LOCR11_030B90E5
+    FragmentName: Fragment_4
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0B90E5:life of crime.esp
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 90
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 1
+Name:
+  TargetLanguage: English
+  Value: Koron's Legacy
+Priority: 40
+Type: SideQuest
+Stages:
+- {}
+- Index: 10
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been tasked with killing a Koron loyalist who is attempting to take control of a group of bandits in an attempt to rival the Crowborns.
+- Index: 90
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I was tasked with killing a Koron loyalist who was attempting to take control of a group of bandits in an attempt to rival the Crowborns.
+- Index: 100
+  Unknown: 40
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I was tasked with killing a Koron loyalist who was attempting to take control of a group of bandits in an attempt to rival the Crowborns. I completed the job.
+- Index: 200
+  Unknown: 40
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I was tasked with killing a Koron loyalist who was attempting to take control of a group of bandits in an attempt to rival the Crowborns. I was unable to complete the job.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the <Alias=Target> in <Alias=Dungeon>
+  Targets:
+  - AliasID: 4
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Tell <Alias.ShortName=Questgiver> the <Alias=Target> is dead
+  Targets:
+  - {}
+NextAliasID: 5
+Aliases:
+- Name: QuestGiver
+  Flags:
+  - Optional
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 002F9A:life of crime.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0823BD:life of crime.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 002F9B:life of crime.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Type: Location
+  Name: Dungeon
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0130F7:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130DF:Skyrim.esm
+    ComparisonValue: 1
+- ID: 2
+  Name: Boss
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  Location:
+    AliasID: 1
+    RefType: 0130F7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: Target
+  Flags:
+  - AllowDead
+  - StoresText
+  CreateReferenceToObject:
+    Object: 0B90E6:life of crime.esp
+    AliasID: 2
+    Level: VeryHard
+  Factions:
+  - 01BCC0:Skyrim.esm
+  PackageData:
+  - 0BFB6B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: MapMarker
+  Flags:
+  - Optional
+  Location:
+    AliasID: 1
+    RefType: 10F63C:Skyrim.esm
+  VoiceTypes: Null

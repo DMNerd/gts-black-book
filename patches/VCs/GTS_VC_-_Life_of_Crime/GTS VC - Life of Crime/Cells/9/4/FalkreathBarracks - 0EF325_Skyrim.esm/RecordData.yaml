@@ -1,0 +1,81 @@
+FormKey: 0EF325:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: FalkreathBarracks
+Version2: 5
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Falkreath Barracks
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00211E29'
+    DirectionalXMinus: '#001A1E26'
+    DirectionalYPlus: '#001E1F28'
+    DirectionalYMinus: '#001E1C28'
+    DirectionalZPlus: '#000E0E12'
+    DirectionalZMinus: '#002D2D3D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 1033AE:Skyrim.esm
+Owner: 02EBEC:Skyrim.esm
+SkyAndWeatherFromRegion: 10474D:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+Music: 06D546:Skyrim.esm
+ImageSpace: 059B60:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 048FD3:life of crime.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 00003B:Skyrim.esm
+  LocationReference: 1033AE:Skyrim.esm
+  Placement:
+    Position: 1536, -208, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 048FD4:life of crime.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  LocationReference: 1033AE:Skyrim.esm
+  Placement:
+    Position: 1488, -208, -70.346985
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedNpc
+  FormKey: 048FD5:life of crime.esp
+  MajorRecordFlagsRaw: 3072
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  Base: 048FCA:life of crime.esp
+  LocationReference: 1033AE:Skyrim.esm
+  Placement:
+    Position: 1440, -208, -70.247
+    Rotation: 0, -0, 1.5707964
+  MajorFlags:
+  - Persistent
+  - InitiallyDisabled
+MajorFlags:
+- 0x40000

@@ -1,0 +1,63 @@
+FormKey: 05B5DD:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: MorKhazgurLaraksLonghouse
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Larak's Longhouse
+Flags:
+- IsInteriorCell
+- ShowSky
+Lighting:
+  AmbientColor: '#00201C13'
+  DirectionalColor: '#00101212'
+  FogNearColor: '#00152221'
+  FogFar: 3000
+  DirectionalRotationZ: 90
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#00231C13'
+    DirectionalXMinus: '#001C1C12'
+    DirectionalYPlus: '#00201D13'
+    DirectionalYMinus: '#00201A13'
+    DirectionalZPlus: '#000F0D08'
+    DirectionalZMinus: '#00302A1D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#000C322E'
+  FogMax: 0.5
+  Inherits:
+  - ClipDistance
+LightingTemplate: 0345A4:Skyrim.esm
+WaterHeight: 0
+Location: 01F801:Skyrim.esm
+Owner: 0284B2:Skyrim.esm
+LockList: 09E468:Skyrim.esm
+SkyAndWeatherFromRegion: 0C5856:Skyrim.esm
+AcousticSpace: 0E3261:Skyrim.esm
+Music: 0B9DCB:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedNpc
+  FormKey: 05B688:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: BorgakhREF
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 019959:Skyrim.esm
+  LinkedReferences:
+  - KeywordOrReference: 0572B0:Skyrim.esm
+    Reference: 060707:Skyrim.esm
+  PersistentLocation: 01927C:Skyrim.esm
+  LocationReference: 01F801:Skyrim.esm
+  LocationRefTypes:
+  - 0130F7:Skyrim.esm
+  Placement:
+    Position: 20.342964, -340.5169, 9.661917
+    Rotation: 0, 0, 1.570798
+  MajorFlags:
+  - Persistent
+MajorFlags:
+- 0x40000

@@ -1,0 +1,44 @@
+FormKey: 12883B:life of crime.esp
+EditorID: LOCRO01Skooma
+ObjectBounds:
+  First: -2, -2, 0
+  Second: 2, 2, 12
+Name:
+  TargetLanguage: English
+  Value: Crowborn Skooma
+Keywords:
+- 000A4D:Gourmet.esp
+- 00093B:Gourmet.esp
+Model:
+  File: magus\gourmet\potionskooma.nif
+  Data: 0x02000000050000000000000063DF5C0164647300BFFA25DAB9FB95CF64647300BFFA25DAFAE0BBA4646473007F66A5C0CE353C0964647300262C333BFD5A856264647300BFFA25DA
+PickUpSound: 03EDBD:Skyrim.esm
+PutDownSound: 03EDC0:Skyrim.esm
+Weight: 0.5
+Value: 69
+Flags:
+- NoAutoCalc
+ConsumeSound: 0B6435:Skyrim.esm
+Effects:
+- BaseEffect: 000826:Gourmet.esp
+  Data:
+    Magnitude: 100
+    Duration: 120
+- BaseEffect: 00093E:Gourmet.esp
+  Data:
+    Magnitude: 100
+    Duration: 120
+- BaseEffect: 00093F:Gourmet.esp
+  Data:
+    Magnitude: 50
+    Duration: 120
+- BaseEffect: 000823:Gourmet.esp
+  Data:
+    Magnitude: 50
+    Duration: 120
+- BaseEffect: 00095F:Gourmet.esp
+  Data:
+    Duration: 1
+- BaseEffect: 000834:Taberu Animations - Gourmet Patch.esp
+  Data:
+    Duration: 10

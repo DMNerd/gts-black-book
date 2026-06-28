@@ -1,0 +1,37 @@
+FormKey: 1B3826:life of crime.esp
+EditorID: LOCHeistBossCuirass
+VirtualMachineAdapter:
+  Scripts:
+  - Name: LOCHeistBossArmorEquipScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCHeistBossArmorInvisibilitySpell
+      Object: 1B3824:life of crime.esp
+Name:
+  TargetLanguage: English
+  Value: Captain's Cuirass
+WorldModel:
+  Male:
+    Model:
+      File: Armor\Draugr\DraugrArmorMale_GO.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: HeavyArmor
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBD2:Skyrim.esm
+- 06BBD4:Skyrim.esm
+- 06C0EC:Skyrim.esm
+- 08F959:Skyrim.esm
+- 002ED8:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 018389:Skyrim.esm
+Value: 125
+Weight: 28
+ArmorRating: 25

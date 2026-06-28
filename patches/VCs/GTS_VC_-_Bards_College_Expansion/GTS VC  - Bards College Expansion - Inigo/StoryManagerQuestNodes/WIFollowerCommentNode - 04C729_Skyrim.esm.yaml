@@ -1,0 +1,19 @@
+FormKey: 04C729:Skyrim.esm
+EditorID: WIFollowerCommentNode
+Parent: 01379A:Skyrim.esm
+PreviousSibling: 047AE9:Skyrim.esm
+QuestFlags:
+- SharesEvent
+MaxConcurrentQuests: 0
+Quests:
+- Quest: 015AA5:Dawnguard.esm
+- Quest: 015AA4:Dawnguard.esm
+- Quest: 015AA3:Dawnguard.esm
+- Quest: 063C6F:BSHeartland.esm
+- Quest: 07456B:BSHeartland.esm
+- Quest: 07456C:BSHeartland.esm
+- Quest: 04C49D:Skyrim.esm
+- Quest: 04C6EB:Skyrim.esm
+- Quest: 04C727:Skyrim.esm
+- Quest: 37C015:BPUFXelzazFollower.esp
+- Quest: 092CD2:Inigo.esp

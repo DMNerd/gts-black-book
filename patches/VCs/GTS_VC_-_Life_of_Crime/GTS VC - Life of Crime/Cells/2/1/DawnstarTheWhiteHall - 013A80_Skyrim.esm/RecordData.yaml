@@ -1,0 +1,111 @@
+FormKey: 013A80:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DawnstarTheWhiteHall
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: The White Hall
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00211E29'
+    DirectionalXMinus: '#001A1E26'
+    DirectionalYPlus: '#001E1F28'
+    DirectionalYMinus: '#001E1C28'
+    DirectionalZPlus: '#000E0E12'
+    DirectionalZMinus: '#002D2D3D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: 0
+Location: 020062:Skyrim.esm
+Owner: 09DA45:Skyrim.esm
+SkyAndWeatherFromRegion: 0C5852:Skyrim.esm
+AcousticSpace: 0C5D0A:Skyrim.esm
+Music: 06D542:Skyrim.esm
+ImageSpace: 059B60:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 050767:life of crime.esp
+  MajorRecordFlagsRaw: 3072
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  Base: 050766:life of crime.esp
+  Owner: 103AE6:Skyrim.esm
+  LocationReference: 020062:Skyrim.esm
+  Placement:
+    Position: -1190.0183, 1059.2532, 458.02228
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 0F640A:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 06B30E:Skyrim.esm
+  Owner: 103AE6:Skyrim.esm
+  LocationReference: 020062:Skyrim.esm
+  Placement:
+    Position: -1552.7843, 1336.9192, 392.3101
+    Rotation: 0, -0, 1.5707964
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000BC8:COTN - Dawnstar.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 06B30E:Skyrim.esm
+  Owner: 103AE6:Skyrim.esm
+  LocationReference: 020062:Skyrim.esm
+  Placement:
+    Position: -1552.7843, 1336.9192, 392.31006
+    Rotation: 0, 0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 000BCC:COTN - Dawnstar.esp
+  Base: 0ED608:Skyrim.esm
+  RagdollData: 0x00000000003C05410000603A00D795BFDA0FC9BF000090B4F376484000000000BA9E1740060072B900E8542C000000800000008047A5C93F
+  LocationReference: 020062:Skyrim.esm
+  Placement:
+    Position: -1191.9342, 1012.59625, 458.278
+    Rotation: 0, 0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 000BCD:COTN - Dawnstar.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 0C2A05:Skyrim.esm
+  Owner: 103AE6:Skyrim.esm
+  LocationReference: 020062:Skyrim.esm
+  Placement:
+    Position: -1184.2637, 1044.6677, 392.31006
+    Rotation: 0, 0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 0F63FB:Skyrim.esm
+  Base: 0C2A05:Skyrim.esm
+  LocationRefTypes:
+  - 06BF0B:life of crime.esp
+  Owner: 103AE6:Skyrim.esm
+  LocationReference: 020062:Skyrim.esm
+  Placement:
+    Position: -1184.2637, 1044.6677, 392.3101
+    Rotation: 0, -0, 1.5707964
+MajorFlags:
+- 0x40000

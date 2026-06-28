@@ -1,0 +1,185 @@
+FormKey: 0620A0:life of crime.esp
+EditorID: LOCR02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: LOCRadiantMainScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCRadiantActive
+      Object: 05F903:life of crime.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCRMain
+      Object: 05F8FE:life of crime.esp
+  - Name: QF_LOCR02_030620A0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boss
+      Object: 0620A0:life of crime.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dungeon
+      Object: 0620A0:life of crime.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 0620A0:life of crime.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QuestGiver
+      Object: 0620A0:life of crime.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LOCR02
+      Object: 0620A0:life of crime.esp
+  FileName: QF_LOCR02_030620A0
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_LOCR02_030620A0
+    FragmentName: Fragment_0
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_LOCR02_030620A0
+    FragmentName: Fragment_1
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_LOCR02_030620A0
+    FragmentName: Fragment_2
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_LOCR02_030620A0
+    FragmentName: Fragment_5
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0620A0:life of crime.esp
+      Alias: 3
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: preRequisiteStage
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 90
+Name:
+  TargetLanguage: English
+  Value: Killing the Competition
+Priority: 40
+Type: SideQuest
+Stages:
+- Unknown: 155
+- Index: 10
+  Unknown: 155
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been sent to kill a group of bandits who have been stealing our customers.
+- Index: 90
+  Unknown: 155
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I was sent to kill a group of bandits who have been stealing our customers.
+- Index: 100
+  Unknown: 155
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I was sent to kill a group of bandits who have been stealing our customers. I completed the job.
+- Index: 200
+  Unknown: 135
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I was sent to kill a group of bandits who have been stealing our customers. I was unable to complete the job.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the leader of <Alias=Dungeon>
+  Targets:
+  - AliasID: 3
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Tell <Alias.ShortName=Questgiver> the leader of <Alias=Dungeon> is dead
+  Targets:
+  - {}
+NextAliasID: 5
+Aliases:
+- Name: QuestGiver
+  Flags:
+  - Optional
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 002F9A:life of crime.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0823BD:life of crime.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 002F9B:life of crime.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Type: Location
+  Name: Dungeon
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0130F7:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130DF:Skyrim.esm
+    ComparisonValue: 1
+- ID: 3
+  Name: Boss
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  Location:
+    AliasID: 2
+    RefType: 0130F7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: MapMarker
+  Flags:
+  - Optional
+  Location:
+    AliasID: 2
+    RefType: 10F63C:Skyrim.esm
+  VoiceTypes: Null
