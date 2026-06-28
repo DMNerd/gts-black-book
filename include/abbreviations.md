@@ -18,7 +18,7 @@
 
 *[COTR]: Charmers Of The Reach
 
-*[LORN]: Lost Races Of Nirn
+*[LRON]: Lost Races Of Nirn
 
 *[AIO]: All In One
 

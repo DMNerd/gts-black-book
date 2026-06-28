@@ -68,6 +68,6 @@ Listener Initiates appears to only a Fabulous Followers Override mod.
 [:lucide-file-text: Listeners initiates - Tragedian's Fabulous Followers SSE Override](https://www.nexusmods.com/skyrimspecialedition/mods/130465)
 
 ## Truth In Legends
-Requires a the Fixes and Tweaks mod.
+Requires the Fixes and Tweaks mod.
 
 [:lucide-file-text: Truth in Legends - Fixes and Tweaks](https://creations.bethesda.net/en/skyrim/details/02f74e04-b020-4010-94b1-a76e92bd19af/Truth_in_Legends___Fixes_and_Tweaks)

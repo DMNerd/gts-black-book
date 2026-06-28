@@ -49,7 +49,7 @@ Addons listed here are supported by their respective curators, and expected to w
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
 ??? success "GTS Legacy Lite"
-    GTS Legacy Lite is fully supported.
+    GTS Legacy Lite is fully supported with GTS v108.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/p1eq2i)
     
@@ -70,23 +70,128 @@ Addons listed here are supported by their respective curators, and expected to w
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
 
 ??? success "Honor In Death for GTS"
-    Honor In Death is supported.
+    Honor In Death is supported with GTS v108.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/kwkfuj)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1486194390161424495)
 
 ??? success "GTS - Brave Little Toaster Edition"
-    Brave Little Toaster Edition is supported.
+    Brave Little Toaster Edition is supported with GTS v108.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/myqt2f)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
 
+??? success "Kiza's Nordic UI for GTS"
+    Kiza's Nordic UI is supported with GTS v108.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/rjhvsf)
+    
+    [:fontawesome-brands-discord: Discord Thread](https://discord.com/channels/902984082181484615/1492528267411062956)
+
+??? success "GTS Unofficial Addon: Sidequests"
+    GTS Unofficial Addon: Sidequests is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/x5axps)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Beyond Reach"
+    GTS Unofficial Addon: Beyond Reach is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/hqnfby)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Motion Kombat"
+    GTS Unofficial Addon: Motion Kombat is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/8gir8y)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Gray Cowl"
+    GTS Unofficial Addon: Gray Cowl is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/jvftwi)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Valefrost"
+    GTS Unofficial Addon: Valefrost is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/eqae2z)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Midnight Sun"
+    GTS Unofficial Addon: Midnight Sun is supported with GTS v108.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/2x1n9v)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Clockwork"
+    GTS Unofficial Addon: Clockwork is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/5c1g1b)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Olenveld"
+    GTS Unofficial Addon: Olenveld is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/uiqcd7)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Chain of Time"
+    GTS Unofficial Addon: Chain of Time is supported with GTS v108.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/oye75r)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Vominheim"
+    GTS Unofficial Addon: Vominheim is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/runfg3)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Falskaar"
+    GTS Unofficial Addon: Falskaar is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/su3ckv)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: Summerset Isle"
+    GTS Unofficial Addon: Summerset Isle is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/evfiqz)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: DBVO Talion"
+    GTS Unofficial Addon: DBVO Talion is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/py5gf3)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
 ??? success "Just 3BA for GTS (NSFW)"
     Just 3BA for GTS is fully supported with GTS v108.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/t29mgm)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Unofficial Addon: OStim+Quests (NSFW)"
+    GTS Unofficial Addon: OStim+Quests is supported with GTS v108.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/pm8mrj)
     
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
@@ -99,6 +204,13 @@ Addons listed here are supported, but have not yet been updated to support the n
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/giui1z)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424858532846637210)
+
+??? question "GTS Unofficial Addon: More Music"
+    GTS Unofficial Addon: More Music is currently out of date. It only works OOTB in GTS v103 or older.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/2x1n9v)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
 ## Unsupported Addons
 Addons listed here may or may not work. Their curator offers no support for any potential issues and does not guarantee that the addon works on the newest GTS version.
