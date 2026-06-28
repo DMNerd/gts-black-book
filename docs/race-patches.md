@@ -17,7 +17,7 @@ Using custom races requires GTS Community Edition, since it patches all required
 ## Charmers Of The Reach
 The COTR patch is made for the UUNP version. I am unsure if there is any difference with the CBBE version.
 
-It Requires the dummy RaceCompatibility.esm from RCS' patch hub.
+It requires the dummy RaceCompatibility.esm from RCS' patch hub.
 
 [:lucide-file-text: COTR Mod Page](https://www.nexusmods.com/skyrimspecialedition/mods/27405)
 
@@ -36,7 +36,7 @@ LRON adds the following races:
 
 [:lucide-file-text: LRON Mod Page](https://www.nexusmods.com/skyrimspecialedition/mods/69467)
 
-[:lucide-package: GTS CE - LORN Patch](https://github.com/Hexanode0x0/gts-black-book/releases)
+[:lucide-package: GTS CE - LRON Patch](https://github.com/Hexanode0x0/gts-black-book/releases)
 
 ## Ohmes-Raht
 The Ohmes-Raht patch requires the main mod as well as a separate Updated Tweaks mod. Use the Aetherius variants of both.
