@@ -181,6 +181,13 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
+??? success "GTS Unofficial Addon: More Music"
+    GTS Unofficial Addon: More Music is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/2x1n9v)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
 ??? success "Just 3BA for GTS (NSFW)"
     Just 3BA for GTS is fully supported with GTS v108.
     
@@ -204,13 +211,6 @@ Addons listed here are supported, but have not yet been updated to support the n
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/giui1z)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424858532846637210)
-
-??? question "GTS Unofficial Addon: More Music"
-    GTS Unofficial Addon: More Music is currently out of date. It only works OOTB in GTS v103 or older.
-    
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/2x1n9v)
-    
-    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
 ## Unsupported Addons
 Addons listed here may or may not work. Their curator offers no support for any potential issues and does not guarantee that the addon works on the newest GTS version.
