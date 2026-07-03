@@ -12,8 +12,7 @@ How they function, how easy they are to install, or their content can vary vastl
 Since GTS itself is an active project, any addons may need to be updated to support newer versions, especially in wake of any large updates.
 This page is used to keep track of what collections are currently up-to-date and supported.
 
-If an addon is not listed here, that means it's status is unknown. If you wish for an addon to be added to this list, see [Contributing](contributing/#contributing){ data-preview } or leave a message in the [Black Book thread](https://discord.com/channels/902984082181484615/1520726956419710978) on the GTS Discord.
-
+If an addon is not listed here, that means it's status is unknown. If you wish for an addon to be added to this list, see [Contributing](contributing/#contributing){ data-preview } or leave a message in the [Black Book thread](https://discord.com/channels/902984082181484615/1520726956419710978) in the GTS Discord.
 
 !!! warning "NSFW"
 
@@ -32,21 +31,8 @@ If an addon is not listed here, that means it's status is unknown. If you wish f
 ## Supported Addons
 Addons listed here are supported by their respective curators, and expected to work.
 
-??? success "GTS Community Edition"
-    GTS CE is fully supported with GTS v108.
-    
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/hvfynw)
-    
-    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424039315616301146)
-    
-    [:octicons-mark-github-24: GitHub Repo](https://github.com/Hexanode0x0/GTS-Community-Edition)
-
-??? success "GTS - True Light"
-    GTS - True Light is fully supported with GTS v108.
-    
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/ailix7)
-    
-    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+!!! info "Notice"
+    GTS has updated recently and as such this list may not be entirely accurate at this time.
 
 ??? success "GTS Legacy Lite"
     GTS Legacy Lite is fully supported with GTS v108.
@@ -63,21 +49,21 @@ Addons listed here are supported by their respective curators, and expected to w
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
 ??? success "Daughter of Coldharbour, SDA in GTS."
-    Daughter of Coldharbor is supported, but it can replace the GTS - FDE patch, which is a very bad practice.
+    Daughter of Coldharbor is supported.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/cskwke)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
 
 ??? success "Honor In Death for GTS"
-    Honor In Death is supported with GTS v108.
+    Honor In Death is supported.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/kwkfuj)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1486194390161424495)
 
 ??? success "GTS - Brave Little Toaster Edition"
-    Brave Little Toaster Edition is supported with GTS v108.
+    Brave Little Toaster Edition is supported.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/myqt2f)
     
@@ -188,15 +174,22 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
-??? success "Just 3BA for GTS (NSFW)"
-    Just 3BA for GTS is fully supported with GTS v108.
+??? success "GTS - Some Dragonborns need Gamepads"
+    GTS - Some Dragonborns need Gamepads is supported.
     
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/t29mgm)
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/ajz80f)
     
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
+??? success "Beauty Salon for GTS"
+    Beauty Salon for GTS is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/ej5p4q)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1518756996906614919)
+
 ??? success "GTS Unofficial Addon: OStim+Quests (NSFW)"
-    GTS Unofficial Addon: OStim+Quests is supported with GTS v108.
+    GTS Unofficial Addon: OStim+Quests is supported.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/pm8mrj)
     
@@ -205,12 +198,35 @@ Addons listed here are supported by their respective curators, and expected to w
 ## Out of Date Addons
 Addons listed here are supported, but have not yet been updated to support the newest GTS version.
 
+??? question "GTS Community Edition"
+    GTS CE is in the process of being updated.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/hvfynw)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424039315616301146)
+    
+    [:octicons-mark-github-24: GitHub Repo](https://github.com/Hexanode0x0/GTS-Community-Edition)
+
+??? question "GTS - True Light"
+    GTS - True Light is in the process of being updated.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/ailix7)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
 ??? question "GTS Black - Power Fantasy GTS"
     GTS Black currently only supports GTS v104. It's in the process of being updated.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/giui1z)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424858532846637210)
+
+??? question "Just 3BA for GTS (NSFW)"
+    Just 3BA for GTS is fully in the process of being updated.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/t29mgm)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1518756996906614919)
 
 ## Unsupported Addons
 Addons listed here may or may not work. Their curator offers no support for any potential issues and does not guarantee that the addon works on the newest GTS version.
