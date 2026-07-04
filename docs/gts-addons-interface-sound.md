@@ -33,6 +33,6 @@ Addons listed here are supported by their respective curators, and expected to w
 ??? success "GTS Unofficial Addon: More Music"
     GTS Unofficial Addon: More Music is supported.
     
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/2x1n9v)
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/ll4pnu)
     
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
