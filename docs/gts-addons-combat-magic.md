@@ -61,21 +61,21 @@ Addons listed here are supported, but have not yet been updated to support the n
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424858532846637210)
 
-??? success "Honor In Death for GTS"
+??? question "Honor In Death for GTS"
     Honor In Death is in the process of being updated.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/kwkfuj)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1486194390161424495)
 
-??? success "Blessed Perks for GTS"
+??? question "Blessed Perks for GTS"
     Blessed Perks for GTS is in the process of being updated.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/kojve0)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1486194390161424495)
 
-??? success "Creature Animations for GTS"
+??? question "Creature Animations for GTS"
     Creature Animations for GTS is in the process of being updated.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/oy6eak)
