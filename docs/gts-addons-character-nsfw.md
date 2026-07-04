@@ -21,12 +21,12 @@ tags:
 ## Supported Addons
 Addons listed here are supported by their respective curators, and expected to work.
 
-??? success "Beauty Salon for GTS"
-    Beauty Salon for GTS is supported.
+??? success "Mannaz and Freyr for GTS"
+    Mannaz and Freyr for GTS is supported.
     
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/ej5p4q)
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/cda6ea)
     
-    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1518756996906614919)
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424858532846637210)
 
 ??? success "Roleplaying... in GTS"
     Roleplaying... in GTS is supported.
@@ -34,6 +34,13 @@ Addons listed here are supported by their respective curators, and expected to w
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/ockxzz)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
+
+??? success "Beauty Salon for GTS"
+    Beauty Salon for GTS is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/ej5p4q)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1518756996906614919)
 
 ??? success "GTS SkyRev Skins SFW"
     GTS SkyRev Skins SFW is supported.
@@ -102,6 +109,72 @@ Addons listed here are supported by their respective curators, and expected to w
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/wp5yr1)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
+
+??? success "GTS - Dibellan Arts Sheogorath Style (NSFW)"
+    GTS - Dibellan Arts Sheogorath Style is supported.
+
+    This addon is NSFW.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/nuwfgt)
+    
+    [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
+
+??? success "Body Swap updated (NSFW)"
+    Body Swap updated is supported.
+
+    This addon is NSFW.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/xa2h3u)
+    
+    [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
+
+??? success "Sheogorath Style lite (NSFW)"
+    Sheogorath Style lite is supported.
+
+    This addon is NSFW.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/01lzad)
+    
+    [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
+
+??? success "GTS-M'rissi-A Sheogorath Style Addon (NSFW)"
+    GTS-M'rissi-A Sheogorath Style Addon is supported.
+
+    This addon is NSFW.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/u3euhv)
+    
+    [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
+
+??? success "GTS ODF for Body Swap (NSFW)"
+    GTS ODF for Body Swap is supported.
+
+    This addon is NSFW.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/db2x6o)
+    
+    [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
+
+??? success "GTS - Fairies (NSFW)"
+    GTS - Fairies is supported.
+
+    This addon is NSFW.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/eykfps)
+    
+    [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
+
+## Out of Date Addons
+Addons listed here are supported, but have not yet been updated to support the newest GTS version.
+
+??? question "Sheo Style presents PSBoss (NSFW)"
+    Sheo Style presents PSBoss is supported.
+
+    This addon is NSFW.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/0gmvov)
+    
+    [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
 
 ## Deprecated Addons
 These addons are abandoned and have some severe issues, and should not be used with newer GTS versions.

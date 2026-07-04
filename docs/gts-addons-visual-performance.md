@@ -38,6 +38,13 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
 
+??? success "Runic Arts for GTS"
+    Runic Arts for GTS is supported.
+    
+    [:lucide-file-text: Collection Page](https://discord.com/channels/902984082181484615/1486194390161424495)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
+
 ## Out Of Date Addons
 Addons listed here are supported, but have not yet been updated to support the newest GTS version.
 

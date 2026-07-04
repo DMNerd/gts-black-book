@@ -16,6 +16,13 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Thread](https://discord.com/channels/902984082181484615/1492528267411062956)
 
+??? success "Vel'dun UI for GTS"
+    Vel'dun UI for GTS is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/veystx)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
 ??? success "GTS - Some Dragonborns need Gamepads"
     GTS - Some Dragonborns need Gamepads is supported.
     
@@ -36,3 +43,10 @@ Addons listed here are supported by their respective curators, and expected to w
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/ll4pnu)
     
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+??? success "GTS Sweet Immersion Breaking Clarity"
+    GTS Sweet Immersion Breaking Clarity is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/1mgdgk)
+    
+    [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)

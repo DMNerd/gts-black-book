@@ -42,6 +42,13 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
 
+??? success "GTS - For the Love of Followers"
+    GTS - For the Love of Followers is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/4j3ssn)
+    
+    [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
+
 ### Out of Date Addons
 Addons listed here are supported, but have not yet been updated to support the newest GTS version.
 
