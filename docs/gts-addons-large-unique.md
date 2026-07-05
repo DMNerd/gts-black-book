@@ -10,7 +10,7 @@ Here are addons that don't cleanly fit into the above categories, be it due to t
 Addons listed here are supported by their respective curators, and expected to work.
 
 ??? success "GTS Community Edition"
-    GTS CE is supported.
+    GTS CE is fully supported.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/hvfynw)
     
