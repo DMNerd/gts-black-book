@@ -23,6 +23,7 @@ nav = [
     {"GTS Addons" = [
         {"GTS Addons" = "gts-addons.md"},
         {"Visual & Performance Addons" = "gts-addons-visual-performance.md"},
+        {"Large & Unique Addons" = "gts-addons-large-unique.md"},
         {"Quest & New Land Addons" = "gts-addons-quest-land.md"},
         {"Combat & Magic Addons" = "gts-addons-combat-magic.md"},
         {"Interface & Sound Addons" = "gts-addons-interface-sound.md"},
