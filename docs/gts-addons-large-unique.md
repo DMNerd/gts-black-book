@@ -4,7 +4,7 @@ tags:
     - "Addon Collections"
 ---
 # Large & Unique Addons
-Here are addons that don't cleanly fit into the above categories, be it due to their large scope or uniqueness.
+Here are addons that don't cleanly fit into the other categories, be it due to their large scope or uniqueness.
 
 ## Supported Addons
 Addons listed here are supported by their respective curators, and expected to work.
