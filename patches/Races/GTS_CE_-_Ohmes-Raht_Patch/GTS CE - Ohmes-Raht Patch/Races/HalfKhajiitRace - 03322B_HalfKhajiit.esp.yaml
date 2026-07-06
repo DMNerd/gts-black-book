@@ -100,11 +100,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: actors\character\character assets\race\skeletonKhajiit.nif
+    File: actors\character\character assets\race\skeletonBosmer.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: actors\character\character assets female\race\skeletonKhajiit.nif
+    File: actors\character\character assets female\race\skeletonBosmer.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO
