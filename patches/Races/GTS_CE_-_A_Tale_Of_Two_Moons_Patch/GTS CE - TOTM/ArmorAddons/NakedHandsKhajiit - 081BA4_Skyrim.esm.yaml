@@ -1,0 +1,43 @@
+FormKey: 081BA4:Skyrim.esm
+EditorID: NakedHandsKhajiit
+BodyTemplate:
+  FirstPersonFlags:
+  - Hands
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 013745:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: True
+  Female: True
+Unknown2: 23
+WorldModel:
+  Male:
+    File: actors\character\character assets\malehandsbeast_1.nif
+    Data: 0x020000000400000000000000163C27B5646473002B3A5B583CC0B444646473002B3A5B589FAFD911646473000FD3010C6A1DD8C7646473002B3A5B58
+  Female:
+    File: actors\character\character assets\femalehandsbeast_1.nif
+    Data: 0x020000000400000000000000619C2F816464730046541E64C47B49826464730046541E6494B0B00A6464730066BB204CBB6570716464730046541E64
+FirstPersonModel:
+  Male:
+    File: actors\character\character assets\1stpersonmalehandsbeast_1.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: actors\character\character assets\1stpersonfemalehandsbeast_1.nif
+    Data: 0x020000000000000000000000
+SkinTexture:
+  Male: 081BA0:Skyrim.esm
+  Female: 0B79B7:Skyrim.esm
+AdditionalRaces:
+- 088845:Skyrim.esm
+- 000D62:KhajiitChildren.esp
+- 000800:ToTM.esp
+- 000801:ToTM.esp
+- 000802:ToTM.esp
+- 000803:ToTM.esp
+- 000804:ToTM.esp
+- 000805:ToTM.esp
+- 000806:ToTM.esp
+- 000813:ToTM.esp

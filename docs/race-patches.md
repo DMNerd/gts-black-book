@@ -46,3 +46,12 @@ It also requires the dummy RaceCompatibility.esm file from RCS' patch hub.
 [:lucide-file-text: Ohmes-Raht Updated Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/35644)
 
 [:lucide-package: GTS CE - Ohmes-Raht Patch](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Races)
+
+## A Tale of Two Moons
+The Tale of Two Moons patch requires the main mod as well as an Aetherious Patch.
+
+[:lucide-file-text: A Tale of Two Moons](https://www.nexusmods.com/skyrimspecialedition/mods/112345)
+
+[:lucide-file-text: A Tale of Two Moons - Aetherious Edition](https://www.nexusmods.com/skyrimspecialedition/mods/146111)
+
+[:lucide-package: GTS CE - A Tale of Two Moons Patch](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Races)

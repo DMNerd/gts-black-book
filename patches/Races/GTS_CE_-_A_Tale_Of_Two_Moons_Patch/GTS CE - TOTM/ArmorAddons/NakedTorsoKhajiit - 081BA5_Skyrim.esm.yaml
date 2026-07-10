@@ -1,0 +1,47 @@
+FormKey: 081BA5:Skyrim.esm
+EditorID: NakedTorsoKhajiit
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  - Forearms
+  - Amulet
+  - Ring
+  - Calves
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 013745:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: True
+  Female: True
+Unknown2: 23
+WorldModel:
+  Male:
+    File: Actors\Character\Character Assets\MaleBody_1.NIF
+    Data: 0x02000000060000000000000037FBB636646473000FD3010CD2B0412D646473000FD3010C76F00CEC646473000FD3010C224CE083646473000FD3010CF042E4F4646473000FD3010C7DA1F730646473000FD3010C
+  Female:
+    File: Actors\Character\Character Assets\FemaleBody_1.nif
+    Data: 0x020000000600000000000000628B0C5E6464730066BB204C450088BA6464730066BB204CE403E00A6464730066BB204C295389986464730066BB204CA5325E9C6464730066BB204CAF0C34576464730066BB204C
+FirstPersonModel:
+  Male:
+    File: Actors\Character\Character Assets\1stPersonMaleBody_1.NIF
+    Data: 0x020000000000000000000000
+  Female:
+    File: Actors\Character\Character Assets\1stPersonFemaleBody_1.nif
+    Data: 0x020000000000000000000000
+SkinTexture:
+  Male: 081B9F:Skyrim.esm
+  Female: 0B79B8:Skyrim.esm
+AdditionalRaces:
+- 088845:Skyrim.esm
+- 000D62:KhajiitChildren.esp
+- 000800:ToTM.esp
+- 000801:ToTM.esp
+- 000802:ToTM.esp
+- 000803:ToTM.esp
+- 000804:ToTM.esp
+- 000805:ToTM.esp
+- 000806:ToTM.esp
+- 000813:ToTM.esp

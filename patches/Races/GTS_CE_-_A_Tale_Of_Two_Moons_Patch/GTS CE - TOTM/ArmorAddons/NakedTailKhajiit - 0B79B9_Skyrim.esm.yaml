@@ -1,0 +1,35 @@
+FormKey: 0B79B9:Skyrim.esm
+EditorID: NakedTailKhajiit
+BodyTemplate:
+  FirstPersonFlags:
+  - Tail
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 013745:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 23
+WorldModel:
+  Male:
+    File: actors\character\character assets\maletailkhajiitfluffy.nif
+    Data: 0x0200000004000000000000008D6B5EFC646473000CB2D56027A5FBB6646473000CB2D560F042E4F4646473000FD3010C95C362A0646473000CB2D560
+  Female:
+    File: actors\character\character assets\femaletailkhajiitfluffy.nif
+    Data: 0x02000000040000000000000055A12A7864647300BFD5B85D0CDCA56864647300BFD5B85DA5325E9C6464730066BB204C5823329264647300BFD5B85D
+SkinTexture:
+  Male: 000D62:Slof's Fluffy Khajiit Tails.esp
+  Female: 000D63:Slof's Fluffy Khajiit Tails.esp
+AdditionalRaces:
+- 088845:Skyrim.esm
+- 000800:ToTM.esp
+- 000801:ToTM.esp
+- 000802:ToTM.esp
+- 000803:ToTM.esp
+- 000804:ToTM.esp
+- 000805:ToTM.esp
+- 000806:ToTM.esp
+- 000813:ToTM.esp

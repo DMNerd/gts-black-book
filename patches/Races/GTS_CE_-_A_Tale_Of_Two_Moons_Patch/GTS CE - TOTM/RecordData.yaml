@@ -1,0 +1,25 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.41
+ModKey: GTS CE - TOTM.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: KhajiitChildren.esp
+    FileSize: 0
+  - Master: ToTM.esp
+    FileSize: 0
+  - Master: Slof's Fluffy Khajiit Tails.esp
+    FileSize: 0
+  - Master: Aetherius.esp
+    FileSize: 0
+  - Master: ToTM - Aetherius Edition.esp
+    FileSize: 0
+  INCC: 0
