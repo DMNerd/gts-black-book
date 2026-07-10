@@ -45,6 +45,13 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424055746458423347)
 
+??? success "GTS Unofficial Addon: Meshes++"
+    GTS Unofficial Addon: Meshes++ is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/u8cmpk)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
 ## Out Of Date Addons
 Addons listed here are supported, but have not yet been updated to support the newest GTS version.
 
