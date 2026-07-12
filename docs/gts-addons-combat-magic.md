@@ -9,13 +9,6 @@ This page lists addons that overhaul combat, or add new spells.
 ## Supported Addons
 Addons listed here are supported by their respective curators, and expected to work.
 
-??? success "GTS Unofficial Addon: Motion Kombat"
-    GTS Unofficial Addon: Motion Kombat is supported.
-    
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/8gir8y)
-    
-    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
-
 ??? success "GTS - Darenii's Spells"
     While the author is absent, GTS - Darenii's Spells should work fine for the foreseeable future due to how it's constructed.
     
@@ -60,6 +53,13 @@ Addons listed here are supported, but have not yet been updated to support the n
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/giui1z)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424858532846637210)
+
+??? question "GTS Unofficial Addon: Motion Kombat"
+    GTS Unofficial Addon: Motion Kombat is in the process of being updated.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/8gir8y)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
 ??? question "Honor In Death for GTS"
     Honor In Death is in the process of being updated.

@@ -37,13 +37,6 @@ Addons listed here are supported by their respective curators, and expected to w
 
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
-??? success "GTS Unofficial Addon: Sidequests"
-    GTS Unofficial Addon: Sidequests is supported.
-    
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/x5axps)
-    
-    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
-
 ??? success "GTS Unofficial Addon: Beyond Reach"
     GTS Unofficial Addon: Beyond Reach is supported.
     
@@ -111,6 +104,16 @@ Addons listed here are supported by their respective curators, and expected to w
     GTS Unofficial Addon: Summerset Isle is supported.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/evfiqz)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+## Out of Date Addons
+Addons listed here are supported, but have not yet been updated to support the newest GTS version.
+
+??? question "GTS Unofficial Addon: Sidequests"
+    GTS Unofficial Addon: Sidequests is in the process of being updated.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/x5axps)
     
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 

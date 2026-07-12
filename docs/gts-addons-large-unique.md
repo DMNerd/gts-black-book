@@ -39,6 +39,14 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424043173428199597)
 
+??? success "GTS Unofficial Addon: Family Life"
+    GTS Unofficial Addon: Family Life is supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/tohany)
+    
+    [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
+
+
 ## Deprecated Addons
 These addons are abandoned and have some severe issues, and should not be used with newer GTS versions.
 
