@@ -6,7 +6,7 @@ GameRelease: SkyrimSE
 ModHeader:
   Flags:
   - Small
-  Author: ''
+  Author: DEFAULT
   MasterReferences:
   - Master: Skyrim.esm
     FileSize: 0
@@ -14,15 +14,36 @@ ModHeader:
     FileSize: 0
   - Master: Dawnguard.esm
     FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
   - Master: Dragonborn.esm
     FileSize: 0
+  - Master: ccbgssse001-fish.esm
+    FileSize: 0
+  - Master: ccqdrsse001-survivalmode.esl
+    FileSize: 0
+  - Master: ccbgssse037-curios.esl
+    FileSize: 0
+  - Master: ccbgssse025-advdsgs.esm
+    FileSize: 0
+  - Master: _ResourcePack.esl
+    FileSize: 0
   - Master: dv01vampireclanwar.esm
-    FileSize: 0
-  - Master: OldBlood.esp
-    FileSize: 0
-  - Master: Scion.esp
     FileSize: 0
   - Master: Artificer.esp
     FileSize: 0
   - Master: Dynamic NPC Hairstyles.esp
     FileSize: 0
+  - Master: MysticismMagic.esp
+    FileSize: 0
+  - Master: OldBlood.esp
+    FileSize: 0
+  - Master: Scion.esp
+    FileSize: 0
+  - Master: Thaumaturgy.esp
+    FileSize: 0
+  - Master: ForgottenCity.esp
+    FileSize: 0
+  - Master: Vanilla hair remake SMP.esp
+    FileSize: 0
+  INTV: 1

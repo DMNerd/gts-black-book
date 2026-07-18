@@ -1,0 +1,64 @@
+FormKey: 117567:dv01vampireclanwar.esm
+EditorID: DV1QuarraTeleport
+VirtualMachineAdapter:
+  Scripts:
+  - Name: dv01TeleportAmuletScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: currentAnimal
+      Object: 0750BA:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollower
+      Object: 0750BA:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DA16
+      Object: 0242AF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC1SeranaRef
+      Object: 002B74:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DVCannotFastTravel
+      Object: 11756D:dv01vampireclanwar.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ForgottenCityQuest
+      Object: 05965B:ForgottenCity.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Survival_OblivionAreas
+      Object: 00092E:ccqdrsse001-survivalmode.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Survival_OblivionCells
+      Object: 00092B:ccqdrsse001-survivalmode.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Survival_OblivionLocations
+      Object: 00092D:ccqdrsse001-survivalmode.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: teleportDestination
+      Object: 12BB23:dv01vampireclanwar.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TeleportImod
+      Object: 10B1FB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TeleportSound
+      Object: 013781:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WIFollowerCommentFaction
+      Object: 0750B8:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Return to Quarra Lair
+MenuDisplayObject: 12714B:dv01vampireclanwar.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Teleports you back to Quarra Lair from a safe outdoor location.
