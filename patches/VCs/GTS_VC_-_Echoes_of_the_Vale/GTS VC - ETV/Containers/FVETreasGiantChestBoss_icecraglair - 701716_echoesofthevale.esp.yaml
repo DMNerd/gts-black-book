@@ -1,0 +1,73 @@
+FormKey: 701716:echoesofthevale.esp
+MajorRecordFlagsRaw: 134217728
+EditorID: FVETreasGiantChestBoss_icecraglair
+SkyrimMajorRecordFlags:
+- 0x8000000
+ObjectBounds:
+  First: -65, -34, 0
+  Second: 65, 34, 85
+Name:
+  TargetLanguage: English
+  Value: Chest
+Model:
+  File: Clutter\Ruins\Ruins_LargeChest.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 03A5A6:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 08777D:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 08FFF4:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0D06FB:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0D06FC:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0D06FD:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0D06FE:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0D0700:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0D0701:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0FFF52:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 101073:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 1031D0:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 104ABB:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10F9B5:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000867:C.O.I.N.esp
+    Count: 1
+- Item:
+    Item: 000880:C.O.I.N.esp
+    Count: 1
+- Item:
+    Item: 000892:C.O.I.N.esp
+    Count: 1
+- Item:
+    Item: 00093C:C.O.I.N.esp
+    Count: 5
+Flags:
+- Respawns
+MajorFlags:
+- NavMeshGenerationBoundingBox

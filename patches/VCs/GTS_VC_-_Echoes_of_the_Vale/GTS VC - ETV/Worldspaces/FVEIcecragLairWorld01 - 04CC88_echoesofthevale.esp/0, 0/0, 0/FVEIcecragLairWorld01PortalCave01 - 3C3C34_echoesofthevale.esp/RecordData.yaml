@@ -1,0 +1,29 @@
+FormKey: 3C3C34:echoesofthevale.esp
+EditorID: FVEIcecragLairWorld01PortalCave01
+Flags:
+- HasWater
+Grid:
+  Point: 1, 4
+  Flags: -1518639360
+WaterHeight: 3.4028235E+38
+Regions:
+- 7D2A89:echoesofthevale.esp
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 6FC4E9:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000804:SnowElvenArsenal.esp
+  Placement:
+    Position: 6360.8477, 17531.31, 496.83862
+    Rotation: 1.7361461, -1.3042428, 0.323811
+- MutagenObjectType: PlacedObject
+  FormKey: 6FC520:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000800:SnowElvenArsenal.esp
+  Placement:
+    Position: 5685.0103, 18100.64, 459.17844
+    Rotation: 0.15968877, -0.20372096, 3.312053

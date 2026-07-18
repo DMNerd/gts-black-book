@@ -1,0 +1,26 @@
+FormKey: 02EE58:echoesofthevale.esp
+EditorID: FVEMiscSackLargeFlat03_loot
+ObjectBounds:
+  First: -42, -25, -19
+  Second: 30, 27, 8
+Name:
+  TargetLanguage: English
+  Value: Large Sack
+Model:
+  File: Clutter\Containers\MiscSackLargeFlat03.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 063B44:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 098626:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0E42E1:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000809:SnowElvenArsenal.esp
+    Count: 1
+OpenSound: 084D0E:Skyrim.esm
+CloseSound: 084D0F:Skyrim.esm

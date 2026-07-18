@@ -1,0 +1,37 @@
+FormKey: 00705F:Dawnguard.esm
+EditorID: DLC1_SnowElfThrone
+ObjectBounds:
+  First: -62, -56, 0
+  Second: 62, 80, 152
+Name:
+  TargetLanguage: English
+  Value: Throne
+Model:
+  File: Architecture\Sovengarde\SovngardeInterior\SOVThrone01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: SOVThrone01:0
+    NewTexture: 9301F3:echoesofthevale.esp
+  - Name: SOVThrone01:12
+    NewTexture: 9301FC:echoesofthevale.esp
+    Index: 2
+  - Name: SOVThrone01:17
+    NewTexture: 7AF022:echoesofthevale.esp
+    Index: 3
+  - Name: SOVThrone01:4
+    NewTexture: 9301F3:echoesofthevale.esp
+    Index: 1
+Keywords:
+- 007060:Dawnguard.esm
+PNAM: 0x00000000
+Flags:
+- 0x40000000
+WorkbenchData:
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  EntryPoints:
+    Type:
+    - Sit
+    Points:
+    - Front

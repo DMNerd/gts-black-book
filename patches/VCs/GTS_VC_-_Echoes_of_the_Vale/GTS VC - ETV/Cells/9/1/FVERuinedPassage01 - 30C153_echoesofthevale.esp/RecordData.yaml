@@ -1,0 +1,53 @@
+FormKey: 30C153:echoesofthevale.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: FVERuinedPassage01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Ruined Passage
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00252530'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#0011110B'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#0011110B'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0300E2:Skyrim.esm
+WaterHeight: 0
+Location: 7678C4:echoesofthevale.esp
+SkyAndWeatherFromRegion: 04D7FD:Skyrim.esm
+AcousticSpace: 0C5B6D:Skyrim.esm
+EncounterZone: 7678DC:echoesofthevale.esp
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 04E666:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 89998C:echoesofthevale.esp
+  Base: 000841:SnowElvenArsenal.esp
+  Placement:
+    Position: 2574.201, 7426.306, 1619.1862
+    Rotation: -0.0065659117, -0.008740788, 0.6003709
+MajorFlags:
+- 0x40000

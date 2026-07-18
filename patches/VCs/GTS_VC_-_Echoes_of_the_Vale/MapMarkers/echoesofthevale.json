@@ -1,0 +1,141 @@
+ {
+// [Echoes of the Vale](https://creations.bethesda.net/en/skyrim/details/5476/Echoes_of_the_Vale)
+  "mapMarkers": [
+    {
+      "refID": "echoesofthevale.esp|39AD93", // Darkmaw Vale (Original Marker: Pass)
+      "iconName": "SkyrimMarker"
+    },
+    {
+      "refID": "echoesofthevale.esp|35DC40", // Frozen Glade (Original Marker: Pass)
+      "iconName": "SkyrimMarker"
+    },
+    {
+      "refID": "echoesofthevale.esp|362D55", // Initiate's Rest (Original Marker: Grove)
+      "iconName": "SkyrimMarker"
+    },
+    {
+      "refID": "echoesofthevale.esp|69B2C5", // Inner Sanctum (Original Marker: Shrine)
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|81D", // Auriel's Platform (Original Marker: Shrine)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|835", // Chantry of Auri-El (Original Marker: Shrine)
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|821", // Curate's Platform (Original Marker: Shrine)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|836", // Darkfall Grotto (Original Marker: Clearing)
+      "iconName": "LargeCavernMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|818", // Darkmaw River (Original Marker: Shrine)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|820", // Eoten's Hollow (Original Marker: GiantCamp)
+      "iconName": "LargeCavernMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|816", // Escape Tunnel (Original Marker: Cave)
+      "iconName": "GlacialCaveMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|837", // Falmer Fissure (Original Marker: Camp)
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|81E", // Flowstone Cave (Original Marker: Cave)
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|840", // Forgotten Vale Cave (Original Marker: Cave)
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|838", // Forgotten Vale Forest (Original Marker: Altar)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|839", // Forgotten Vale Overlook (Original Marker: Altar)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|807", // Frozen Crypt (Original Marker: Cave)
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|809", // Frozen Sepulchre (Original Marker: Cave)
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|808", // Frozen Tomb (Original Marker: Cave)
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|827", // Glacial Chapel (Original Marker: Altar)
+      "iconName": "GlacialCaveMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|825", // Hall of the Curates (Original Marker: Altar)
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|826", // Ice Notch Cave (Original Marker: Cave)
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|81F", // Icecrag Lair (Original Marker: GiantCamp)
+      "iconName": "KarstaagMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|80A", // Initiate's Platform (Original Marker: Shrine)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|83A", // Paragon Platform (Original Marker: Altar)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|824", // Ruined Caldera (Original Marker: Pass)
+      "iconName": "SkyrimMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|823", // Ruined Passage (Original Marker: Cave)
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|828", // Snow Prince Porch (Original Marker: Landmark)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|83D", // Under Sanctum (Original Marker: Camp)
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|83E", // Village of the Betrayed (Original Marker: Camp)
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|842", // Wayshrine of Learning (Original Marker: Shrine)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|843", // Wayshrine of Radiance (Original Marker: Shrine)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|844", // Wayshrine of Resolution (Original Marker: Shrine)
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "GTS VC - Echoes of the Vale.esp|841", // Wayshrine of Sight (Original Marker: Shrine)
+      "iconName": "SnowElfRuinsMarker"
+    }
+  ]
+}

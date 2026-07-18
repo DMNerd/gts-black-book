@@ -1,0 +1,131 @@
+FormKey: 08EADC:echoesofthevale.esp
+EditorID: FVEDarkmawValeWorld01
+Name:
+  TargetLanguage: English
+  Value: Darkmaw Vale
+EncounterZone: 7678D3:echoesofthevale.esp
+Location: 7678B8:echoesofthevale.esp
+Parent:
+  Worldspace: 000BB5:Dawnguard.esm
+  Flags:
+  - UseMapData
+  - UseClimateData
+Water: 00CE72:Dawnguard.esm
+LodWater: 108AC7:Skyrim.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultWaterHeight: -3000
+WorldMapOffsetScale: 0.5
+WorldMapCellOffset: 2593.66, 494.873, 0
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+ObjectBoundsMin: -2, -3
+ObjectBoundsMax: 7, 6
+Music: 00EF94:Dawnguard.esm
+TopCell:
+  FormKey: 08EBCA:echoesofthevale.esp
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: -1528688384
+  WaterHeight: 3.4028235E+38
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 000814:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMODarkmawDelve
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Darkmaw Delve
+      Type: Cave
+    Placement:
+      Position: 8285.5, 1327.41, -1011.5
+      Rotation: 0, 0, 2.4635322
+  - MutagenObjectType: PlacedObject
+    FormKey: 00081A:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOSouthDarkmawDeep
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: South Darkmaw Deep
+      Type: Cave
+    Placement:
+      Position: 6254.29, -444.759, 3.04041
+      Rotation: 0, 0, 2.2699053
+  - MutagenObjectType: PlacedObject
+    FormKey: 00081B:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOLowerDarkmawFissure
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Lower Darkmaw Fissure
+      Type: Cave
+    Placement:
+      Position: 7209.6, 6040.63, -994.639
+      Rotation: 0, 0, 5.5604095
+  - MutagenObjectType: PlacedObject
+    FormKey: 00081C:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOUpperDarkmawFissure
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Upper Darkmaw Fissure
+      Type: Cave
+    Placement:
+      Position: 4175.35, 3672.66, 716.254
+      Rotation: 0, 0, 0.6730531
+  - MutagenObjectType: PlacedObject
+    FormKey: 000829:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOAbandonedCamp
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Abandoned Camp
+      Type: ImperialCamp
+    Placement:
+      Position: 6301.78, 2583.71, -984.876
+      Rotation: 0, 0, 1.7335535
+  - MutagenObjectType: PlacedObject
+    FormKey: 00082A:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMONorthDarkmawDeep
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: North Darkmaw Deep
+      Type: Cave
+    Placement:
+      Position: 10794.8, 3691.04, 332.881
+      Rotation: 0, 0, 1.6041914
+  MajorFlags:
+  - Persistent
+  - 0x40000

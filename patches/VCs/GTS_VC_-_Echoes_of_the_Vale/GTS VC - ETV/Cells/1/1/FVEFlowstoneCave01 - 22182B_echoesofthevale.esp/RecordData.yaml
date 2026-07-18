@@ -1,0 +1,84 @@
+FormKey: 22182B:echoesofthevale.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: FVEFlowstoneCave01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Flowstone Cave
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#0062EE8F'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#009BA28C'
+  FogNear: 1400
+  FogFar: 9000
+  FogClipDistance: 9000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00949B84'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 016073:Dawnguard.esm
+WaterHeight: 0
+Location: 7678C8:echoesofthevale.esp
+Water: 019C98:Dawnguard.esm
+SkyAndWeatherFromRegion: 018C4E:Dawnguard.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 7678D0:echoesofthevale.esp
+Music: 094BDD:Skyrim.esm
+ImageSpace: 013B32:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 2219C1:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: defaultDisableHavokOnLoad
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: havokOnActivate
+      - MutagenObjectType: ScriptBoolProperty
+        Name: havokOnHit
+      - MutagenObjectType: ScriptBoolProperty
+        Name: havokOnZKey
+  Base: 000B6D:SnowElvenArsenal.esp
+  Placement:
+    Position: -1071.9795, -21.816298, 423.8327
+    Rotation: 2.2394922, -0.35998067, 2.516865
+- MutagenObjectType: PlacedObject
+  FormKey: 2219D7:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000804:SnowElvenArsenal.esp
+  Placement:
+    Position: -1250.5598, -253.77298, 395.8564
+    Rotation: 6.2482786, 6.265732, 1.8207483
+MajorFlags:
+- 0x40000

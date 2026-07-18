@@ -1,0 +1,87 @@
+FormKey: 12C90D:echoesofthevale.esp
+EditorID: FVECampResolveWorld01
+Name:
+  TargetLanguage: English
+  Value: Camp Resolve
+EncounterZone: 7678D7:echoesofthevale.esp
+Location: 7678BC:echoesofthevale.esp
+Parent:
+  Worldspace: 000BB5:Dawnguard.esm
+  Flags:
+  - UseMapData
+  - UseClimateData
+Water: 019C98:Dawnguard.esm
+LodWater: 019C98:Dawnguard.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: 500
+  DefaultWaterHeight: -100
+WorldMapOffsetScale: 1
+WorldMapCellOffset: 11556.5, -1963.63, 0
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+ObjectBoundsMin: -3, -4
+ObjectBoundsMax: 5, 5
+Music: 08690F:Skyrim.esm
+TopCell:
+  FormKey: 12C982:echoesofthevale.esp
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: -1531518976
+  WaterHeight: 3.4028235E+38
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 000816:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOEscapeTunnel
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Escape Tunnel
+      Type: Cave
+    Placement:
+      Position: -1926.6, 2011, 1361.36
+      Rotation: 0, 0, 4.8013134
+  - MutagenObjectType: PlacedObject
+    FormKey: 000817:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOCampResolve
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Camp Resolve
+      Type: ImperialCamp
+    Placement:
+      Position: 2928.05, 2120.98, 487.653
+      Rotation: 0, 0, 6.190002
+  - MutagenObjectType: PlacedObject
+    FormKey: 000818:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMODarkmawRiver
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Darkmaw River
+      Type: Shrine
+    Placement:
+      Position: 2493.78, 4706.74, 809.82
+      Rotation: 0, 0, 5.0534964
+  MajorFlags:
+  - Persistent
+  - 0x40000

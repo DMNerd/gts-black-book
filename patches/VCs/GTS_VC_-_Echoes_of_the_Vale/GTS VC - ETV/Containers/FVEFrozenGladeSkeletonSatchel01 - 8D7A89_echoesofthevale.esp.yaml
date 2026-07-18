@@ -1,0 +1,33 @@
+FormKey: 8D7A89:echoesofthevale.esp
+MajorRecordFlagsRaw: 67108864
+EditorID: FVEFrozenGladeSkeletonSatchel01
+SkyrimMajorRecordFlags:
+- 0x4000000
+ObjectBounds:
+  First: -8, -9, 0
+  Second: 8, 7, 7
+Name:
+  TargetLanguage: English
+  Value: Pilgrim's Satchel
+Model:
+  File: Clutter\Containers\Satchel.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 09AF10:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0C2966:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 8D7A8A:echoesofthevale.esp
+    Count: 1
+- Item:
+    Item: 00093C:C.O.I.N.esp
+    Count: 1
+Flags:
+- Respawns
+OpenSound: 03DE35:Skyrim.esm
+CloseSound: 03DE39:Skyrim.esm
+MajorFlags:
+- NavMeshGenerationFilter

@@ -1,0 +1,70 @@
+FormKey: 9160FB:echoesofthevale.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: FVEGlacialChapel01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Glacial Chapel
+Flags:
+- IsInteriorCell
+- ShowSky
+Lighting:
+  AmbientColor: '#00252530'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#0011110B'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00314F56'
+    DirectionalXMinus: '#00284F4F'
+    DirectionalYPlus: '#002D5253'
+    DirectionalYMinus: '#002D4B53'
+    DirectionalZPlus: '#00152525'
+    DirectionalZMinus: '#00447880'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#0011110B'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 01952F:Skyrim.esm
+WaterHeight: 0
+Location: 98D4C0:echoesofthevale.esp
+SkyAndWeatherFromRegion: 04D7FD:Skyrim.esm
+AcousticSpace: 0FD942:Skyrim.esm
+EncounterZone: 98D4C1:echoesofthevale.esp
+Music: 05228A:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 997BE4:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000B6E:SnowElvenArsenal.esp
+  Placement:
+    Position: 2112.2678, -7603.563, 1747.6761
+    Rotation: 2.3487859, -0.5781379, 2.6476774
+- MutagenObjectType: PlacedObject
+  FormKey: A61FEE:echoesofthevale.esp
+  Base: 000936:C.O.I.N.esp
+  Placement:
+    Position: 1388.5217, -3375.6843, 346.7295
+    Rotation: -0.038536746, -0.1994908, 6.236877
+- MutagenObjectType: PlacedObject
+  FormKey: A61FFF:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000843:SnowElvenArsenal.esp
+  Placement:
+    Position: -366.09302, -6105.2515, 1616.8009
+    Rotation: 1.2255735, 1.141928, 2.6082695
+MajorFlags:
+- 0x40000

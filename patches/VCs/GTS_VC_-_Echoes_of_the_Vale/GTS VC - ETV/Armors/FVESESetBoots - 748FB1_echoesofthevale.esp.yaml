@@ -1,0 +1,34 @@
+FormKey: 748FB1:echoesofthevale.esp
+EditorID: FVESESetBoots
+ObjectBounds:
+  First: -14, -15, 0
+  Second: 14, 15, 32
+Name:
+  TargetLanguage: English
+  Value: Initiate's Stride
+ObjectEffect: 74E107:echoesofthevale.esp
+WorldModel:
+  Male:
+    Model:
+      File: tumbajamba\armor\snow_elves\light\light_bootsgo.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Feet
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBD3:Skyrim.esm
+- 06BBD9:Skyrim.esm
+- 06C0ED:Skyrim.esm
+- 08F959:Skyrim.esm
+- 0C27BD:Skyrim.esm
+- 748FCA:echoesofthevale.esp
+Description:
+  TargetLanguage: English
+  Value: When wearing the complete set of Initiate's Raiment, +50 to Stamina.
+Armature:
+- 000D88:SnowElvenArsenal.esp
+Value: 500
+Weight: 2
+ArmorRating: 11

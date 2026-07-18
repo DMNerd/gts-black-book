@@ -1,0 +1,102 @@
+FormKey: 04CC88:echoesofthevale.esp
+EditorID: FVEIcecragLairWorld01
+Name:
+  TargetLanguage: English
+  Value: Icecrag Lair
+EncounterZone: 7678DA:echoesofthevale.esp
+Location: 7678CA:echoesofthevale.esp
+Parent:
+  Worldspace: 000BB5:Dawnguard.esm
+  Flags:
+  - UseMapData
+  - UseClimateData
+Water: 019C98:Dawnguard.esm
+LodWater: 108AC7:Skyrim.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultWaterHeight: -2048
+WorldMapOffsetScale: 0.5
+WorldMapCellOffset: -9855.94, 14717.2, 0
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+ObjectBoundsMin: -3, -4
+ObjectBoundsMax: 5, 8
+Music: 0B9DCE:Skyrim.esm
+TopCell:
+  FormKey: 04CD88:echoesofthevale.esp
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: 2112673024
+  WaterHeight: 3.4028235E+38
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 00081F:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOIcecragLair
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Icecrag Lair
+      Type: GiantCamp
+    Placement:
+      Position: 4359.43, 2289.89, 221.989
+      Rotation: 0, 0, 5.7967796
+  - MutagenObjectType: PlacedObject
+    FormKey: 000820:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOEotensHollow
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Eoten's Hollow
+      Type: GiantCamp
+    Placement:
+      Position: 8233.8, 17457.8, 784.539
+      Rotation: 0, 0, 1.7957867
+  - MutagenObjectType: PlacedObject
+    FormKey: 000821:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOCuratesPlatform
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    Radius: 300
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Curate's Platform
+      Type: Shrine
+    Placement:
+      Position: 3010.29, 6464.56, 133.502
+      Rotation: 0, 0, 5.9761295
+  - MutagenObjectType: PlacedObject
+    FormKey: 00082B:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOShrineofEoten
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Shrine of Eoten
+      Type: Shrine
+    Placement:
+      Position: 4419.19, -3493.36, 919.233
+      Rotation: 0, 0, 3.21542
+  MajorFlags:
+  - Persistent
+  - 0x40000

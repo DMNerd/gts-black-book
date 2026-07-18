@@ -1,0 +1,131 @@
+FormKey: 19CBCD:echoesofthevale.esp
+EditorID: FVEFrozenGladeWorld01
+Name:
+  TargetLanguage: English
+  Value: Frozen Glade
+EncounterZone: 7678CD:echoesofthevale.esp
+Location: 7678BF:echoesofthevale.esp
+Parent:
+  Worldspace: 000BB5:Dawnguard.esm
+  Flags:
+  - UseMapData
+  - UseClimateData
+Water: 000018:Skyrim.esm
+LodWater: 000018:Skyrim.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultWaterHeight: -2048
+WorldMapOffsetScale: 0.5
+WorldMapCellOffset: 3366.68, 16882, 0
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+ObjectBoundsMin: -5, -6
+ObjectBoundsMax: 5, 9
+Music: 08690F:Skyrim.esm
+TopCell:
+  FormKey: 19CC05:echoesofthevale.esp
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: -1520339456
+  WaterHeight: 3.4028235E+38
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 000805:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOCatamountCave
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Catamount Cave
+      Type: Cave
+    Placement:
+      Position: 3197.22, 5988.64, 293.849
+      Rotation: 0, 0, 1.1707652
+  - MutagenObjectType: PlacedObject
+    FormKey: 000806:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOInitiatesPass
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Initiate's Pass
+      Type: Pass
+    Placement:
+      Position: -1925.92, 9206.26, 1045.31
+      Rotation: 0, 0, 4.72424
+  - MutagenObjectType: PlacedObject
+    FormKey: 000807:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOFrozenCrypt
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Frozen Crypt
+      Type: Cave
+    Placement:
+      Position: -1497.82, 14021.8, 809.621
+      Rotation: 0, 0, 5.772397
+  - MutagenObjectType: PlacedObject
+    FormKey: 000808:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOFrozenTomb
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Frozen Tomb
+      Type: Cave
+    Placement:
+      Position: 2663.68, 10933.2, 1052.06
+      Rotation: 0, 0, 2.944545
+  - MutagenObjectType: PlacedObject
+    FormKey: 000809:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOFrozenSepulchre
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Frozen Sepulchre
+      Type: Cave
+    Placement:
+      Position: 525.276, 25134.1, 500.039
+      Rotation: 0, 0, 6.1333838
+  - MutagenObjectType: PlacedObject
+    FormKey: 00080D:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOSouthGladePass
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: South Glade Pass
+      Type: Pass
+    Placement:
+      Position: 5446.66, 16955.9, 1642.05
+      Rotation: 0, 0, 1.6092267
+  MajorFlags:
+  - Persistent
+  - 0x40000

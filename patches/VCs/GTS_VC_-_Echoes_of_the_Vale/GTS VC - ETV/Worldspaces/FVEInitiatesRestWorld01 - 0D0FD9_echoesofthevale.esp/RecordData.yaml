@@ -1,0 +1,41 @@
+FormKey: 0D0FD9:echoesofthevale.esp
+EditorID: FVEInitiatesRestWorld01
+Name:
+  TargetLanguage: English
+  Value: Initiate's Rest
+EncounterZone: 676900:echoesofthevale.esp
+Location: 676901:echoesofthevale.esp
+Parent:
+  Worldspace: 000BB5:Dawnguard.esm
+  Flags:
+  - UseMapData
+  - UseClimateData
+Water: 019C98:Dawnguard.esm
+LodWater: 000018:Skyrim.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: 500
+  DefaultWaterHeight: -1500
+WorldMapOffsetScale: 0.5
+WorldMapCellOffset: -6395.75, 28046.7, 0
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+ObjectBoundsMin: -5, -6
+ObjectBoundsMax: 7, 5
+Music: 00EF94:Dawnguard.esm
+TopCell:
+  FormKey: 0D109D:echoesofthevale.esp
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: -1523846400
+  WaterHeight: 3.4028235E+38
+  MajorFlags:
+  - Persistent
+  - 0x40000

@@ -1,0 +1,41 @@
+FormKey: 534A39:echoesofthevale.esp
+EditorID: FVEWRCoffin01_SE
+ObjectBounds:
+  First: -29, -67, 0
+  Second: 29, 67, 28
+Name:
+  TargetLanguage: English
+  Value: Snow Elf Coffin
+Model:
+  File: Architecture\WhiteRun\WRClutter\WRCoffin01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: WRCoffin01:38
+    NewTexture: 7AF022:echoesofthevale.esp
+    Index: 1
+  - Name: WRCoffin01:42
+    NewTexture: 7AF022:echoesofthevale.esp
+    Index: 2
+  - Name: WRCoffin01:45
+    NewTexture: 7AF022:echoesofthevale.esp
+    Index: 3
+Items:
+- Item:
+    Item: 0FFF52:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 101C27:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000867:C.O.I.N.esp
+    Count: 1
+- Item:
+    Item: 000880:C.O.I.N.esp
+    Count: 1
+- Item:
+    Item: 00093C:C.O.I.N.esp
+    Count: 1
+Flags:
+- Respawns
+OpenSound: 1039C0:Skyrim.esm
+CloseSound: 1039C1:Skyrim.esm

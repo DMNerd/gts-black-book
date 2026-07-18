@@ -1,0 +1,25 @@
+FormKey: 1FD50E:echoesofthevale.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: FVEFrozenGladeWorldCanyon02
+SkyrimMajorRecordFlags:
+- Compressed
+Flags:
+- HasWater
+Grid:
+  Point: -1, 5
+  Flags: -1508709376
+WaterHeight: 3.4028235E+38
+Regions:
+- 7D2A8A:echoesofthevale.esp
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: A71857:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000934:C.O.I.N.esp
+  Placement:
+    Position: -2889.395, 21838.523, 2113.9563
+MajorFlags:
+- 0x40000

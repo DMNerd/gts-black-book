@@ -46,6 +46,10 @@ When installing Unofficial Patches, do not select any option for Whiterun. The p
 
     Due to a [Grass Cache](grass-cache/#grass-cache){ data-preview } mismatch, there may be some grass clipping into objects.
 
+## Echoes of the Vale
+GTS Patch includes a full integration into GTS
+
+[:lucide-package: GTS VC - Echoes of the Vale][VCRelease]
 
 ## Legacy Of Orsinium
 Requires a general Simonrim patch and a special GTS patch. 

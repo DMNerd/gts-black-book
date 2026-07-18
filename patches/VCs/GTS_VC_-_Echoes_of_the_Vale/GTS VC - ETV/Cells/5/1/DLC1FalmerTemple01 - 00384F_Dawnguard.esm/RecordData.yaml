@@ -1,0 +1,145 @@
+FormKey: 00384F:Dawnguard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC1FalmerTemple01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Inner Sanctum
+Flags:
+- IsInteriorCell
+- ShowSky
+Lighting:
+  AmbientColor: '#002D304A'
+  DirectionalColor: '#00304463'
+  FogNearColor: '#001B2347'
+  FogFar: 3400
+  DirectionalRotationZ: 90
+  DirectionalFade: 0.5
+  FogClipDistance: 13000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#0031304D'
+    DirectionalXMinus: '#00283046'
+    DirectionalYPlus: '#002D324A'
+    DirectionalYMinus: '#002D2D4A'
+    DirectionalZPlus: '#00151621'
+    DirectionalZMinus: '#00444972'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#001B2D46'
+  FogMax: 1
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 0300E2:Skyrim.esm
+WaterHeight: 0
+Location: 01379F:Dawnguard.esm
+SkyAndWeatherFromRegion: 0029E5:Dawnguard.esm
+AcousticSpace: 02B3AE:Skyrim.esm
+EncounterZone: 01379D:Dawnguard.esm
+Music: 00EF94:Dawnguard.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 012419:Dawnguard.esm
+  FormVersion: 43
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: DLC1FalmerTempleIcePoseLootSCRIPT
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DLC1_BF_LVLFrozenChaurus
+        Object: 01511D:Dawnguard.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DLC1_BF_LVLFrozenFalmerMelee
+        Object: 006D10:Dawnguard.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DLC1_BF_LVLFrozenFalmerShaman
+        Object: 015125:Dawnguard.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DLC1BFIceFormFXS
+        Object: 00D979:Dawnguard.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom01
+        Object: 05D5E6:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom02
+        Object: 05D5E7:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom03
+        Object: 05D5E8:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom04
+        Object: 05D5FE:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom05
+        Object: 05D5FF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom06
+        Object: 0B9502:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom07
+        Object: 0B9503:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom08
+        Object: 0B9504:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom09
+        Object: 0B9505:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom10
+        Object: 0B9506:Skyrim.esm
+  Base: 000B6E:SnowElvenArsenal.esp
+  LinkedReferences:
+  - KeywordOrReference: 05D5E6:Skyrim.esm
+    Reference: 005460:Dawnguard.esm
+  - Reference: 01241A:Dawnguard.esm
+  Placement:
+    Position: 3238.1167, -3141.664, 6920.9136
+    Rotation: 2.3738713, -0.7914956, 2.578433
+- MutagenObjectType: PlacedObject
+  FormKey: 01244F:Dawnguard.esm
+  FormVersion: 43
+  Base: 0098A1:Dawnguard.esm
+  RagdollData: 0x001182BB000000000000000000000000369C9CBB3F577ABE07F0883C
+  ItemCount: 16
+  Placement:
+    Position: 4048.656, -2364.9082, 6884.204
+    Rotation: 0, -0, 0.80999833
+- MutagenObjectType: PlacedObject
+  FormKey: 012955:Dawnguard.esm
+  MajorRecordFlagsRaw: 536870912
+  FormVersion: 43
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 0098A1:Dawnguard.esm
+  RagdollData: 0x00003F0000000000000000000000000012D82F3E49E630BE28807BBC
+  ItemCount: 15
+  Placement:
+    Position: 341.64288, 343.47488, 6884.478
+    Rotation: 3.0156915, 0.20459701, 0.21832475
+- MutagenObjectType: PlacedObject
+  FormKey: 012956:Dawnguard.esm
+  MajorRecordFlagsRaw: 536870912
+  FormVersion: 43
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000CA9:SnowElvenArsenal.esp
+  RagdollData: 0x00CCFB0001F8253138626CBC8095153356E12EB6268FD8B228439735
+  ItemCount: 15
+  Placement:
+    Position: 481.26773, 344.51978, 6884.331
+    Rotation: 0, -0, 3.3200004
+- MutagenObjectType: PlacedObject
+  FormKey: 018D20:Dawnguard.esm
+  FormVersion: 43
+  Base: 000B6E:SnowElvenArsenal.esp
+  Placement:
+    Position: 6474.7935, -1923.9426, 6791.526
+    Rotation: -2.7991693, -0.45389852, 5.66061
+MajorFlags:
+- 0x40000

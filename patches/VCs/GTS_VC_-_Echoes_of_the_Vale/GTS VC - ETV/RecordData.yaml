@@ -1,0 +1,28 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - Echoes of the Vale.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: RFM.esm
+    FileSize: 0
+  - Master: echoesofthevale.esp
+    FileSize: 0
+  - Master: C.O.I.N.esp
+    FileSize: 0
+  - Master: SnowElvenArsenal.esp
+    FileSize: 0
+  - Master: ImperialBattleMageArmor.esp
+    FileSize: 0

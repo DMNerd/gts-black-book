@@ -1,0 +1,138 @@
+FormKey: 92067C:echoesofthevale.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: FVEFrozenGladeFrozenSepulchre01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Frozen Sepulchre
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00352E15'
+  DirectionalColor: '#00252525'
+  FogNearColor: '#00283739'
+  FogFar: 8000
+  FogClipDistance: 15000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#004B5F63'
+  FogMax: 1
+LightingTemplate: 006AE9:Dawnguard.esm
+WaterHeight: 0
+Location: A1973D:echoesofthevale.esp
+AcousticSpace: 10273E:Skyrim.esm
+EncounterZone: A1973C:echoesofthevale.esp
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 013B32:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: A142B3:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000936:C.O.I.N.esp
+  Placement:
+    Position: 5340.005, -1347.4897, -1033.4995
+    Rotation: 0.27925268, -0, 0.50000054
+- MutagenObjectType: PlacedObject
+  FormKey: A38936:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000806:SnowElvenArsenal.esp
+  Placement:
+    Position: 5671.0767, 1592.199, -2199.1572
+    Rotation: 0.10471976, 5.846853, 5.8831863
+- MutagenObjectType: PlacedObject
+  FormKey: A3DBAF:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000800:SnowElvenArsenal.esp
+  Placement:
+    Position: 3517.572, -4673.8877, -366.42303
+    Rotation: 1.1047049, 0.5758326, 2.6875534
+- MutagenObjectType: PlacedObject
+  FormKey: A3DBB1:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 00081B:SnowElvenArsenal.esp
+  Placement:
+    Position: 3517.7246, -4654.699, -384
+    Rotation: 0, -0, 4.9831886
+- MutagenObjectType: PlacedObject
+  FormKey: A3DBC4:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 00081A:SnowElvenArsenal.esp
+  Placement:
+    Position: 1136.1082, -5564.322, -511.14883
+    Rotation: 0, -0, 5.3831882
+- MutagenObjectType: PlacedObject
+  FormKey: A42E55:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000936:C.O.I.N.esp
+  Placement:
+    Position: -2393.738, -6437.8335, -512
+    Rotation: 0, -0, 5.4000025
+- MutagenObjectType: PlacedObject
+  FormKey: A42E56:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 00081F:SnowElvenArsenal.esp
+  Placement:
+    Position: -2719.5073, -6143.452, -437.21912
+    Rotation: 0, -0, 1.6000037
+- MutagenObjectType: PlacedObject
+  FormKey: A42E5F:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000803:SnowElvenArsenal.esp
+  Placement:
+    Position: 2356.0625, -1416.2129, 18.362879
+    Rotation: 0, -0, 2.3561945
+- MutagenObjectType: PlacedObject
+  FormKey: A42E7F:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000833:GTS VC - Echoes of the Vale.esp
+  Placement:
+    Position: -3172.3196, -854.9477, -2055.0154
+    Rotation: 0, -0, 1.4000015
+- MutagenObjectType: PlacedObject
+  FormKey: A61FD4:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000936:C.O.I.N.esp
+  Placement:
+    Position: -708.46826, -8214.691, -308.53964
+- MutagenObjectType: PlacedObject
+  FormKey: A61FD5:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000935:C.O.I.N.esp
+  Placement:
+    Position: -724.4664, -8181.57, -306.50006
+    Rotation: 0, -0, 4.9831886
+MajorFlags:
+- 0x40000

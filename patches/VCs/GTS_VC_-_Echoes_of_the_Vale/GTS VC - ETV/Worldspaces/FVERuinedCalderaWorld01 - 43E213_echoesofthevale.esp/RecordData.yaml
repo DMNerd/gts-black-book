@@ -1,0 +1,71 @@
+FormKey: 43E213:echoesofthevale.esp
+EditorID: FVERuinedCalderaWorld01
+Name:
+  TargetLanguage: English
+  Value: Ruined Caldera
+EncounterZone: 7678DC:echoesofthevale.esp
+Location: 7678C4:echoesofthevale.esp
+Parent:
+  Worldspace: 000BB5:Dawnguard.esm
+  Flags:
+  - UseMapData
+  - UseClimateData
+Water: 019C98:Dawnguard.esm
+LodWater: 000018:Skyrim.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultWaterHeight: -1048
+WorldMapOffsetScale: 0.5
+WorldMapCellOffset: 13430.3, -6708.1, 0
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+ObjectBoundsMin: -7, -6
+ObjectBoundsMax: 8, 10
+Music: 00EF94:Dawnguard.esm
+TopCell:
+  FormKey: 43E2DB:echoesofthevale.esp
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: -1523716608
+  WaterHeight: 3.4028235E+38
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 000824:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMORuinedCaldera
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Ruined Caldera
+      Type: Pass
+    Placement:
+      Position: -1655.56, -3057.65, 3146.48
+      Rotation: 0, 0, 0.9191724
+  - MutagenObjectType: PlacedObject
+    FormKey: 000825:GTS VC - Echoes of the Vale.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: AMMOHalloftheCurates
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Hall of the Curates
+      Type: Altar
+    Placement:
+      Position: 4459.09, 3945.67, 422.924
+      Rotation: 0, 0, 1.9067024
+  MajorFlags:
+  - Persistent
+  - 0x40000

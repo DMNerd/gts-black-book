@@ -1,0 +1,29 @@
+FormKey: 46C95A:echoesofthevale.esp
+EditorID: FVEDarkmawDeepWorld01
+Name:
+  TargetLanguage: English
+  Value: Darkmaw Deep
+InteriorLighting: 4F2039:echoesofthevale.esp
+EncounterZone: 7678D6:echoesofthevale.esp
+Location: 7678BB:echoesofthevale.esp
+Parent:
+  Worldspace: 000BB5:Dawnguard.esm
+  Flags:
+  - UseMapData
+Water: 000018:Skyrim.esm
+LodWater: 000018:Skyrim.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: 2048
+  DefaultWaterHeight: -4000
+WorldMapOffsetScale: 0.5
+WorldMapCellOffset: 2593.66, 494.873, 0
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+- CannotFastTravel
+- NoSky
+- NoGrass
+ObjectBoundsMin: -8, -7
+ObjectBoundsMax: 6, 5
+Music: 094BDD:Skyrim.esm

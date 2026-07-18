@@ -1,0 +1,62 @@
+FormKey: 0D6203:echoesofthevale.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: FVESnowspinnerCave01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Snowspinner Cave
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00252530'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#0011110B'
+  FogFar: 2000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#0011110B'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 486E00:echoesofthevale.esp
+WaterHeight: 0
+Location: 7678C3:echoesofthevale.esp
+SkyAndWeatherFromRegion: 04D7FD:Skyrim.esm
+AcousticSpace: 02B3AE:Skyrim.esm
+EncounterZone: 7678CB:echoesofthevale.esp
+Music: 094BDD:Skyrim.esm
+ImageSpace: 486E01:echoesofthevale.esp
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 954535:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000800:SnowElvenArsenal.esp
+  Placement:
+    Position: 3222.3428, -6861.0435, -1012.79724
+    Rotation: 0.25801352, -0.29225838, 2.5551553
+MajorFlags:
+- 0x40000

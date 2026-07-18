@@ -1,0 +1,60 @@
+FormKey: 0CBDAE:echoesofthevale.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: FVEFrozenPassage01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Frozen Passage
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#002E2E2E'
+  DirectionalColor: '#002E3C41'
+  FogNearColor: '#0011110B'
+  FogFar: 10000
+  FogClipDistance: 60000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#0011110B'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 82FF58:echoesofthevale.esp
+WaterHeight: 0
+Location: 7678BE:echoesofthevale.esp
+AcousticSpace: 018421:Dawnguard.esm
+EncounterZone: 7678CC:echoesofthevale.esp
+Music: 00EF94:Dawnguard.esm
+ImageSpace: 85B837:echoesofthevale.esp
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 8D2797:echoesofthevale.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000805:SnowElvenArsenal.esp
+  Placement:
+    Position: 2711.2031, 2048.747, -1556.4685
+    Rotation: -1.2391837, -0.3490652, 6.003933
+MajorFlags:
+- 0x40000
