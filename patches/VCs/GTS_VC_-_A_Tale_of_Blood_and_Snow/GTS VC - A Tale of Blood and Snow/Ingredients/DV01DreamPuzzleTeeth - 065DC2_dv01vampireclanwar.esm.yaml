@@ -1,0 +1,31 @@
+FormKey: 065DC2:dv01vampireclanwar.esm
+EditorID: DV01DreamPuzzleTeeth
+ObjectBounds:
+  First: -3, -6, 0
+  Second: 3, 5, 5
+Name:
+  TargetLanguage: English
+  Value: Coldblood Teeth
+Keywords:
+- 08CDEB:Skyrim.esm
+Model:
+  File: Clutter\Ingredients\IceWraithTeeth.nif
+  Data: 0x0200000003000000000000002185563A64647300604DDD5CDE55648664647300604DDD5CAD99560A64647300262C333B
+Value: 30
+IngredientValue: 54
+Effects:
+- BaseEffect: 073F2E:Skyrim.esm
+  Data:
+    Magnitude: 3.3
+    Duration: 30
+- BaseEffect: 03EB1E:Skyrim.esm
+  Data:
+    Magnitude: 6.67
+    Duration: 60
+- BaseEffect: 03EB3D:Skyrim.esm
+  Data:
+    Duration: 4
+- BaseEffect: 073F2D:Skyrim.esm
+  Data:
+    Magnitude: 3.3
+    Duration: 30

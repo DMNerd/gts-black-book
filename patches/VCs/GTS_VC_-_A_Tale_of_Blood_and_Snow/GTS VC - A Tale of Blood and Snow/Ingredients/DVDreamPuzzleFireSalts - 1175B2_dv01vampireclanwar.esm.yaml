@@ -1,0 +1,34 @@
+FormKey: 1175B2:dv01vampireclanwar.esm
+EditorID: DVDreamPuzzleFireSalts
+ObjectBounds:
+  First: -5, -4, -4
+  Second: 6, 6, 3
+Name:
+  TargetLanguage: English
+  Value: Superheated Fire Salts
+Keywords:
+- 08CDEB:Skyrim.esm
+Model:
+  File: Clutter\Ingredients\FireSaltPile.nif
+  Data: 0x0200000003000000000000002A854CE964647300604DDD5CABE74C1C64647300604DDD5C0F5F906564647300604DDD5C
+PickUpSound: 0FC21F:Skyrim.esm
+Value: 50
+Weight: 0.25
+IngredientValue: 44
+Effects:
+- BaseEffect: 073F2E:Skyrim.esm
+  Data:
+    Magnitude: 6.66
+    Duration: 60
+- BaseEffect: 03EAEA:Skyrim.esm
+  Data:
+    Magnitude: 3.33
+    Duration: 60
+- BaseEffect: 03EB17:Skyrim.esm
+  Data:
+    Magnitude: 0.96
+    Duration: 10
+- BaseEffect: 03EB07:Skyrim.esm
+  Data:
+    Magnitude: 2.67
+    Duration: 300
