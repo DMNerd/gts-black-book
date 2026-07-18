@@ -1,0 +1,150 @@
+FormKey: 000B18:listener's initiates.esl
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ListenersInitiatesCrasemir
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 4
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 0267E3:Skyrim.esm
+  Fluff: 0x000000
+Voice: 000BF1:listener's initiates.esl
+Race: 013742:Skyrim.esm
+ActorEffect:
+- 012FCC:Skyrim.esm
+Items:
+- Item:
+    Item: 013986:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 1046D1:Skyrim.esm
+    Count: 1
+AIData:
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Unused: 181
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 013276:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Brother Crasemir
+ShortName:
+  TargetLanguage: English
+  Value: Crasemir
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 15
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 19
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 20
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 20
+  - Key: Alchemy
+    Value: 24
+  - Key: Speech
+    Value: 20
+  - Key: Alteration
+    Value: 20
+  - Key: Conjuration
+    Value: 19
+  - Key: Destruction
+    Value: 25
+  - Key: Illusion
+    Value: 20
+  - Key: Restoration
+    Value: 20
+  - Key: Enchanting
+    Value: 17
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 75
+  Magicka: 50
+  Stamina: 70
+  GearedUpWeapons: 1
+HeadParts:
+- 0C3CD6:Skyrim.esm
+- 0C7122:Skyrim.esm
+- 0EC3B3:Skyrim.esm
+HairColor: 0A0434:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 0C2A5B:Skyrim.esm
+CrimeFaction: 0267E3:Skyrim.esm
+TextureLighting: '#0062777B'
+FaceMorph:
+  EyesInVsOut: -1
+  ChinUpVsDown: -0.82
+FaceParts:
+  Nose: 4
+  Eyes: 29
+  Mouth: 5
+TintLayers:
+- Index: 1
+  Color: '#0062777B'
+  InterpolationValue: 1
+  Preset: 67
+MajorFlags:
+- 0x40000

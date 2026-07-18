@@ -1,0 +1,150 @@
+FormKey: 000BB4:listener's initiates.esl
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ListenersInitiatesAlberno
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  HealthOffset: -49
+Factions:
+- Faction: 0267EA:Skyrim.esm
+  Fluff: 0x000000
+Voice: 000BF1:listener's initiates.esl
+Race: 013741:Skyrim.esm
+Items:
+- Item:
+    Item: 01397E:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 1046D2:Skyrim.esm
+    Count: 1
+AIData:
+  Confidence: Cautious
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Unused: 214
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01326B:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Alberno
+ShortName:
+  TargetLanguage: English
+  Value: Alberno
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 15
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 20
+  - Key: Speech
+    Value: 20
+  - Key: Alteration
+    Value: 20
+  - Key: Conjuration
+    Value: 25
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 20
+  - Key: Restoration
+    Value: 20
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 1
+  Magicka: 50
+  Stamina: 50
+  GearedUpWeapons: 1
+HeadParts:
+- 0CDCA7:Skyrim.esm
+- 0DFC00:Skyrim.esm
+HairColor: 0A0433:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 30
+SoundLevel: Normal
+DefaultOutfit: 09D4B5:Skyrim.esm
+CrimeFaction: 0267EA:Skyrim.esm
+TextureLighting: '#00C6B0A8'
+FaceMorph:
+  NoseUpVsDown: 0.27999997
+  JawNarrowVsWide: -0.32
+  LipsUpVsDown: 0.24000001
+FaceParts:
+  Nose: 3
+  Eyes: 3
+  Mouth: 6
+TintLayers:
+- Index: 2
+  Color: '#00C6B0A8'
+  InterpolationValue: 1
+  Preset: 75
+MajorFlags:
+- 0x40000

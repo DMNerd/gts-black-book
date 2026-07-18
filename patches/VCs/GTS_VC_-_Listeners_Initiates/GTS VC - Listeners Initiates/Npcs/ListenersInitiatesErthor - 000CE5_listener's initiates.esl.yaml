@@ -1,0 +1,156 @@
+FormKey: 000CE5:listener's initiates.esl
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ListenersInitiatesErthor
+SkyrimMajorRecordFlags:
+- Compressed
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - Unique
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 4
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 000D17:listener's initiates.esl
+  Fluff: 0x000000
+- Faction: 029DB0:Skyrim.esm
+  Fluff: 0x000000
+Voice: 000BF1:listener's initiates.esl
+Race: 013749:Skyrim.esm
+Items:
+- Item:
+    Item: 01397E:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 1046D2:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 1046D4:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsFriendsAndAllies
+  Unused: 54
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01326C:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Erthor
+ShortName:
+  TargetLanguage: English
+  Value: Erthor
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 18
+  - Key: TwoHanded
+    Value: 18
+  - Key: Archery
+    Value: 28
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 19
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 21
+  - Key: Pickpocket
+    Value: 20
+  - Key: Lockpicking
+    Value: 20
+  - Key: Sneak
+    Value: 21
+  - Key: Alchemy
+    Value: 24
+  - Key: Speech
+    Value: 16
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 19
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 75
+  Magicka: 60
+  Stamina: 60
+  GearedUpWeapons: 1
+HeadParts:
+- 053917:Skyrim.esm
+- 0F1A99:Skyrim.esm
+- 0F5009:Skyrim.esm
+HairColor: 0A0432:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 09D4B5:Skyrim.esm
+TextureLighting: '#00816B5A'
+FaceMorph:
+  JawNarrowVsWide: -0.84000003
+  EyesUpVsDown: 0.41999996
+  EyesInVsOut: -0.9
+  BrowsUpVsDown: -0.24000001
+  LipsUpVsDown: -0.48000002
+  ChinUpVsDown: -0.88
+FaceParts:
+  Nose: 16
+  Eyes: 36
+  Mouth: 2
+TintLayers:
+- Index: 1
+  Color: '#00816B5A'
+  InterpolationValue: 1
+  Preset: 62
+MajorFlags:
+- 0x40000
