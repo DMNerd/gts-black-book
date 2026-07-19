@@ -1,0 +1,30 @@
+FormKey: 94DB79:dv01vampireclanwar.esm
+EditorID: DV01StaffPsychosisEffect
+Name:
+  TargetLanguage: English
+  Value: Psychosis
+EnchantmentCost: 60
+CastType: FireAndForget
+EnchantmentAmount: 60
+TargetType: TargetActor
+EnchantType: StaffEnchantment
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 127179:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 13
+    Duration: 60
+- BaseEffect: 12717F:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 13
+    Duration: 60
+- BaseEffect: 12717A:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 15
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 127152:dv01vampireclanwar.esm
+    ComparisonValue: 1

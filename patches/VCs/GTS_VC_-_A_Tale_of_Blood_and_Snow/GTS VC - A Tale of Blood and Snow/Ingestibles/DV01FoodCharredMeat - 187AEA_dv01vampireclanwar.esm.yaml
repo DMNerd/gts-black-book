@@ -1,0 +1,27 @@
+FormKey: 187AEA:dv01vampireclanwar.esm
+EditorID: DV01FoodCharredMeat
+ObjectBounds:
+  First: -15, -6, 0
+  Second: 15, 5, 3
+Name:
+  TargetLanguage: English
+  Value: Charred Flesh
+Keywords:
+- 08CDEA:Skyrim.esm
+- 0008A0:Gourmet.esp
+Model:
+  File: Clutter\Food\CharredSkeeverMeat01.nif
+  Data: 0x020000000200000000000000510D2B7564647300B91482364768384A64647300B9148236
+Weight: 0.2
+Value: 4
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound: 0CAF94:Skyrim.esm
+Effects:
+- BaseEffect: 000800:Gourmet.esp
+  Data:
+    Magnitude: 25
+    Area: 1200
+- BaseEffect: 002EE3:Update.esm
+  Data: {}

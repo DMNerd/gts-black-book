@@ -1,0 +1,17 @@
+FormKey: 94DB78:dv01vampireclanwar.esm
+EditorID: DV01StaffDaedricDaggersEnch
+Name:
+  TargetLanguage: English
+  Value: Daedric Daggers
+EnchantmentCost: 30
+CastType: Concentration
+EnchantmentAmount: 30
+TargetType: Aimed
+EnchantType: StaffEnchantment
+Effects:
+- BaseEffect: 94DB2E:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 12
+    Duration: 1
+- BaseEffect: F4F8BD:MysticismMagic.esp
+  Data: {}

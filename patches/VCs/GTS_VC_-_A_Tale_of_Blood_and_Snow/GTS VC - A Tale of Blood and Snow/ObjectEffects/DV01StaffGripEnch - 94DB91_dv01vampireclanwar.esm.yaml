@@ -1,0 +1,20 @@
+FormKey: 94DB91:dv01vampireclanwar.esm
+EditorID: DV01StaffGripEnch
+Name:
+  TargetLanguage: English
+  Value: Crushing Grip
+EnchantmentCost: 250
+CastType: FireAndForget
+EnchantmentAmount: 250
+TargetType: Aimed
+EnchantType: StaffEnchantment
+ChargeTime: 3
+Effects:
+- BaseEffect: 127165:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 300
+    Duration: 15
+- BaseEffect: 12716C:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 0.75
+    Duration: 2

@@ -58,16 +58,16 @@ Attacks:
     StaminaMult: 1
   AttackEvent: attackPowerStartForward
 Perks:
-- Perk: 052D50:Skyrim.esm
-  Rank: 1
-  Fluff: 0x000000
 - Perk: 03FFFA:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
-- Perk: 05F56F:Skyrim.esm
+- Perk: 051B1B:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
-- Perk: 051B1B:Skyrim.esm
+- Perk: 052D50:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 05F56F:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
 Items:

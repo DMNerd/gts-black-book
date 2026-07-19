@@ -1,0 +1,26 @@
+FormKey: 94DB75:dv01vampireclanwar.esm
+EditorID: DV01StaffBreakandShatterEnch
+Name:
+  TargetLanguage: English
+  Value: Break and Shatter
+EnchantmentCost: 60
+CastType: FireAndForget
+EnchantmentAmount: 60
+EnchantType: StaffEnchantment
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 127172:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 0.1
+    Area: 10
+    Duration: 10
+- BaseEffect: 127173:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 10
+    Area: 10
+    Duration: 10
+- BaseEffect: 127174:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 0.5
+    Area: 10
+    Duration: 2

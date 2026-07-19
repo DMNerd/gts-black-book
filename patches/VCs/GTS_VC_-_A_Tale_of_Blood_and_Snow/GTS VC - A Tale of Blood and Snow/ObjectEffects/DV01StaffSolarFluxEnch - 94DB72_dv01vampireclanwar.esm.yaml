@@ -1,0 +1,18 @@
+FormKey: 94DB72:dv01vampireclanwar.esm
+EditorID: DV01StaffSolarFluxEnch
+Name:
+  TargetLanguage: English
+  Value: Solar Flux
+EnchantmentCost: 60
+CastType: FireAndForget
+EnchantmentAmount: 60
+TargetType: Aimed
+EnchantType: StaffEnchantment
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 94DB25:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 15
+- BaseEffect: 94DB27:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 50

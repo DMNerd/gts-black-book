@@ -1,0 +1,15 @@
+FormKey: 94DB76:dv01vampireclanwar.esm
+EditorID: DV01StaffBlindingEclipseEnch
+Name:
+  TargetLanguage: English
+  Value: Blinding Eclipse
+EnchantmentCost: 30
+CastType: FireAndForget
+EnchantmentAmount: 30
+TargetType: TargetActor
+EnchantType: StaffEnchantment
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 12717B:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 15

@@ -1,0 +1,29 @@
+FormKey: 94DB74:dv01vampireclanwar.esm
+EditorID: DV01StaffInfestationEnch
+Name:
+  TargetLanguage: English
+  Value: Infestation
+EnchantmentCost: 250
+CastType: FireAndForget
+EnchantmentAmount: 250
+TargetType: TargetActor
+EnchantType: StaffEnchantment
+ChargeTime: 3
+Effects:
+- BaseEffect: 12716D:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 30
+    Duration: 60
+- BaseEffect: 127180:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 30
+    Duration: 60
+- BaseEffect: 12716E:dv01vampireclanwar.esm
+  Data:
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 127151:dv01vampireclanwar.esm
+    ComparisonValue: 1

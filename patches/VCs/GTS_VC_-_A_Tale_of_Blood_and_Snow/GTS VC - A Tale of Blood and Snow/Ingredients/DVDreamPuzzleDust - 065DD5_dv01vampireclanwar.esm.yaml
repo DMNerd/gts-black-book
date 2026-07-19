@@ -21,11 +21,11 @@ Effects:
     Duration: 4
 - BaseEffect: 03EAEB:Skyrim.esm
   Data:
-    Magnitude: 3.3
+    Magnitude: 3.33
     Duration: 60
 - BaseEffect: 03AC2D:Skyrim.esm
   Data:
-    Duration: 100
+    Duration: 4
 - BaseEffect: 03EB24:Skyrim.esm
   Data:
     Magnitude: 6.67

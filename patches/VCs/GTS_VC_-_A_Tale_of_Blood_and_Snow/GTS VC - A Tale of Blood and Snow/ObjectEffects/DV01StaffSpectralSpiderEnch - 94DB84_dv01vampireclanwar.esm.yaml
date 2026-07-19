@@ -1,0 +1,15 @@
+FormKey: 94DB84:dv01vampireclanwar.esm
+EditorID: DV01StaffSpectralSpiderEnch
+Name:
+  TargetLanguage: English
+  Value: Conjure Spectral Spider
+EnchantmentCost: 60
+CastType: FireAndForget
+EnchantmentAmount: 60
+TargetType: TargetLocation
+EnchantType: StaffEnchantment
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 392DD0:dv01vampireclanwar.esm
+  Data:
+    Duration: 60

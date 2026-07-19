@@ -1,0 +1,16 @@
+FormKey: 94DB71:dv01vampireclanwar.esm
+EditorID: DV01StaffRainingBloodEnch
+Name:
+  TargetLanguage: English
+  Value: Blood Geyser
+EnchantmentCost: 120
+CastType: FireAndForget
+EnchantmentAmount: 120
+TargetType: Aimed
+EnchantType: StaffEnchantment
+Effects:
+- BaseEffect: 94DB38:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 100
+    Area: 10
+    Duration: 10

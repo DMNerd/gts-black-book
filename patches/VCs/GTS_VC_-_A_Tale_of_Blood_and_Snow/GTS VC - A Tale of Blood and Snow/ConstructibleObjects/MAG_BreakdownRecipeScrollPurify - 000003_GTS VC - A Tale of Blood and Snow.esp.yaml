@@ -1,0 +1,20 @@
+FormKey: 000003:GTS VC - A Tale of Blood and Snow.esp
+EditorID: MAG_BreakdownRecipeScrollPurify
+Items:
+- Item:
+    Item: 94DB7A:dv01vampireclanwar.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 000001:GTS VC - A Tale of Blood and Snow.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 94DB7A:dv01vampireclanwar.esm
+  ComparisonValue: 1
+CreatedObject: 000000:GTS VC - A Tale of Blood and Snow.esp
+WorkbenchKeyword: 02901F:Sorcerer.esp
+CreatedObjectCount: 1

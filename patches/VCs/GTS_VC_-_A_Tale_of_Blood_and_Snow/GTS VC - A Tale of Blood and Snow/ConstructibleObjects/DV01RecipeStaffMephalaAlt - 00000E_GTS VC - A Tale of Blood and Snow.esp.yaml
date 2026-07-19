@@ -1,0 +1,20 @@
+FormKey: 00000E:GTS VC - A Tale of Blood and Snow.esp
+EditorID: DV01RecipeStaffMephalaAlt
+Items:
+- Item:
+    Item: 02E4FF:Skyrim.esm
+    Count: 2
+- Item:
+    Item: 0BE11F:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Spell: 94DB23:dv01vampireclanwar.esm
+  ComparisonValue: 1
+CreatedObject: 94DB7F:dv01vampireclanwar.esm
+WorkbenchKeyword: 065D0A:Sorcerer.esp
+CreatedObjectCount: 1

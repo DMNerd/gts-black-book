@@ -1,0 +1,18 @@
+FormKey: 94DB77:dv01vampireclanwar.esm
+EditorID: DV01StaffMagnusianWaveEnch
+Name:
+  TargetLanguage: English
+  Value: Magnusian Wave
+EnchantmentCost: 250
+CastType: FireAndForget
+EnchantmentAmount: 250
+TargetType: Aimed
+EnchantType: StaffEnchantment
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 94DB2A:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 50
+- BaseEffect: 94DB2B:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 150

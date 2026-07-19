@@ -1,0 +1,31 @@
+FormKey: 000000:GTS VC - A Tale of Blood and Snow.esp
+EditorID: MAG_ResearchNotesPurify
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MAG_ResearchItem_Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AttachedBook
+      Object: 000000:GTS VC - A Tale of Blood and Snow.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CraftingPerk
+      Object: 000001:GTS VC - A Tale of Blood and Snow.esp
+Name:
+  TargetLanguage: English
+  Value: 'Research Notes: Purify'
+Model:
+  File: Clutter\Common\Scroll05.nif
+BookText:
+  TargetLanguage: English
+  Value: 'Research Notes: Purify'
+PickUpSound: 0C7A54:Skyrim.esm
+Keywords:
+- 029023:Sorcerer.esp
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+  RawContent: 0
+Value: 300
+InventoryArt: 03323C:Sorcerer.esp
+Description:
+  TargetLanguage: English
+  Value: Allows you to craft Scrolls of Purify.

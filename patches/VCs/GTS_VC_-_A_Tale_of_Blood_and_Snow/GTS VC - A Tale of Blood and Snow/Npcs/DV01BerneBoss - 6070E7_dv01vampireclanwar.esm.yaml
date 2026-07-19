@@ -65,10 +65,13 @@ Attacks:
     StaminaMult: 1
   AttackEvent: attackPowerStartForward
 Perks:
+- Perk: 03AF81:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
 - Perk: 052D50:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
-- Perk: 03AF81:Skyrim.esm
+- Perk: 053129:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
 - Perk: 0581DD:Skyrim.esm
@@ -77,22 +80,19 @@ Perks:
 - Perk: 0581DE:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
-- Perk: 053129:Skyrim.esm
-  Rank: 1
-  Fluff: 0x000000
 - Perk: 0581EA:Skyrim.esm
-  Rank: 1
-  Fluff: 0x000000
-- Perk: 103A90:Skyrim.esm
-  Rank: 1
-  Fluff: 0x000000
-- Perk: 0C3679:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
 - Perk: 0C1E91:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
+- Perk: 0C3679:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
 - Perk: 0D799A:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 103A90:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
 Items:

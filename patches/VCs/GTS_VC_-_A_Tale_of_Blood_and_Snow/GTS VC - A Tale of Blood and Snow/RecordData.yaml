@@ -6,7 +6,8 @@ GameRelease: SkyrimSE
 ModHeader:
   Flags:
   - Small
-  Author: DEFAULT
+  Author: GTS Discord
+  Description: ''
   MasterReferences:
   - Master: Skyrim.esm
     FileSize: 0
@@ -30,22 +31,25 @@ ModHeader:
     FileSize: 0
   - Master: dv01vampireclanwar.esm
     FileSize: 0
-  - Master: Artificer.esp
-    FileSize: 0
-  - Master: Dynamic NPC Hairstyles.esp
+  - Master: Thaumaturgy.esp
     FileSize: 0
   - Master: MysticismMagic.esp
     FileSize: 0
+  - Master: Apothecary.esp
+    FileSize: 0
+  - Master: Artificer.esp
+    FileSize: 0
+  - Master: Gourmet.esp
+    FileSize: 0
   - Master: OldBlood.esp
     FileSize: 0
-  - Master: Scion.esp
-    FileSize: 0
-  - Master: Thaumaturgy.esp
+  - Master: Sorcerer.esp
     FileSize: 0
   - Master: ForgottenCity.esp
     FileSize: 0
+  - Master: Scion.esp
+    FileSize: 0
   - Master: Vanilla hair remake SMP.esp
     FileSize: 0
-  - Master: Apothecary.esp
+  - Master: Dynamic NPC Hairstyles.esp
     FileSize: 0
-  INTV: 1

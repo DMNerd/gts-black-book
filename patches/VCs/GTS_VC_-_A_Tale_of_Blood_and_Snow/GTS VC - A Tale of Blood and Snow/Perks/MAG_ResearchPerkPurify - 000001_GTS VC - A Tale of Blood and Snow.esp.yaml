@@ -1,0 +1,11 @@
+FormKey: 000001:GTS VC - A Tale of Blood and Snow.esp
+EditorID: MAG_ResearchPerkPurify
+Name:
+  TargetLanguage: English
+  Value: Purify Research Perk
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Hidden: True

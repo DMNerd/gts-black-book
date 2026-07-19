@@ -1,0 +1,27 @@
+FormKey: 94DB73:dv01vampireclanwar.esm
+EditorID: DV01StaffDamnationEnch
+Name:
+  TargetLanguage: English
+  Value: Fangs of Mephala
+EnchantmentCost: 120
+CastType: FireAndForget
+EnchantmentAmount: 120
+TargetType: Aimed
+EnchantType: StaffEnchantment
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 94DB20:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 9
+    Duration: 10
+- BaseEffect: 94DB31:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 9
+    Duration: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 1

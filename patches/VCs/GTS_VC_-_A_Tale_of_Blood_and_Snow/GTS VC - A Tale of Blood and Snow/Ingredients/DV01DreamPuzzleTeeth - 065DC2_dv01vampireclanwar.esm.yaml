@@ -16,16 +16,16 @@ IngredientValue: 54
 Effects:
 - BaseEffect: 073F2E:Skyrim.esm
   Data:
-    Magnitude: 3.3
-    Duration: 30
+    Magnitude: 6.66
+    Duration: 60
 - BaseEffect: 03EB1E:Skyrim.esm
   Data:
-    Magnitude: 6.67
+    Magnitude: 3.33
     Duration: 60
 - BaseEffect: 03EB3D:Skyrim.esm
   Data:
     Duration: 4
 - BaseEffect: 073F2D:Skyrim.esm
   Data:
-    Magnitude: 3.3
-    Duration: 30
+    Magnitude: 6.66
+    Duration: 60

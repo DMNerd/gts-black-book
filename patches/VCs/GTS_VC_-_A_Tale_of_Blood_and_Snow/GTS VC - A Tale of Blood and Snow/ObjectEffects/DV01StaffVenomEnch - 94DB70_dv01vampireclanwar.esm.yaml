@@ -1,0 +1,27 @@
+FormKey: 94DB70:dv01vampireclanwar.esm
+EditorID: DV01StaffVenomEnch
+Name:
+  TargetLanguage: English
+  Value: Crippling Venom
+EnchantmentCost: 30
+CastType: FireAndForget
+EnchantmentAmount: 30
+TargetType: Aimed
+EnchantType: StaffEnchantment
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 94DB34:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 3
+    Duration: 10
+- BaseEffect: 94DB35:dv01vampireclanwar.esm
+  Data:
+    Magnitude: 3
+    Duration: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 1

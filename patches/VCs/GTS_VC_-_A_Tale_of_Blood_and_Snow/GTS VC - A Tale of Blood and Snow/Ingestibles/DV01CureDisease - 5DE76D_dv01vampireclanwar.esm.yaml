@@ -1,0 +1,24 @@
+FormKey: 5DE76D:dv01vampireclanwar.esm
+EditorID: DV01CureDisease
+ObjectBounds:
+  First: -4, -4, 0
+  Second: 4, 4, 16
+Name:
+  TargetLanguage: English
+  Value: Raelynne's Potion of Cure Disease
+Keywords:
+- 08CDEC:Skyrim.esm
+Model:
+  File: Clutter\Potions\PotionHealthLesser.nif
+  Data: 0x02000000050000000000000063DF5C0164647300BFFA25DAFD5A856264647300BFFA25DAB9FB95CF64647300BFFA25DACE353C0964647300262C333BFAE0BBA4646473007F66A5C0
+PickUpSound: 03EDBD:Skyrim.esm
+PutDownSound: 03EDC0:Skyrim.esm
+Weight: 0.5
+Value: 79
+Flags:
+- NoAutoCalc
+ConsumeSound: 0B6435:Skyrim.esm
+Effects:
+- BaseEffect: 0AE722:Skyrim.esm
+  Data:
+    Magnitude: 1
